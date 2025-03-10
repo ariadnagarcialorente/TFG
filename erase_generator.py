@@ -2,20 +2,20 @@ import pandas as pd
 import random
 
 
-Percent=float(input("Insert a number between 0 and 100: "))
+Percent=float(input("Insert a percentage between 0 and 100 to be erased: "))
 
 data = pd.read_csv('output_complete_dataset.csv')
 
-total_cells = data.size
+number_data = data.size
 
-n_cells_to_swap = int(total_cells * (Percent / 100))
+to_erase = int(number_data * (Percent / 100))
 
-all_indices = [(i, j) for i in range(data.shape[0]) for j in range(data.shape[1])]
+indices = [(i, j) for i in range(data.shape[0]) for j in range(data.shape[1])]
 
-indices_to_swap = random.sample(all_indices, n_cells_to_swap)
+to_delete = random.sample(indices, to_erase)
 
-for row_idx, col_idx in indices_to_swap:
-        data.iloc[row_idx, col_idx] = None
+for row, col in to_delete:
+        data.iloc[row, col] = None
 
 df = pd.DataFrame(data)
 
