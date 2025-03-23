@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import seaborn as sn
 
 # Load the dataset with missing values
-#data = pd.read_csv('output_erased_dataset.csv')
-data = pd.read_csv('cleaned_dataset.csv')
+data = pd.read_csv('output_erased_dataset.csv')
+#data = pd.read_csv('cleaned_dataset.csv')
 
 
 # Convert data to binary (1 for present values, 0 for missing values)

@@ -28,3 +28,8 @@ https://stackoverflow.com/questions/306400/how-can-i-randomly-select-choose-an-i
 https://seaborn.pydata.org/generated/seaborn.heatmap.html
 
 https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.savefig.html
+
+
+Algorithm
+
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.sort_values.html
