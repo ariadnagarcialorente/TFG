@@ -15,7 +15,7 @@ total_missing = int(input("Indicate the maximum of missing data: "))
 
 og_rows = data.shape[0]
 
-print(og_rows)
+#print(og_rows)
 
 data['na_count'] = data.isna().sum(axis=1) 
 data = data.sort_values(by='na_count', ascending=False) 
@@ -36,7 +36,7 @@ else:
 # Drop the 'na_count' column (as it's no longer needed)
 data = data.drop(columns=['na_count'])
 
-print(data.shape[0])
+#print(data.shape[0])
 
 # Save the cleaned dataset
 data.to_csv('cleaned_dataset.csv', index=False)
