@@ -26,7 +26,7 @@ max_na_values = data_sorted['na_count'].values
 
 # Track best solution across iterations
 best_removal_point = 0
-max_conditions_met = -1
+max_conditions_met = -1 
 
 for removal_point in range(0, original_row_count + 1):
     if removal_point < len(reverse_cumsum):
