@@ -1,0 +1,53 @@
+Test 1
+Select 10 rows that will have a lot of missing values
+
+    'important_cols': [col0, col1],       # columnas con datos clave que NO deben perderse
+    'imp_weight': 0.9,                        # peso alto a las columnas importantes
+    'pct_thresh': 0.5,                        # columnas con >50% NA serán candidatas a eliminarse
+    'min_rows': 80,                           # queremos mantener bastantes filas
+    'min_pct': 0.7,                           # al menos 70% de datos válidos por fila
+    'max_col_missing_pct': 0.4,               # si una columna tiene >40% NA, se elimina (excepto si es importante)
+    'min_cols': 8   
+    
+Test 2
+# Select 10 rows that will have a lot of missing values
+    'important_cols': [col2, col3],       # columnas que queremos proteger
+    'imp_weight': 0.8,                        
+    'pct_thresh': 0.3,                        # en este caso, umbral más bajo (menos tolerancia)
+    'min_rows': 85,                           # queremos descartar pocas filas
+    'min_pct': 0.6,                           # si una fila tiene <60% datos, se elimina
+    'max_col_missing_pct': 0.3,               
+    'min_cols': 9         
+
+
+Test 3
+# Create a block of 20x3 of missing values (rows 30-50, columns 2-4)
+    'important_cols': [col1, col4],       
+    'imp_weight': 0.7,                        
+    'pct_thresh': 0.4,                        # queremos una eliminación agresiva si se detectan bloques
+    'min_rows': 70,                           # se acepta perder más filas
+    'min_pct': 0.5,                           
+    'max_col_missing_pct': 0.4,               
+    'min_cols': 7  
+
+Test 4
+# We simulate that people olfer than 60 have no "education"
+
+    'important_cols': [age, income],      
+    'imp_weight': 0.95,                       # columnas predictoras con peso muy alto
+    'pct_thresh': 0.6,                        # más tolerancia a NA (porque podrían contener relación útil)
+    'min_rows': 90,                           
+    'min_pct': 0.7,                           
+    'max_col_missing_pct': 0.5,               
+    'min_cols': 4  
+
+Test 5
+# 10% of the values are missing ranomly
+
+    'important_cols': [],                     # ninguna columna protegida
+    'imp_weight': 0.0,                        # sin peso porque no hay columnas clave
+    'pct_thresh': 0.2,                        # más agresivo, porque los NA son al azar
+    'min_rows': 95,                           
+    'min_pct': 0.8,                           
+    'max_col_missing_pct': 0.2,               
+    'min_cols': 9    

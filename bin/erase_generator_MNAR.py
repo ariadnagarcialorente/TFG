@@ -6,30 +6,7 @@ import random
 
 
 def delete_MNAR_1_to_x(data, target_var, x_vars=None, p_miss=0.2, seed=None):
-    """
-    Create MNAR values using MNAR1:x mechanism.
-    
-    In this method, the probability of a value being missing depends on
-    the value itself and potentially other variables.
-    
-    Parameters:
-    -----------
-    data : pandas.DataFrame
-        The dataframe containing the data.
-    target_var : str
-        The column name where missing values will be introduced.
-    x_vars : list, optional
-        List of additional column names that will influence missingness.
-    p_miss : float, default=0.2
-        The overall proportion of missing values to generate.
-    seed : int, optional
-        Random seed for reproducibility.
-        
-    Returns:
-    --------
-    pandas.DataFrame
-        A copy of the original dataframe with MNAR values.
-    """
+
     if seed is not None:
         np.random.seed(seed)
         random.seed(seed)
