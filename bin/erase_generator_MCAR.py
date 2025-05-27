@@ -1,17 +1,39 @@
 import pandas as pd
 import random
+import argparse
 
-# Get user input for percentage of data to erase
-Percent = float(input("Insert a percentage between 0 and 100 to be erased: "))
+parser = argparse.ArgumentParser(
+    description="Randomly erase a percentage of values in a CSV dataset."
+)
+parser.add_argument(
+    "--input",
+    "-i",
+    default="output_complete_dataset.csv",
+    help="Path to input CSV file"
+)
+parser.add_argument(
+    "--percentage",
+    "-p",
+    type=float,
+    required=True,
+    help="Percentage of data points to erase (0-100)"
+)
+parser.add_argument(
+    "--output",
+    "-o",
+    default="output_erased_dataset.csv",
+    help="Path for the output CSV file"
+)
+args = parser.parse_args()
 
 # Load dataset from CSV file
-data = pd.read_csv('output_complete_dataset.csv')
+data = pd.read_csv(args.input)
 
 # Calculate total number of data points
-number_data = data.size
-
-# Calculate how many data points to erase
-num_erase = int(number_data * (Percent / 100))
+total_values = data.size
+num_erase = int(total_values * (args.percentage / 100.0))
+print(f"Total values in dataset: {total_values}")
+print(f"Number of values to erase: {num_erase}")
 
 # Create list of all possible (row, column) coordinates in the dataframe
 indices = [(i, j) for i in range(data.shape[0]) for j in range(data.shape[1])]
@@ -20,17 +42,23 @@ indices = [(i, j) for i in range(data.shape[0]) for j in range(data.shape[1])]
 to_delete = random.sample(indices, num_erase)
 
 # Replace selected values with None
-for row, col in to_delete:
+for idx, (row, col) in enumerate(to_delete):
     data.iloc[row, col] = None
+    
+    # Print progress every 50000 iterations
+    if (idx + 1) % 50000 == 0:
+        print(f"Progress: {idx + 1}/{num_erase} values erased ({(idx + 1)/num_erase*100:.2f}%)")
 
-# Convert to DataFrame (note: this step is redundant as data is already a DataFrame)
-df = pd.DataFrame(data)
+# Print final progress if not already printed
+if num_erase % 1000 != 0:
+    print(f"Progress: {num_erase}/{num_erase} values erased (100.00%)")
 
 # Display first 5 rows of modified data
-print(df.head())
+print("\nFirst 5 rows of modified data:")
+print(data.head())
 
 # Save modified dataset to new CSV file
-df.to_csv('output_erased_dataset.csv', index=False)
+data.to_csv(args.output, index=False)
 
 # Confirm completion
-print("Complete DataFrame written to 'output_erased_dataset.csv'")
+print(f"\nComplete DataFrame written to '{args.output}'")

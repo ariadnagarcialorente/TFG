@@ -151,7 +151,7 @@ def delete_MNAR_censoring(data, target_var, p_miss=0.2, censoring_tail="right", 
     
     return data_mnar
 
-
+'''
 =0.2, group_val=None, seed=None):
 
     if seed is not None:
@@ -187,7 +187,7 @@ def delete_MNAR_censoring(data, target_var, p_miss=0.2, censoring_tail="right", 
         data_mnar.loc[indices_to_miss, target_var] = np.nan
     
     return data_mnar
-
+'''
 
 def delete_MNAR_rank(data, target_var, p_miss=0.2, seed=None):
 

@@ -2,6 +2,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import argparse
 
 def clean_dataset(filepath, min_rows=0, min_percent=0, important_cols=None, imp_weight=1.0):
     # Load the dataset with missing values
@@ -56,20 +57,51 @@ def clean_dataset(filepath, min_rows=0, min_percent=0, important_cols=None, imp_
     return data
 
 def algorithm0_0():
-    # Get user input for parameters
-    filepath = input("Enter the dataset filepath (default: output_erased_dataset.csv): ") or 'output_erased_dataset.csv'
-    min_rows = int(input("Indicate the minimum number of rows: "))
-    min_percent = int(input("Indicate the minimum percent of rows: "))
-    
-    # Get important columns
-    important = input("Enter important columns (comma-separated), or leave blank: ")
-    important_cols = [c.strip() for c in important.split(',') if c.strip()] if important else []
-    
-    # Get importance weight if we have important columns
-    imp_weight = 1.0
-    if important_cols:
-        imp_weight = float(input("Enter penalty weight for missing in important columns (e.g. 2.0): "))
-    
+    parser = argparse.ArgumentParser(
+        description="Clean dataset by removing rows with missing values based on specified thresholds."
+    )
+    parser.add_argument(
+        "--input", "-i",
+        default="output_erased_dataset.csv",
+        help="Path to input CSV file (default: output_erased_dataset.csv)"
+    )
+    parser.add_argument(
+        "--min-rows", "-r",
+        type=int,
+        default=0,
+        required=True,
+        help="Minimum number of rows to keep (default: 0)"
+    )
+    parser.add_argument(
+        "--min-percent", "-p",
+        type=float,
+        default=0,
+        required=True,
+        help="Minimum percentage of original rows to keep (default: 0)"
+    )
+    parser.add_argument(
+        "--important-cols", "-c",
+        default="",
+        help="Comma-separated list of important columns (default: none)"
+    )
+    parser.add_argument(
+        "--importance-weight", "-w",
+        type=float,
+        default=1.0,
+        help="Weight for missing values in important columns (default: 1.0)"
+    )
+    parser.add_argument(
+        "--output", "-o",
+        default="input_cleaned.csv",
+        help="Path for output CSV file (default: input_cleaned.csv)"
+    )
+
+    args = parser.parse_args()
+    filepath = args.input
+    min_rows = args.min_rows
+    min_percent = args.min_percent
+    important_cols = [c.strip() for c in args.important_cols.split(',') if c.strip()] if args.important_cols else []
+    imp_weight = args.importance_weight
     # Clean the dataset
     cleaned_data = clean_dataset(filepath, min_rows, min_percent, important_cols, imp_weight)
     

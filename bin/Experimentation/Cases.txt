@@ -1,0 +1,177 @@
+Case 1: Low MCAR (10 % missing)
+
+    Size: 100 000 × 1 000
+
+    Mechanism: MCAR
+
+    Missingness: Randomly delete 10 % of all entries, uniformly.
+
+    Important cols: {col 500}
+
+    Goals: Algorithms should easily retain > 95 % of rows.
+
+    Inputs per alg:
+
+        v0.0: min_rows=80000, min_percent=80, important_cols=500, imp_weight=2.0
+
+        v0.1: same as v0.0 + max_total_missing=10000
+
+        v0.2: percentile_threshold=90
+
+        v0.3: percentile=90, min_rows=80000, min_percent=80, max_total_missing=10000
+
+        v0.5: important_cols=500, imp_weight=2.0, pct_thresh=90, min_rows=80000, min_pct=80, max_col_missing_pct=20, min_cols=900
+
+        B&B: important_cols=500, imp_weight=2.0
+
+Case 2: Moderate MCAR (30 %)
+
+    Size: 100 000 × 1 000
+
+    Mechanism: MCAR
+
+    Missingness: 30 % uniform deletion.
+
+    Important cols: {100, 900}
+
+    Inputs: as Case 1 but bump max_total_missing=30000, pct_thresh=70, max_col_missing_pct=40, min_cols=800.
+
+Case 3: High MCAR (60 %)
+
+    Size: 100 000 × 1 000
+
+    Mechanism: MCAR
+
+    Missingness: 60 %.
+
+    Important cols: {500}
+
+    Inputs:
+
+        v0.0: min_rows=30000, min_percent=30
+
+        v0.1: + max_total_missing=60000
+
+        v0.2: percentile_threshold=70
+
+        v0.3: percentile=70, min_rows=30000, min_percent=30, max_total_missing=60000
+
+        v0.5: pct_thresh=70, min_rows=30000, min_pct=30, max_col_missing_pct=70, min_cols=500
+
+Case 4: MAR by block (30 %)
+
+    Size: 500 000 × 1 000
+
+    Mechanism: MAR
+
+    Missingness: Choose 200 000 rows at random; in those rows, delete 50 % of values in columns 200–300 (i.e. missingness depends on row membership). Elsewhere MCAR at 10 %.
+
+    Important cols: {250}
+
+    Inputs:
+
+        v0.0/0.1: same as Case 2 but min_rows=400000, max_total_missing=200000
+
+        v0.2: percentile_threshold=85
+
+        v0.3: percentile=85, min_rows=400000, max_total_missing=200000
+
+        v0.5: pct_thresh=85, max_col_missing_pct=50, min_cols=900
+
+Case 5: MAR by value (40 %)
+
+    Size: 500 000 × 1 000
+
+    Mechanism: MAR
+
+    Missingness: In each row, any entry whose observed value > 75th percentile is set missing with 50 % prob; baseline MCAR at 10 %.
+
+    Important cols: {100, 500, 900}
+
+    Inputs: similar to Case 4 but tighten min_rows=300000, raise imp_weight=3.0.
+
+Case 6: MNAR by extreme values (50 %)
+
+    Size: 1 000 000 × 1 000
+
+    Mechanism: MNAR
+
+    Missingness: Any cell with true value in bottom decile is missing with 70 % prob; else MCAR at 10 %.
+
+    Important cols: {500}
+
+    Inputs:
+
+        v0.0: min_rows=400000, min_percent=40, imp_weight=2.5
+
+        v0.1: + max_total_missing=500000
+
+        v0.2: percentile_threshold=75
+
+        v0.3: percentile=75, min_rows=400000, max_total_missing=500000
+
+        v0.5: pct_thresh=75, min_pct=40, max_col_missing_pct=60, min_cols=700
+
+Case 7: MNAR by dropout pattern (40 %)
+
+    Size: 1 000 000 × 1 000
+
+    Mechanism: MNAR
+
+    Missingness: Rows with true sum < 25th percentile lose 70 % of values; others MCAR at 20 %.
+
+    Important cols: {250, 750}
+
+    Inputs: push imp_weight=3.0, min_rows=500000, max_total_missing=400000.
+
+Case 8: Mixed mechanisms (overall 40 %)
+
+    Size: 500 000 × 1 000
+
+    Mechanisms:
+
+        Col 1–200: MCAR 30 %
+
+        Col 201–400: MAR (block‐based) 50 %
+
+        Col 401–600: MNAR (value‐based) 50 %
+
+        Col 601–1000: MCAR 10 %
+
+    Important cols: {100, 300, 500, 800}
+
+    Inputs: moderate min_rows=200000, max_total_missing=200000, pct_thresh=80, imp_weight=2.5.
+
+Case 9 (Extreme A): Very high missing (80 %)
+
+    Size: 100 000 × 1 000
+
+    Mechanism: MCAR @ 80 %
+
+    Important cols: {500}
+
+    Inputs:
+
+        v0.0/v0.1: min_rows=10000, min_percent=10, max_total_missing=80000
+
+        v0.2: percentile_threshold=50
+
+        v0.3: percentile=50, min_rows=10000, max_total_missing=80000
+
+        v0.5: pct_thresh=50, min_pct=10, max_col_missing_pct=90, min_cols=200
+
+Case 10 (Extreme B): Scalability stress
+
+    Size: 1 000 000 × 1 000 with mixed 30–50 % MCAR
+
+    Mechanism: MCAR @ 30 % on cols 1–500; MCAR @ 50 % on cols 501–1000
+
+    Important cols: {100, 900}
+
+    Purpose: push memory/time limits of the iterative and B&B solvers.
+
+    Inputs:
+
+        Favor loose retention: min_rows=200000, min_percent=20, max_total_missing=400000
+
+        v0.5: max_col_missing_pct=60, min_cols=600

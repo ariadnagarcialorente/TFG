@@ -1,42 +1,8 @@
 import argparse
-import subprocess
-import time
 import pandas as pd
 
 
-def get_user_inputs(df: pd.DataFrame) -> dict:
-    """
-    Prompt user for scoring criteria.
-    """
-    print("Initial dataset shape:", df.shape)
-    important = input("Enter important columns (comma-separated), or leave blank: ")
-    important_cols = [c.strip() for c in important.split(',') if c.strip()] if important else []
-    imp_weight = 1.0
-    if important_cols:
-        imp_weight = float(input("Enter penalty weight for missing in important columns (e.g. 2.0): "))
-
-    pct_thresh = float(input("Percentile threshold for row missingness (0-100): ")) / 100
-    min_rows = int(input("Minimum rows to keep: "))
-    min_pct = float(input("Minimum percentage of rows to keep (0-100): ")) / 100
-    max_col_missing_pct = float(input("Max missing % per column (0-100): ")) / 100
-    min_cols = int(input("Minimum columns to keep: "))
-
-    return {
-        'important_cols': important_cols,
-        'imp_weight': imp_weight,
-        'pct_thresh': pct_thresh,
-        'min_rows': min_rows,
-        'min_pct': min_pct,
-        'max_col_missing_pct': max_col_missing_pct,
-        'min_cols': min_cols
-    }
-
-
 def score_dataset(df: pd.DataFrame, cfg: dict, orig_shape: tuple) -> dict:
-    """
-    Compute dataset scores relative to user criteria.
-    Returns metrics and feasibility flag.
-    """
     rows, cols = df.shape
     orig_rows, orig_cols = orig_shape
 
@@ -82,44 +48,93 @@ def score_dataset(df: pd.DataFrame, cfg: dict, orig_shape: tuple) -> dict:
     }
 
 
-def main():
+def parse_args():
     parser = argparse.ArgumentParser(
-        description="Driver script: score before/after, run algorithm, measure time"
+        description="Score datasets before and after cleaning based on missingness criteria"
     )
-    parser.add_argument('algorithm_file', help='Python script to execute for cleaning')
-    parser.add_argument('input_csv', help='Path to original dataset CSV')
-    parser.add_argument('output_csv', help='Path where cleaned CSV will be written')
+    # Support both positional and optional for input/output
+    parser.add_argument('--input_file', help='Alternative input CSV path')
+    parser.add_argument('--output_csv', help='Alternative output CSV path')
+    parser.add_argument('--important-cols', type=str, default='',
+                        help='Comma-separated list of important columns')
+    parser.add_argument('--imp-weight', type=float, default=1.0,
+                        help='Penalty weight for missing in important columns')
+    parser.add_argument('--pct-thresh', type=float, default=0.0,
+                        help='Percentile threshold for row missingness (0-1)')
+    parser.add_argument('--min-rows', type=int, default=0,
+                        help='Minimum rows to keep')
+    parser.add_argument('--min-pct', type=float, default=0.0,
+                        help='Minimum percentage of rows to keep (0-1)')
+    parser.add_argument('--max-col-missing-pct', type=float, default=1.0,
+                        help='Max missing percentage allowed per column (0-1)')
+    parser.add_argument('--min-cols', type=int, default=0,
+                        help='Minimum columns to keep')
     args = parser.parse_args()
+    
+    if not args.input_file or not args.output_csv:
+        parser.error("Both input and output CSV paths must be provided.")
 
-    # Load and score original data
-    df_orig = pd.read_csv(args.input_csv)
-    cfg = get_user_inputs(df_orig)
-    orig_shape = df_orig.shape
-    before = score_dataset(df_orig, cfg, orig_shape)
-    print("\n== Before Cleaning ==")
-    for k, v in before.items():
+    return args
+
+
+def compute_health_score(metrics: dict, cfg: dict) -> float:
+    rel_na = metrics['rel_na']           # 0..1
+    pct_rows = metrics['pct_rows_kept']    # 0..1
+    pct_cols = metrics['pct_cols_kept']    # 0..1
+    max_row = metrics['max_row_score']    # absolute count
+    tau_r = metrics['row_score_threshold']
+    max_col = metrics['max_col_na']       # fraction
+    tau_c = cfg['max_col_missing_pct']  # fraction
+
+    # normalize sub‑scores
+    s1 = 1 - rel_na
+    s2 = pct_rows
+    s3 = pct_cols
+    s4 = 1 - min(max_row / tau_r if tau_r > 0 else 0, 1)
+    s5 = 1 - min(max_col / tau_c if tau_c > 0 else 0, 1)
+
+    # weights (must sum to 1)
+    w1, w2, w3, w4, w5 = 0.25, 0.20, 0.20, 0.20, 0.15
+
+    # final score
+    return w1*s1 + w2*s2 + w3*s3 + w4*s4 + w5*s5
+
+
+def main():
+    args = parse_args()
+
+    # Build config dict from args
+    important_cols = [col.strip() for col in args.important_cols.split(',') if col.strip()]
+    cfg = {
+        'important_cols': important_cols,
+        'imp_weight': args.imp_weight,
+        'pct_thresh': args.pct_thresh,
+        'min_rows': args.min_rows,
+        'min_pct': args.min_pct,
+        'max_col_missing_pct': args.max_col_missing_pct,
+        'min_cols': args.min_cols
+    }
+
+    df_input = pd.read_csv(args.input_file)
+    df_output = pd.read_csv(args.output_csv)
+
+    orig_shape = df_input.shape
+
+    print("\n== Input Dataset Score ==")
+    input_score = score_dataset(df_input, cfg, orig_shape)
+    for k, v in input_score.items():
         print(f"{k}: {v}")
 
-    # Execute algorithm script
-    cmd = ['python', args.algorithm_file, args.input_csv, args.output_csv]
-    start = time.time()
-    proc = subprocess.run(cmd, capture_output=True, text=True)
-    elapsed = time.time() - start
-
-    if proc.returncode != 0:
-        print("\nError running algorithm:")
-        print(proc.stdout)
-        print(proc.stderr)
-        return
-
-    print(f"\nAlgorithm execution time: {elapsed:.3f} seconds")
-
-    # Load and score cleaned data
-    df_clean = pd.read_csv(args.output_csv)
-    after = score_dataset(df_clean, cfg, orig_shape)
-    print("\n== After Cleaning ==")
-    for k, v in after.items():
+    print("\n== Output Dataset Score ==")
+    output_score = score_dataset(df_output, cfg, orig_shape)
+    for k, v in output_score.items():
         print(f"{k}: {v}")
 
-if __name__ == '__main__':
+    # after computing 'input_metrics' and 'output_metrics':
+    input_score = compute_health_score(input_score, cfg)
+    output_score = compute_health_score(output_score, cfg)
+    print(f"Input health:  {input_score:.3f}")
+    print(f"Output health: {output_score:.3f}")
+
+if __name__ == "__main__":
     main()

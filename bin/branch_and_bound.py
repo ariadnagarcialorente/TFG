@@ -1,91 +1,94 @@
 import pandas as pd
+from queue import PriorityQueue
+import argparse
 
+def branch_and_bound(df, important_cols, imp_weight, min_rows, min_cols, max_col_missing):
+    print("Starting branch-and-bound optimization...")
+    orig_total_missing = df.isna().sum(axis=1)
+    orig_imp_missing = df[important_cols].isna().sum(axis=1) if important_cols else pd.Series(0, index=df.index)
+    num_important = len(important_cols) if important_cols else 1
 
-def get_user_inputs(df: pd.DataFrame):
-    print("Dataset shape:", df.shape)
-    print("Available columns:", list(df.columns))
-    important = input("Enter important columns (comma-separated), or leave blank: ")
-    important_cols = [c.strip() for c in important.split(',') if c.strip()] if important else []
-    imp_weight = 1.0
-    if important_cols:
-        imp_weight = float(input("Enter penalty weight for missing in important columns (e.g. 2.0): "))
+    row_scores = orig_total_missing * (1 + imp_weight * (orig_imp_missing / num_important))
 
-    pct_thresh = float(input("Percentile threshold for row missingness (0-100): ")) / 100
-    min_rows = int(input("Minimum rows to keep: "))
-    min_pct = float(input("Minimum percentage of rows to keep (0-100): ")) / 100
-    max_col_missing_pct = float(input("Max missing % per column (0-100): ")) / 100
-    min_cols = int(input("Minimum columns to keep: "))
-
-    return {
-        'important_cols': important_cols,
-        'imp_weight': imp_weight,
-        'pct_thresh': pct_thresh,
-        'min_rows': min_rows,
-        'min_pct': min_pct,
-        'max_col_missing_pct': max_col_missing_pct,
-        'min_cols': min_cols
-    }
-
-def compute_row_scores(df: pd.DataFrame, cfg: dict) -> pd.Series:
-    na = df.isna()
-    base = na.sum(axis=1).astype(float)
-    if cfg['important_cols']:
-        imp_missing = na[cfg['important_cols']].sum(axis=1)
-        base += imp_missing * (cfg['imp_weight'] - 1)
-    return base
-
-def compute_col_scores(df: pd.DataFrame) -> pd.Series:
-    return df.isna().mean()
-
-def is_feasible(df: pd.DataFrame, cfg: dict) -> bool:
-    if df.shape[0] < cfg['min_rows'] or df.shape[1] < cfg['min_cols']:
-        return False
-    if df.shape[0] / cfg['orig_rows'] < cfg['min_pct']:
-        return False
-    if df.isna().mean().max() > cfg['max_col_missing_pct']:
-        return False
-    row_scores = compute_row_scores(df, cfg)
-    if row_scores.quantile(cfg['pct_thresh']) > cfg['row_score_threshold']:
-        return False
-    return True
-
-def branch_and_bound(df, cfg):
-    cfg['orig_rows'] = df.shape[0]
-    row_scores = compute_row_scores(df, cfg)
-    cfg['row_score_threshold'] = row_scores.quantile(cfg['pct_thresh'])
     best = {'df': None, 'cost': float('inf')}
+    pq = PriorityQueue()
+    pq.put((0, df, 0, 0))  # (priority, current_df, rows_removed, cols_removed)
 
-    def recurse(remaining_df, dropped_rows, dropped_cols):
-        if len(dropped_rows) + len(dropped_cols) >= best['cost']:
-            return
+    iteration = 0
+    while not pq.empty():
+        iteration += 1
+        print(f"\nIteration {iteration}: Queue size = {pq.qsize()}")
 
-        if is_feasible(remaining_df, cfg):
-            cost = len(dropped_rows) + len(dropped_cols)
-            if cost < best['cost']:
-                best.update({'df': remaining_df.copy(), 'cost': cost})
-            return
+        _, current_df, n_rows, n_cols = pq.get()
+        print(f"Evaluating state with cost = {n_rows + n_cols}, rows = {current_df.shape[0]}, cols = {current_df.shape[1]}")
 
-        row_scores = compute_row_scores(remaining_df, cfg)
-        col_scores = compute_col_scores(remaining_df)
-        if not row_scores.empty:
-            worst_row = row_scores.idxmax()
-            recurse(remaining_df.drop(index=worst_row).reset_index(drop=True), dropped_rows | {worst_row}, dropped_cols)
-        if not col_scores.empty:
-            worst_col = col_scores.idxmax()
-            recurse(remaining_df.drop(columns=[worst_col]), dropped_rows, dropped_cols | {worst_col})
+        if (n_rows + n_cols) >= best['cost']:
+            print("Pruned: cost >= current best.")
+            continue
 
-    recurse(df, set(), set())
+        current_cols = current_df.shape[1]
+        current_rows = current_df.shape[0]
+        col_missing = current_df.isna().mean().max()
+
+        if (current_rows >= min_rows and 
+            current_cols >= min_cols and 
+            col_missing <= max_col_missing):
+            print("Feasible solution found.")
+            if (n_rows + n_cols) < best['cost']:
+                print(f"New best solution with cost {n_rows + n_cols}")
+                best = {'df': current_df.copy(), 'cost': n_rows + n_cols}
+            continue
+
+        # Branch on rows
+        if current_rows > min_rows:
+            remaining_scores = row_scores.reindex(current_df.index)
+            if not remaining_scores.empty:
+                worst_row = remaining_scores.idxmax()
+                print(f"Branching: dropping row {worst_row}")
+                new_df = current_df.drop(index=worst_row)
+                pq.put((n_rows + 1, new_df, n_rows + 1, n_cols))
+
+        # Branch on columns
+        if current_cols > min_cols:
+            col_scores = current_df.isna().mean()
+            if not col_scores.empty:
+                worst_col = col_scores.idxmax()
+                print(f"Branching: dropping column '{worst_col}'")
+                new_df = current_df.drop(columns=[worst_col])
+                pq.put((n_cols + 1, new_df, n_rows, n_cols + 1))
+
+    print("\nBranch-and-bound complete.")
     return best['df'], best['cost']
 
+def parse_args():
+    parser = argparse.ArgumentParser(description="Run branch-and-bound cleaning on a dataset.")
+    parser.add_argument("--input", "-i", type=str, required=True, help="Path to input CSV file")
+    parser.add_argument("--output", "-o", type=str, default="cleaned_dataset.csv", help="Path to save the cleaned dataset")
+    parser.add_argument("--important-cols", "-c", type=str, default="", help="Comma-separated list of important columns")
+    parser.add_argument("--importance-weight", "-w", type=float, default=1.0, help="Weight for important columns (default: 1.0)")
+    parser.add_argument("--min-rows", "-r", type=int, required=True, help="Minimum number of rows to keep")
+    parser.add_argument("--min-cols", "-l", type=int, required=True, help="Minimum number of columns to keep")
+    parser.add_argument("--max-col-missing", "-m", type=float, required=True, help="Maximum allowed missing % per column (e.g., 0.5 for 50%%)")
+    return parser.parse_args()
 
-df = pd.read_csv('output_erased_dataset.csv')
-cfg = get_user_inputs(df)
-cleaned_df, cost = branch_and_bound(df, cfg)
+if __name__ == "__main__":
+    args = parse_args()
+    
+    df = pd.read_csv(args.input)
+    important_cols = [col.strip() for col in args.important_cols.split(',') if col.strip()]
+    
+    result, cost = branch_and_bound(
+        df=df,
+        important_cols=important_cols,
+        imp_weight=args.importance_weight,
+        min_rows=args.min_rows,
+        min_cols=args.min_cols,
+        max_col_missing=args.max_col_missing
+    )
 
-if cleaned_df is not None:
-    cleaned_df.to_csv('cleaned_dataset.csv', index=False)
-    print(f"\nOptimization complete. Rows/columns removed: {cost}")
-    print(f"Final shape: {cleaned_df.shape}")
-else:
-    print("No feasible solution found under current constraints.")
-
+    if result is not None:
+        result.to_csv(args.output, index=False)
+        print(f"Optimal solution cost: {cost}")
+        print(f"Cleaned dataset saved to: {args.output}")
+    else:
+        print("No feasible solution found with given parameters.")

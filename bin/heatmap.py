@@ -2,10 +2,23 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sn
+import argparse
 
-# Load the dataset with missing values
-data = pd.read_csv('cleaned_dataset.csv')
-#data = pd.read_csv('cleaned_dataset.csv')
+parser = argparse.ArgumentParser(
+    description="Randomly erase a percentage of values in a CSV dataset."
+)
+parser.add_argument(
+    "--input",
+    "-i",
+    required=True,
+    help="Path to input CSV file"
+)
+
+args = parser.parse_args()
+
+# Step 1: Load the CSV file
+print(f"Loading data from {args.input}...")
+data = pd.read_csv(args.input)
 
 
 # Convert data to binary (1 for present values, 0 for missing values)

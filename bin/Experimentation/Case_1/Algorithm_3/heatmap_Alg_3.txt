@@ -1,0 +1,58 @@
+Algorithm_3: 
+
+    Time: 
+        real	0m47,604s
+        user	0m48,830s
+        sys	0m2,244s
+
+    Inputs: 
+        time python3 algorithm_v0.3.py -r=80000 -p=90 -m=7500000 -c=col_100,col_200,col_300,col_400,col_500 -w=2 -mp=80
+    Output: 
+        cleaned_dataset.csv
+        missing_distribution.png
+    Visualization: 
+        Time:
+            real	0m38,818s
+            user	0m39,059s
+            sys	0m2,147s
+        Inputs: 
+            time python3 heatmap.py -i cleaned_dataset.csv
+        Output: 
+            heatmap_Alg_3.png
+    Scores: 
+        Time: 
+            real	0m11,478s
+            user	0m11,767s
+            sys	0m0,959s
+
+        Input:
+            python3 analysis_ini_and_end.py   --input output_erased_dataset.csv   --output cleaned_dataset.csv   --important-cols col_100,col_200,col_300,col_400,col_500   --imp-weight 2.0   --pct-thresh 0.9   --min-rows 80000   --min-pct 0.8   --max-col-missing-pct 0.2   --min-cols 900
+            
+        Output:
+            == Input Dataset Score ==
+            total_na: 10000000
+            rel_na: 0.1
+            max_row_score: 143.0
+            row_score_threshold: 88.0
+            max_col_na: 0.10332
+            rows_kept: 100000
+            cols_kept: 1000
+            pct_rows_kept: 1.0
+            pct_cols_kept: 1.0
+            feasible: False
+
+            == Output Dataset Score ==
+            total_na: 7499997
+            rel_na: 0.07499997
+            max_row_score: 143.0
+            row_score_threshold: 97.0
+            max_col_na: 0.10967634208109538
+            rows_kept: 71866
+            cols_kept: 1000
+            pct_rows_kept: 0.71866
+            pct_cols_kept: 1.0
+            feasible: False
+            Input health:  0.698
+            Output health: 0.643
+
+

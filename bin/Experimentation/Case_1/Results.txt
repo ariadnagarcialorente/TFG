@@ -1,0 +1,29 @@
+Dataset Generator: 
+    Time: 
+        real	0m16,445s
+        user	0m15,888s
+        sys	0m1,701s
+    Inputs: 
+        time python3 dataset_generator_numerical.py --columns=1000 --rows=100000
+    Output: 
+        output_complete_dataset.csv
+
+MCAR Missing Data Generator: 
+
+    Time: 
+        real	11m20,880s
+        user	11m19,346s
+        sys	0m3,605s
+    Inputs: 
+        time python3 erase_generator_MCAR_GPU.py -p 10 --gpu
+    Output: 
+        output_erased_dataset.csv
+    Visualization: 
+        Time:
+            real	0m59,553s
+            user	0m51,641s
+            sys	0m10,064s
+        Inputs: 
+            time python3 heatmap.py -i output_erased_dataset.csv
+        Output: 
+            heatmap_MCAR_10.png
