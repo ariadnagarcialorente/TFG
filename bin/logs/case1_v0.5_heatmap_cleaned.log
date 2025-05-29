@@ -1,0 +1,6 @@
+Loading data from case1_v0.5_cleaned.csv...
+Heatmap saved to logs/case1_v0.5_heatmap_cleaned.png
+
+real	0m5,964s
+user	0m7,863s
+sys	0m0,474s

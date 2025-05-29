@@ -2,105 +2,116 @@ import argparse
 import pandas as pd
 import os
 import numpy as np
-from collections import Counter
 
-def normalize(series):
-    """Normalize a series to a 0-1 range."""
-    min_val = series.min()
-    max_val = series.max()
-    return (series - min_val) / (max_val - min_val) if max_val != min_val else pd.Series(0.5, index=series.index)
-
-def calculate_dataset_score(data, important_cols, importance_weight):
-    """Calculate the overall dataset missingness score and per-row series."""
-    if data.empty or data.shape[1] == 0:
-        return float('inf'), pd.Series(dtype=float)
-    other_cols = [c for c in data.columns if c not in important_cols]
-    if important_cols and importance_weight > 1.0:
-        imp_na = data[important_cols].isna().sum(axis=1)
+def compute_weighted_missing(data, important_cols, weight):
+    """Compute weighted missing values with priority to important columns"""
+    if important_cols and weight > 1.0:
+        imp_cols = [col for col in important_cols if col in data.columns]
+        other_cols = [col for col in data.columns if col not in imp_cols]
+        imp_na = data[imp_cols].isna().sum(axis=1)
         oth_na = data[other_cols].isna().sum(axis=1)
-        na_weighted = imp_na * importance_weight + oth_na
-    else:
-        na_weighted = data.isna().sum(axis=1)
-    sorted_idx = na_weighted.argsort()[::-1]
-    ranks = np.empty_like(sorted_idx)
-    ranks[sorted_idx] = np.arange(len(sorted_idx))
-    norm_missing = normalize(na_weighted)
-    norm_rank = normalize(pd.Series(ranks, index=data.index))
-    combined = norm_missing + norm_rank
-    return combined.mean(), combined
-
+        return imp_na * weight + oth_na
+    return data.isna().sum(axis=1)
 
 def main():
-    parser = argparse.ArgumentParser(description='Data cleaning with pattern-based final filtering')
-    parser.add_argument('--input', type=str, default='output_erased_dataset.csv')
-    parser.add_argument('--output', type=str, default='cleaned_dataset.csv')
-    parser.add_argument('-c','--important-cols', default='', help='Comma-separated list of important columns')
-    parser.add_argument('-w','--importance-weight', type=float, default=1.0)
+    parser = argparse.ArgumentParser(description='Constraint-driven data cleaning with row prioritization')
+    parser.add_argument('--input', type=str, required=True, help='Input CSV file')
+    parser.add_argument('--output', type=str, required=True, help='Output CSV file')
+    parser.add_argument('-c','--important-cols', default='', help='Comma-separated important columns')
+    parser.add_argument('-w','--importance-weight', type=float, default=2.0)
     parser.add_argument('-r','--min-rows', type=int, default=0)
-    parser.add_argument('-m','--max-missing', type=int, default=0, help='Maximum total missing values allowed in dataset (0=no limit)')
+    parser.add_argument('-m','--max-missing', type=int, default=0)
     parser.add_argument('-mp','--min-percent', type=float, default=0.0)
     parser.add_argument('-ct','--col-threshold', type=int, default=0)
     parser.add_argument('-crt','--col-relative-threshold', type=float, default=0.0)
     parser.add_argument('--verbose', action='store_true')
+    
     args = parser.parse_args()
-
-    print('Loading data...')
+    
+    # Load data
     data = pd.read_csv(args.input)
     important_cols = [c.strip() for c in args.important_cols.split(',') if c.strip()]
-    orig_rows, orig_cols = data.shape
-    min_cols = max(args.col_threshold, int(orig_cols * args.col_relative_threshold / 100))
-    min_rows = max(args.min_rows, int(orig_rows * args.min_percent / 100))
-
+    
+    # Calculate minimum constraints
+    min_rows_required = max(
+        args.min_rows, 
+        int(len(data) * args.min_percent / 100)
+    )
+    min_cols_required = max(
+        args.col_threshold, 
+        int(len(data.columns) * args.col_relative_threshold / 100)
+    )
+    
     current = data.copy()
-    curr_imp = [c for c in important_cols if c in current.columns]
-    curr_score, row_scores = calculate_dataset_score(current, curr_imp, args.importance_weight)
-    print(f'Initial dims: {orig_rows} rows, {orig_cols} columns | score: {curr_score:.4f}')
+    current_missing = current.isna().sum().sum()
+    important_cols_set = set(important_cols)
+    
+    # Store original dimensions for reporting
+    original_rows, original_cols = current.shape
+    print(f'Starting cleaning: {original_rows} rows, {original_cols} cols, {current_missing} missing')
+    print(f'Constraints: min_rows={min_rows_required}, max_missing={args.max_missing}, min_cols={min_cols_required}')
+    
+    # Phase 1: Remove high-missing columns first
+    if current_missing > args.max_missing and len(current.columns) > min_cols_required:
+        removable_cols = [col for col in current.columns if col not in important_cols_set]
+        if removable_cols:
+            col_missing = current[removable_cols].isna().sum()
+            # Sort columns by missing count (descending)
+            sorted_cols = col_missing.sort_values(ascending=False)
+            
+            for col in sorted_cols.index:
+                if len(current.columns) <= min_cols_required:
+                    break
+                    
+                col_missing_count = sorted_cols[col]
+                if current_missing - col_missing_count <= args.max_missing:
+                    # Stop if removing this column would satisfy constraint
+                    break
+                    
+                current = current.drop(columns=[col])
+                current_missing -= col_missing_count
+                if args.verbose:
+                    print(f'Removed col {col} ({col_missing_count} missing)')
+                
+                if current_missing <= args.max_missing:
+                    break
+
+    # Phase 2: Remove rows until constraints are met
     iteration = 0
-    while True:
+    while current_missing > args.max_missing and len(current) > min_rows_required:
         iteration += 1
-        best_score, best_type, best_id = curr_score, None, None
-        # Column candidate (worst by missing count)
-        if current.shape[1] > min_cols:
-            na_counts = current[[c for c in current.columns if c not in curr_imp]].isna().sum()
-            worst_col = na_counts.idxmax()
-            temp = current.drop(columns=[worst_col])
-            temp_imp = [c for c in curr_imp if c != worst_col]
-            sc, _ = calculate_dataset_score(temp, temp_imp, args.importance_weight)
-            if sc < best_score:
-                best_score, best_type, best_id = sc, 'col', worst_col
-        # Row candidate (worst by score)
-        if current.shape[0] > min_rows:
-            worst_row = row_scores.idxmax()
-            temp = current.drop(index=[worst_row])
-            sc, temp_rs = calculate_dataset_score(temp, curr_imp, args.importance_weight)
-            if sc < best_score:
-                best_score, best_type, best_id = sc, 'row', worst_row
-                best_row_scores = temp_rs
-        # Enforce max_misssing constraint
-        total_missing = current.isna().sum().sum()
-        if args.max_missing > 0 and total_missing > args.max_missing:
-            # override to remove worst row
-            best_type, best_id = 'row', row_scores.idxmax()
-            sc, best_row_scores = calculate_dataset_score(current.drop(index=[best_id]), curr_imp, args.importance_weight)
-            best_score = sc
-        if best_type is None:
-            if args.verbose: print('No further improvement.');
+        if iteration > 10000:  # Increased safety limit
+            print("Max iterations reached in row removal")
             break
-        if best_type == 'col':
-            print(f"Iteration {iteration}: Remove column '{best_id}' -> score {best_score:.4f}")
-            current = current.drop(columns=[best_id])
-            curr_imp = [c for c in curr_imp if c != best_id]
-        else:
-            print(f"Iteration {iteration}: Remove row {best_id} -> score {best_score:.4f}")
-            current = current.drop(index=[best_id])
-            row_scores = best_row_scores
-        curr_score = best_score
+            
+        row_weights = compute_weighted_missing(current, important_cols, args.importance_weight)
+        worst_row = row_weights.idxmax()
+        row_missing_count = current.loc[worst_row].isna().sum()
+        
+        current = current.drop(index=[worst_row])
+        current_missing -= row_missing_count
+        
+        if args.verbose:
+            print(f'Iter {iteration}: Removed row {worst_row} ({row_missing_count} missing)')
 
-    # Pattern-based final filtering only
-
-    result = current
-    result.to_csv(args.output, index=False)
-    print(f'Final dims: {result.shape[0]} rows, {result.shape[1]} columns saved to {os.path.abspath(args.output)}')
+    # Final constraint check
+    current_rows = len(current)
+    current_cols = len(current.columns)
+    current_percent = (current_rows / original_rows) * 100
+    
+    constraints_met = (
+        current_missing <= args.max_missing and
+        current_rows <= min_rows_required and  # Should be >=
+        current_percent <= args.min_percent    # Should be >=
+    )
+    
+    # Save results
+    print(f'Finished: {current_rows} rows, {current_cols} cols, {current_missing} missing')
+    print(f'Rows retained: {current_rows}/{original_rows} ({current_percent:.1f}%)')
+    print(f'Constraints: {"MET" if constraints_met else "NOT MET"}')
+    
+    current.to_csv(args.output, index=False)
+    print(f'Saved to {os.path.abspath(args.output)}')
 
 if __name__ == '__main__':
     main()

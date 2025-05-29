@@ -1,0 +1,6 @@
+Success: thresholds met (9000 rows, 90.0%, 3936 missing values)
+Result saved to case3_v0.1_cleaned.csv with 9000 rows.
+
+real	0m2,468s
+user	0m3,384s
+sys	0m0,312s

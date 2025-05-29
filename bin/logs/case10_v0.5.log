@@ -1,0 +1,10 @@
+Starting cleaning: 10000 rows, 1000 cols, 15784 missing
+Constraints: min_rows=9500, max_missing=10000, min_cols=800
+Finished: 9500 rows, 800 cols, 14033 missing
+Rows retained: 9500/10000 (95.0%)
+Constraints: NOT MET
+Saved to /home/ariadna/Documentos/TFG/bin/case10_v0.5_cleaned.csv
+
+real	0m17,421s
+user	0m11,571s
+sys	0m7,044s

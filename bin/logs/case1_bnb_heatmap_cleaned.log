@@ -1,0 +1,6 @@
+Loading data from case1_bnb_cleaned.csv...
+Heatmap saved to logs/case1_bnb_heatmap_cleaned.png
+
+real	0m6,331s
+user	0m8,209s
+sys	0m0,486s

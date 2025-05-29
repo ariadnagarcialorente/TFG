@@ -1,0 +1,37 @@
+CUDA not available. Will use CPU processing only.
+Loading data from case9_complete.csv...
+Dataset shape: (10000, 1000)
+Using CPU processing...
+
+
+--- MAR Rule 1 ---
+Reference: col_701, Target: col_41, Cutoff: 6500.0, pi_high: 0.5, pi_low: 0.25
+High: 5029 (50.29%), Low: 4971 (49.71%)
+Missing values to introduce: 3754 (37.54%)
+
+--- MAR Rule 2 ---
+Reference: col_702, Target: col_42, Cutoff: 6500.0, pi_high: 0.5, pi_low: 0.25
+High: 4921 (49.21%), Low: 5079 (50.79%)
+Missing values to introduce: 3691 (36.91%)
+
+--- MAR Rule 3 ---
+Reference: col_703, Target: col_43, Cutoff: 6500.0, pi_high: 0.5, pi_low: 0.25
+High: 4886 (48.86%), Low: 5114 (51.14%)
+Missing values to introduce: 3707 (37.07%)
+
+--- MAR Rule 4 ---
+Reference: col_704, Target: col_44, Cutoff: 6500.0, pi_high: 0.5, pi_low: 0.25
+High: 4945 (49.45%), Low: 5055 (50.55%)
+Missing values to introduce: 3682 (36.82%)
+
+--- Final Missingness Summary ---
+col_41: 3754 missing (37.54%)
+col_42: 3691 missing (36.91%)
+col_43: 3707 missing (37.07%)
+col_44: 3682 missing (36.82%)
+
+Modified dataset saved to 'case9_erased.csv'
+
+real	0m2,544s
+user	0m3,461s
+sys	0m0,273s

@@ -77,7 +77,6 @@ def clean_dataset(filepath, min_rows=0, min_percent=0.0, max_missing=0, importan
 
     # Drop weighted column if you don’t want it in the output
     result = data.drop(columns=['na_weighted', 'na_total'])
-    result.to_csv('cleaned_dataset.csv', index=False)
     return result
 
 
@@ -104,6 +103,7 @@ def main():
         important_cols=cols,
         imp_weight=args.importance_weight
     )
+    df.to_csv(args.output, index=False)
     print(f"Result saved to {args.output} with {df.shape[0]} rows.")
 
 if __name__ == '__main__':

@@ -1,0 +1,15 @@
+Loading data from case8_erased.csv...
+[START] 10000 rows, 1000 cols, 112500 missing
+[CONSTRAINTS] min_rows=9500, max_missing=10000, min_cols=800
+
+[RESULTS]
+Rows: 9500/10000 (95.0%)
+Columns: 800/1000
+Missing values: 10257
+Constraints: NOT MET
+Removed columns: col_947, col_924, col_919, col_910, col_881... (+195 more)
+Output saved to: /home/ariadna/Documentos/TFG/bin/case8_v0.4_cleaned.csv
+
+real	0m7,876s
+user	0m5,818s
+sys	0m3,170s

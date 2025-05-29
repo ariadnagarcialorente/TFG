@@ -1,0 +1,99 @@
+Based on the experiment results, I'll analyze the performance of each algorithm and draw key conclusions. The algorithms are evaluated on a 100-point scale across 10 different missingness scenarios (cases). Here's a comprehensive analysis:
+Overall Performance Ranking (Average Score)
+
+    v0.4: 77.3
+
+    v0.5: 76.4
+
+    bnb: 69.2
+
+    v0.3: 67.8
+
+    v0.1: 65.1
+
+    v0.2: 64.3
+
+    v0.0: 60.0
+
+Key Conclusions
+
+    v0.4 is the Top Performer:
+
+        Highest average score (77.3) and most consistent
+
+        Excels in data retention (avg 92.3%) and missing value reduction (avg 27.6%)
+
+        Particularly strong in high-missingness scenarios (Case 2, 6, 10) with scores up to 86.3
+
+    Tradeoff Between Missing Value Reduction and Data Retention:
+
+        v0.4/v0.5: Aggressive missing value reduction (avg 27.6/24.0) with moderate column retention (avg 88%/96%)
+
+        bnb/v0.3: Balanced approach (avg 14.5/10.3 reduction with 90%/92% retention)
+
+        v0.0: Preserves 100% data but achieves 0% missing value reduction
+
+    Algorithm Specialization:
+
+        High Missingness (25%+):
+
+            v0.4 dominates (scores 83.6-86.3)
+
+            v0.5 follows closely (79.6-84.9)
+
+        Low Missingness (<15%):
+
+            v0.1 performs best (72.9)
+
+            bnb shows competitive results (69.2)
+
+        Hybrid/MNAR Patterns:
+
+            v0.4 and v0.5 handle complex patterns best
+
+    Critical Constraints Matter:
+
+        All algorithms except v0.0 struggle with the 90% min-percent constraint
+
+        v0.4/v0.5 successfully enforce column thresholds (80-96% retention)
+
+        Important columns bonus (up to 9.6/10) significantly boosts scores
+
+    Efficiency Insights:
+
+        v0.0 is fastest (avg 1.87s) but least effective
+
+        v0.4 achieves best results with moderate runtime (avg 1.81s)
+
+        bnb shows good speed (avg 1.77s) for medium missingness
+
+Case-by-Case Highlights
+
+    Case 7 (Hybrid):
+
+        Only v0.4 succeeded (83.6) - others crashed
+
+        Demonstrated exceptional handling of combined MAR+MNAR patterns
+
+    Case 2 (25% MCAR):
+
+        v0.4 scored 86.3 - best single-case performance
+
+        Reduced missingness by 34.4% while retaining 95% rows
+
+    Case 5 (Strong MNAR):
+
+        v0.5 led with 72.9
+
+        bnb showed worst performance (53.3)
+
+
+Limitations
+
+    Case 7 implementation needs debugging (file generation failed for most algorithms)
+
+    v0.0 should be deprecated - preserved data but reduced 0% missingness
+
+    v0.2 underperformed consistently due to weak constraint enforcement
+
+The experiments demonstrate that context-aware algorithms (v0.4/v0.5) with parameter tuning outperform simpler approaches, especially when handling complex missingness patterns and enforcing data quality constraints.

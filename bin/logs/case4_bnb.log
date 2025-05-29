@@ -1,0 +1,14 @@
+Starting branch-and-bound optimization...
+
+Iteration 1: Queue size = 1
+Evaluating state with cost = 0, rows = 10000, cols = 1000
+Feasible solution found.
+New best solution with cost 0
+
+Branch-and-bound complete.
+Optimal solution cost: 0
+Cleaned dataset saved to: case4_bnb_cleaned.csv
+
+real	0m2,650s
+user	0m3,535s
+sys	0m0,302s

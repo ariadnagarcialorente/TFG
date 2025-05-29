@@ -1,0 +1,512 @@
+Enter the CSV filename (default: dataset_project_eHealth20242025.csv): <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 128 entries, 0 to 127
+Data columns (total 93 columns):
+ #   Column           Non-Null Count  Dtype  
+---  ------           --------------  -----  
+ 0   age              128 non-null    int64  
+ 1   gender           126 non-null    float64
+ 2   education        128 non-null    int64  
+ 3   marital          127 non-null    float64
+ 4   income           127 non-null    float64
+ 5   phq_1            127 non-null    float64
+ 6   phq_2            128 non-null    int64  
+ 7   phq_3            128 non-null    int64  
+ 8   phq_4            128 non-null    int64  
+ 9   phq_5            128 non-null    int64  
+ 10  phq_6            126 non-null    float64
+ 11  phq_7            128 non-null    int64  
+ 12  phq_8            128 non-null    int64  
+ 13  phq_9            128 non-null    float64
+ 14  gad_1            128 non-null    int64  
+ 15  gad_2            128 non-null    int64  
+ 16  gad_3            128 non-null    int64  
+ 17  gad_4            128 non-null    int64  
+ 18  gad_5            127 non-null    float64
+ 19  gad_6            128 non-null    int64  
+ 20  gad_7            128 non-null    int64  
+ 21  asrs_1           128 non-null    int64  
+ 22  asrs_2           128 non-null    int64  
+ 23  asrs_3           128 non-null    float64
+ 24  asrs_4           128 non-null    int64  
+ 25  asrs_5           128 non-null    int64  
+ 26  asrs_6           128 non-null    int64  
+ 27  asq_1            127 non-null    float64
+ 28  asq_2            128 non-null    int64  
+ 29  asq_3            128 non-null    int64  
+ 30  asq_4            128 non-null    float64
+ 31  asq_5            127 non-null    float64
+ 32  asq_6            128 non-null    int64  
+ 33  asq_7            128 non-null    float64
+ 34  asq_8            127 non-null    float64
+ 35  asq_9            128 non-null    int64  
+ 36  asq_10           128 non-null    int64  
+ 37  asq_11           128 non-null    int64  
+ 38  asq_12           128 non-null    int64  
+ 39  asq_13           127 non-null    float64
+ 40  asq_14           128 non-null    int64  
+ 41  asq_15           127 non-null    float64
+ 42  asq_16           126 non-null    float64
+ 43  asq_17           128 non-null    int64  
+ 44  asq_18           128 non-null    int64  
+ 45  asq_19           127 non-null    float64
+ 46  asq_20           128 non-null    int64  
+ 47  asq_21           128 non-null    int64  
+ 48  asq_22           128 non-null    int64  
+ 49  asq_23           128 non-null    float64
+ 50  asq_24           127 non-null    float64
+ 51  asq_25           128 non-null    int64  
+ 52  asq_26           128 non-null    float64
+ 53  asq_27           128 non-null    int64  
+ 54  asq_28           126 non-null    float64
+ 55  asq_29           128 non-null    int64  
+ 56  asq_30           128 non-null    int64  
+ 57  asq_31           126 non-null    float64
+ 58  asq_32           127 non-null    float64
+ 59  asq_33           128 non-null    int64  
+ 60  asq_34           128 non-null    int64  
+ 61  asq_35           127 non-null    float64
+ 62  asq_36           126 non-null    float64
+ 63  asq_37           128 non-null    int64  
+ 64  asq_38           127 non-null    float64
+ 65  asq_39           127 non-null    float64
+ 66  asq_40           127 non-null    float64
+ 67  asq_41           128 non-null    float64
+ 68  asq_42           128 non-null    int64  
+ 69  asq_43           128 non-null    int64  
+ 70  asq_44           128 non-null    int64  
+ 71  asq_45           128 non-null    int64  
+ 72  asq_46           126 non-null    float64
+ 73  asq_47           127 non-null    float64
+ 74  asq_48           128 non-null    float64
+ 75  asq_49           127 non-null    float64
+ 76  asq_50           128 non-null    float64
+ 77  ssba_internet_1  128 non-null    int64  
+ 78  ssba_internet_2  128 non-null    int64  
+ 79  ssba_internet_3  128 non-null    int64  
+ 80  ssba_internet_4  127 non-null    float64
+ 81  ssba_drug_1      127 non-null    float64
+ 82  ssba_drug_2      128 non-null    int64  
+ 83  ssba_drug_3      128 non-null    int64  
+ 84  ssba_drug_4      128 non-null    int64  
+ 85  ssba_alcohol_1   128 non-null    int64  
+ 86  ssba_alcohol_2   128 non-null    int64  
+ 87  ssba_alcohol_3   128 non-null    int64  
+ 88  ssba_alcohol_4   127 non-null    float64
+ 89  ssba_gambling_1  127 non-null    float64
+ 90  ssba_gambling_2  126 non-null    float64
+ 91  ssba_gambling_3  127 non-null    float64
+ 92  ssba_gambling_4  128 non-null    float64
+dtypes: float64(41), int64(52)
+memory usage: 93.1 KB
+Number of duplicate rows: 9
+Duplicate rows:
+     age  gender  education  ...  ssba_gambling_2  ssba_gambling_3  ssba_gambling_4
+18    52     1.0         13  ...              0.0              0.0              0.0
+30    46     0.0         25  ...              0.0              1.0              0.0
+43    70     3.0         13  ...              4.0              4.0              4.0
+46    26     3.0         18  ...              0.0              0.0              2.0
+65    46     1.0         22  ...              0.0              1.0              0.0
+72    37     1.0         22  ...              1.0              0.0              0.0
+89    36     1.0         18  ...              0.0              0.0              1.0
+110   80     2.0         18  ...              3.0              0.0              4.0
+114   31     0.0          8  ...              1.0              0.0              0.0
+
+[9 rows x 93 columns]
+Number of rows after removing duplicates: 119
+Statistics: 0.9473526122887411
+P-value: 0.00031663729492152474
+Data do not follow a normal distribution.
+Statistics: 0.9333503372709044
+P-value: 4.373620663376616e-05
+Data do not follow a normal distribution.
+Statistics: 0.8775953704711075
+P-value: 6.585757165163542e-08
+Data do not follow a normal distribution.
+Statistics: 0.7817511663926835
+P-value: 2.6177369074473507e-11
+Data do not follow a normal distribution.
+Internet addiction statistics: 0.8012139177182686
+Internet addiction p-value: 1.0346741161362295e-10
+Data (internet addiction) do not follow a normal distribution.
+
+Drug addiction statistics: 0.792486741647379
+Drug addiction p-value: 5.5275240081206435e-11
+Data (drug addiction) do not follow a normal distribution.
+
+Alcohol addiction statistics: 0.7971702667333872
+Alcohol addiction p-value: 7.721061916974598e-11
+Data (alcohol addiction) do not follow a normal distribution.
+
+Gambling addiction statistics: 0.7879236690944476
+Gambling addiction p-value: 4.010626975823869e-11
+Data (gambling addiction) do not follow a normal distribution.
+
+Spearman's coefficient: -0.069, p-value: 0.478
+Kruskal-Wallis Test: H-statistic = 8.924, p-value = 3.032e-02
+There is a statistically significant difference in PHQ-9 scores between gender groups.
+Kruskal-Wallis Test: H-statistic = 28.544, p-value = 2.849e-05
+There is a statistically significant difference in PHQ-9 scores between education groups.
+Kruskal-Wallis Test: H-statistic = 29.961, p-value = 1.501e-05
+There is a statistically significant difference in PHQ-9 scores between marital status groups.
+Spearman's coefficient: -0.667, p-value = 4.412e-15
+Spearman's coefficient: 0.400, p-value = 1.98e-5
+Internet Addiction: Spearman Coefficient = 0.424, p-value = 5.34e-6
+Drug Addiction: Spearman Coefficient = 0.407, p-value = 1.35e-5
+Alcohol Addiction: Spearman Coefficient = 0.297, p-value = 1.91e-3
+Gambling Addiction: Spearman Coefficient = 0.330, p-value = 5.11e-4
+<class 'pandas.core.frame.DataFrame'>
+Index: 119 entries, 0 to 127
+Data columns (total 93 columns):
+ #   Column           Non-Null Count  Dtype  
+---  ------           --------------  -----  
+ 0   age              119 non-null    int64  
+ 1   gender           117 non-null    float64
+ 2   education        119 non-null    int64  
+ 3   marital          118 non-null    float64
+ 4   income           118 non-null    float64
+ 5   phq_1            118 non-null    float64
+ 6   phq_2            119 non-null    int64  
+ 7   phq_3            119 non-null    int64  
+ 8   phq_4            119 non-null    int64  
+ 9   phq_5            119 non-null    int64  
+ 10  phq_6            117 non-null    float64
+ 11  phq_7            119 non-null    int64  
+ 12  phq_8            119 non-null    int64  
+ 13  phq_9            119 non-null    float64
+ 14  gad_1            119 non-null    int64  
+ 15  gad_2            119 non-null    int64  
+ 16  gad_3            119 non-null    int64  
+ 17  gad_4            119 non-null    int64  
+ 18  gad_5            118 non-null    float64
+ 19  gad_6            119 non-null    int64  
+ 20  gad_7            119 non-null    int64  
+ 21  asrs_1           119 non-null    int64  
+ 22  asrs_2           119 non-null    int64  
+ 23  asrs_3           119 non-null    float64
+ 24  asrs_4           119 non-null    int64  
+ 25  asrs_5           119 non-null    int64  
+ 26  asrs_6           119 non-null    int64  
+ 27  asq_1            118 non-null    float64
+ 28  asq_2            119 non-null    int64  
+ 29  asq_3            119 non-null    int64  
+ 30  asq_4            119 non-null    float64
+ 31  asq_5            118 non-null    float64
+ 32  asq_6            119 non-null    int64  
+ 33  asq_7            119 non-null    float64
+ 34  asq_8            118 non-null    float64
+ 35  asq_9            119 non-null    int64  
+ 36  asq_10           119 non-null    int64  
+ 37  asq_11           119 non-null    int64  
+ 38  asq_12           119 non-null    int64  
+ 39  asq_13           118 non-null    float64
+ 40  asq_14           119 non-null    int64  
+ 41  asq_15           118 non-null    float64
+ 42  asq_16           117 non-null    float64
+ 43  asq_17           119 non-null    int64  
+ 44  asq_18           119 non-null    int64  
+ 45  asq_19           118 non-null    float64
+ 46  asq_20           119 non-null    int64  
+ 47  asq_21           119 non-null    int64  
+ 48  asq_22           119 non-null    int64  
+ 49  asq_23           119 non-null    float64
+ 50  asq_24           118 non-null    float64
+ 51  asq_25           119 non-null    int64  
+ 52  asq_26           119 non-null    float64
+ 53  asq_27           119 non-null    int64  
+ 54  asq_28           118 non-null    float64
+ 55  asq_29           119 non-null    int64  
+ 56  asq_30           119 non-null    int64  
+ 57  asq_31           117 non-null    float64
+ 58  asq_32           118 non-null    float64
+ 59  asq_33           119 non-null    int64  
+ 60  asq_34           119 non-null    int64  
+ 61  asq_35           118 non-null    float64
+ 62  asq_36           118 non-null    float64
+ 63  asq_37           119 non-null    int64  
+ 64  asq_38           118 non-null    float64
+ 65  asq_39           118 non-null    float64
+ 66  asq_40           118 non-null    float64
+ 67  asq_41           119 non-null    float64
+ 68  asq_42           119 non-null    int64  
+ 69  asq_43           119 non-null    int64  
+ 70  asq_44           119 non-null    int64  
+ 71  asq_45           119 non-null    int64  
+ 72  asq_46           117 non-null    float64
+ 73  asq_47           118 non-null    float64
+ 74  asq_48           119 non-null    float64
+ 75  asq_49           118 non-null    float64
+ 76  asq_50           119 non-null    float64
+ 77  ssba_internet_1  119 non-null    int64  
+ 78  ssba_internet_2  119 non-null    int64  
+ 79  ssba_internet_3  119 non-null    int64  
+ 80  ssba_internet_4  118 non-null    float64
+ 81  ssba_drug_1      118 non-null    float64
+ 82  ssba_drug_2      119 non-null    int64  
+ 83  ssba_drug_3      119 non-null    int64  
+ 84  ssba_drug_4      119 non-null    int64  
+ 85  ssba_alcohol_1   119 non-null    int64  
+ 86  ssba_alcohol_2   119 non-null    int64  
+ 87  ssba_alcohol_3   119 non-null    int64  
+ 88  ssba_alcohol_4   118 non-null    float64
+ 89  ssba_gambling_1  118 non-null    float64
+ 90  ssba_gambling_2  117 non-null    float64
+ 91  ssba_gambling_3  118 non-null    float64
+ 92  ssba_gambling_4  119 non-null    float64
+dtypes: float64(41), int64(52)
+memory usage: 87.4 KB
+Cluster Distribution:
+ Cluster
+2    38
+3    33
+1    33
+Name: count, dtype: int64
+Silhouette Score for Hierarchical Clustering: 0.22903308721096569
+Index(['age', 'income', 'phq_tot', 'gad_tot', 'ssba_internet_tot',
+       'ssba_drug_tot', 'ssba_alcohol_tot', 'ssba_gambling_tot', 'gender_0',
+       'gender_1', 'gender_2', 'gender_3', 'marital_0', 'marital_1',
+       'marital_2', 'marital_3', 'marital_4', 'marital_5', 'education_5',
+       'education_8', 'education_13', 'education_18', 'education_22',
+       'education_25', 'Cluster'],
+      dtype='object')
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 104 entries, 0 to 103
+Data columns (total 25 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   age                104 non-null    int64  
+ 1   income             104 non-null    float64
+ 2   phq_tot            104 non-null    float64
+ 3   gad_tot            104 non-null    float64
+ 4   ssba_internet_tot  104 non-null    float64
+ 5   ssba_drug_tot      104 non-null    float64
+ 6   ssba_alcohol_tot   104 non-null    float64
+ 7   ssba_gambling_tot  104 non-null    float64
+ 8   gender_0           104 non-null    bool   
+ 9   gender_1           104 non-null    bool   
+ 10  gender_2           104 non-null    bool   
+ 11  gender_3           104 non-null    bool   
+ 12  marital_0          104 non-null    bool   
+ 13  marital_1          104 non-null    bool   
+ 14  marital_2          104 non-null    bool   
+ 15  marital_3          104 non-null    bool   
+ 16  marital_4          104 non-null    bool   
+ 17  marital_5          104 non-null    bool   
+ 18  education_5        104 non-null    bool   
+ 19  education_8        104 non-null    bool   
+ 20  education_13       104 non-null    bool   
+ 21  education_18       104 non-null    bool   
+ 22  education_22       104 non-null    bool   
+ 23  education_25       104 non-null    bool   
+ 24  Cluster            104 non-null    int32  
+dtypes: bool(16), float64(7), int32(1), int64(1)
+memory usage: 8.7 KB
+Contingency Table (Gender vs. Cluster):
+ Cluster    1   2   3
+gender              
+gender_0   6  11  10
+gender_1   8  14   6
+gender_2   8   7   8
+gender_3  11   6   9
+All expected frequencies are >= 5. Chi-squared test is valid.
+
+
+Chi-squared: 6.196564460485133, p-value: 0.40153509149747085
+
+There are no differences: p_value 0.40153509149747085 > alpha 0.05
+
+Contingency Table (Gender vs. Clusters 0 and 1):
+ Cluster    1   2
+gender          
+gender_0   6  11
+gender_1   8  14
+gender_2   8   7
+gender_3  11   6
+
+Chi-squared: 4.313486113598694, p-value: 0.22954254114288877
+
+There are no differences: p_value 0.22954254114288877 > alpha 0.05
+
+Contingency Table (Gender vs. Clusters 0 and 2):
+ Cluster    1   3
+gender          
+gender_0   6  10
+gender_1   8   6
+gender_2   8   8
+gender_3  11   9
+
+Chi-squared: 1.4857142857142855, p-value: 0.6855713690176422
+
+There are no differences: p_value 0.6855713690176422 > alpha 0.016666666666666666
+
+Contingency Table (Gender vs. Clusters 1 and 2):
+ Cluster    2   3
+gender          
+gender_0  11  10
+gender_1  14   6
+gender_2   7   8
+gender_3   6   9
+
+Chi-squared: 3.5799270904534066, p-value: 0.31054283811667777
+
+There are no differences: p_value 0.31054283811667777 > alpha 0.016666666666666666
+
+
+Analyzing age:
+Cluster 3 -> Median: 71, 1st percentile: 63.0, 3rd percentile: 76.0
+Cluster 1 -> Median: 27, 1st percentile: 21.0, 3rd percentile: 31.0
+Cluster 2 -> Median: 46, 1st percentile: 40.5, 3rd percentile: 51.75
+
+Kruskal-Wallis Test:
+There are differences (p-value: 6.8002e-20 < alpha: 5.0000e-02)
+
+Mann-Whitney U Tests:
+Cluster 3-1:
+There are differences (p-value: 3.5184e-12 < alpha: 1.6667e-02)
+Cluster 3-2:
+There are differences (p-value: 1.1367e-11 < alpha: 1.6667e-02)
+Cluster 1-2:
+There are differences (p-value: 4.9328e-13 < alpha: 1.6667e-02)
+
+Analyzing income:
+Cluster 3 -> Median: 18200, 1st percentile: 15000.0, 3rd percentile: 22000.0
+Cluster 1 -> Median: 34000, 1st percentile: 29000.0, 3rd percentile: 38000.0
+Cluster 2 -> Median: 58000, 1st percentile: 53500.0, 3rd percentile: 62000.0
+
+Kruskal-Wallis Test:
+There are differences (p-value: 2.2870e-20 < alpha: 5.0000e-02)
+
+Mann-Whitney U Tests:
+Cluster 3-1:
+There are differences (p-value: 6.3076e-12 < alpha: 1.6667e-02)
+Cluster 3-2:
+There are differences (p-value: 4.9793e-13 < alpha: 1.6667e-02)
+Cluster 1-2:
+There are differences (p-value: 7.5527e-13 < alpha: 1.6667e-02)
+
+Analyzing maritial_level_ordinal:
+Cluster 3 -> Median: 4, 1st percentile: 2.0, 3rd percentile: 5.0
+Cluster 1 -> Median: 1, 1st percentile: 1.0, 3rd percentile: 2.0
+Cluster 2 -> Median: 2, 1st percentile: 2.0, 3rd percentile: 2.0
+
+Kruskal-Wallis Test:
+There are differences (p-value: 2.5817e-08 < alpha: 5.0000e-02)
+
+Mann-Whitney U Tests:
+Cluster 3-1:
+There are differences (p-value: 5.7230e-07 < alpha: 1.6667e-02)
+Cluster 3-2:
+There are differences (p-value: 4.3254e-05 < alpha: 1.6667e-02)
+Cluster 1-2:
+There are differences (p-value: 3.0828e-04 < alpha: 1.6667e-02)
+
+Analyzing education_level_ordinal:
+Cluster 3 -> Median: 2, 1st percentile: 1.0, 3rd percentile: 3.0
+Cluster 1 -> Median: 3, 1st percentile: 3.0, 3rd percentile: 3.0
+Cluster 2 -> Median: 4, 1st percentile: 4.0, 3rd percentile: 5.0
+
+Kruskal-Wallis Test:
+There are differences (p-value: 6.3965e-12 < alpha: 5.0000e-02)
+
+Mann-Whitney U Tests:
+Cluster 3-1:
+There are differences (p-value: 2.0144e-04 < alpha: 1.6667e-02)
+Cluster 3-2:
+There are differences (p-value: 2.2964e-10 < alpha: 1.6667e-02)
+Cluster 1-2:
+There are differences (p-value: 1.0150e-06 < alpha: 1.6667e-02)
+
+Analyzing phq_tot:
+Cluster 3 -> Median: 14, 1st percentile: 12.0, 3rd percentile: 17.0
+Cluster 1 -> Median: 16, 1st percentile: 13.0, 3rd percentile: 18.0
+Cluster 2 -> Median: 1, 1st percentile: 1.0, 3rd percentile: 2.75
+
+Kruskal-Wallis Test:
+There are differences (p-value: 1.5433e-16 < alpha: 5.0000e-02)
+
+Mann-Whitney U Tests:
+Cluster 3-1:
+There are no differences (p-value: 1.7406e-01 >= alpha: 1.6667e-02)
+Cluster 3-2:
+There are differences (p-value: 3.6986e-13 < alpha: 1.6667e-02)
+Cluster 1-2:
+There are differences (p-value: 3.7598e-13 < alpha: 1.6667e-02)
+
+Analyzing gad_tot:
+Cluster 3 -> Median: 3, 1st percentile: 1.0, 3rd percentile: 3.0
+Cluster 1 -> Median: 17, 1st percentile: 14.0, 3rd percentile: 19.0
+Cluster 2 -> Median: 2, 1st percentile: 1.0, 3rd percentile: 3.0
+
+Kruskal-Wallis Test:
+There are differences (p-value: 2.0372e-15 < alpha: 5.0000e-02)
+
+Mann-Whitney U Tests:
+Cluster 3-1:
+There are differences (p-value: 5.5372e-12 < alpha: 1.6667e-02)
+Cluster 3-2:
+There are no differences (p-value: 2.3306e-01 >= alpha: 1.6667e-02)
+Cluster 1-2:
+There are differences (p-value: 4.1322e-13 < alpha: 1.6667e-02)
+
+Analyzing ssba_internet_tot:
+Cluster 3 -> Median: 1, 1st percentile: 1.0, 3rd percentile: 3.0
+Cluster 1 -> Median: 10, 1st percentile: 8.0, 3rd percentile: 14.0
+Cluster 2 -> Median: 1, 1st percentile: 0.0, 3rd percentile: 2.0
+
+Kruskal-Wallis Test:
+There are differences (p-value: 2.9847e-15 < alpha: 5.0000e-02)
+
+Mann-Whitney U Tests:
+Cluster 3-1:
+There are differences (p-value: 8.5546e-12 < alpha: 1.6667e-02)
+Cluster 3-2:
+There are no differences (p-value: 5.3199e-01 >= alpha: 1.6667e-02)
+Cluster 1-2:
+There are differences (p-value: 3.7139e-13 < alpha: 1.6667e-02)
+
+Analyzing ssba_drug_tot:
+Cluster 3 -> Median: 1, 1st percentile: 1.0, 3rd percentile: 2.0
+Cluster 1 -> Median: 11, 1st percentile: 8.0, 3rd percentile: 13.0
+Cluster 2 -> Median: 1, 1st percentile: 0.0, 3rd percentile: 2.0
+
+Kruskal-Wallis Test:
+There are differences (p-value: 1.4720e-15 < alpha: 5.0000e-02)
+
+Mann-Whitney U Tests:
+Cluster 3-1:
+There are differences (p-value: 2.5231e-12 < alpha: 1.6667e-02)
+Cluster 3-2:
+There are no differences (p-value: 8.2534e-01 >= alpha: 1.6667e-02)
+Cluster 1-2:
+There are differences (p-value: 3.7071e-13 < alpha: 1.6667e-02)
+
+Analyzing ssba_alcohol_tot:
+Cluster 3 -> Median: 8, 1st percentile: 5.0, 3rd percentile: 11.0
+Cluster 1 -> Median: 1, 1st percentile: 0.0, 3rd percentile: 3.0
+Cluster 2 -> Median: 1, 1st percentile: 1.0, 3rd percentile: 2.0
+
+Kruskal-Wallis Test:
+There are differences (p-value: 4.7692e-14 < alpha: 5.0000e-02)
+
+Mann-Whitney U Tests:
+Cluster 3-1:
+There are differences (p-value: 2.8485e-11 < alpha: 1.6667e-02)
+Cluster 3-2:
+There are differences (p-value: 6.4629e-12 < alpha: 1.6667e-02)
+Cluster 1-2:
+There are no differences (p-value: 7.7493e-01 >= alpha: 1.6667e-02)
+
+Analyzing ssba_gambling_tot:
+Cluster 3 -> Median: 10, 1st percentile: 6.0, 3rd percentile: 13.0
+Cluster 1 -> Median: 2, 1st percentile: 1.0, 3rd percentile: 3.0
+Cluster 2 -> Median: 1, 1st percentile: 1.0, 3rd percentile: 2.0
+
+Kruskal-Wallis Test:
+There are differences (p-value: 1.6910e-14 < alpha: 5.0000e-02)
+
+Mann-Whitney U Tests:
+Cluster 3-1:
+There are differences (p-value: 1.6590e-11 < alpha: 1.6667e-02)
+Cluster 3-2:
+There are differences (p-value: 2.5993e-12 < alpha: 1.6667e-02)
+Cluster 1-2:
+There are no differences (p-value: 5.3918e-01 >= alpha: 1.6667e-02)

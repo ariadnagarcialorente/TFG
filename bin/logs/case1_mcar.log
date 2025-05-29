@@ -1,0 +1,73 @@
+CUDA not available. Will use CPU processing only.
+Loading data from case1_complete.csv...
+Dataset shape: 10000 rows × 1000 columns
+Selected columns for MCAR (50): ['col_975', 'col_534', 'col_687', 'col_920', 'col_584', 'col_405', 'col_993', 'col_389', 'col_922', 'col_524', 'col_262', 'col_840', 'col_238', 'col_317', 'col_760', 'col_311', 'col_472', 'col_466', 'col_931', 'col_72', 'col_266', 'col_509', 'col_440', 'col_633', 'col_909', 'col_467', 'col_905', 'col_420', 'col_514', 'col_144', 'col_446', 'col_531', 'col_473', 'col_68', 'col_363', 'col_719', 'col_452', 'col_223', 'col_354', 'col_474', 'col_525', 'col_915', 'col_376', 'col_337', 'col_300', 'col_286', 'col_181', 'col_335', 'col_558', 'col_444']
+Erasing 1000 entries per selected column (10.00% of each column)
+Using CPU processing...
+
+Column 'col_975': erased 1000 values
+Column 'col_534': erased 1000 values
+Column 'col_687': erased 1000 values
+Column 'col_920': erased 1000 values
+Column 'col_584': erased 1000 values
+Column 'col_405': erased 1000 values
+Column 'col_993': erased 1000 values
+Column 'col_389': erased 1000 values
+Column 'col_922': erased 1000 values
+Column 'col_524': erased 1000 values
+Column 'col_262': erased 1000 values
+Column 'col_840': erased 1000 values
+Column 'col_238': erased 1000 values
+Column 'col_317': erased 1000 values
+Column 'col_760': erased 1000 values
+Column 'col_311': erased 1000 values
+Column 'col_472': erased 1000 values
+Column 'col_466': erased 1000 values
+Column 'col_931': erased 1000 values
+Column 'col_72': erased 1000 values
+Column 'col_266': erased 1000 values
+Column 'col_509': erased 1000 values
+Column 'col_440': erased 1000 values
+Column 'col_633': erased 1000 values
+Column 'col_909': erased 1000 values
+Column 'col_467': erased 1000 values
+Column 'col_905': erased 1000 values
+Column 'col_420': erased 1000 values
+Column 'col_514': erased 1000 values
+Column 'col_144': erased 1000 values
+Column 'col_446': erased 1000 values
+Column 'col_531': erased 1000 values
+Column 'col_473': erased 1000 values
+Column 'col_68': erased 1000 values
+Column 'col_363': erased 1000 values
+Column 'col_719': erased 1000 values
+Column 'col_452': erased 1000 values
+Column 'col_223': erased 1000 values
+Column 'col_354': erased 1000 values
+Column 'col_474': erased 1000 values
+Column 'col_525': erased 1000 values
+Column 'col_915': erased 1000 values
+Column 'col_376': erased 1000 values
+Column 'col_337': erased 1000 values
+Column 'col_300': erased 1000 values
+Column 'col_286': erased 1000 values
+Column 'col_181': erased 1000 values
+Column 'col_335': erased 1000 values
+Column 'col_558': erased 1000 values
+Column 'col_444': erased 1000 values
+
+First 5 rows of modified data:
+    col_1   col_2   col_3   col_4  ...  col_997  col_998  col_999  col_1000
+0  -39435  949373 -180674 -736800  ...   817340   661331   999895   -422756
+1  106543  153078  292342 -770195  ...    52054   244991  -517283    106840
+2  630529  675800  -72580  204680  ...  -944560   987061   846290   -116394
+3 -981357 -841893  345635 -201961  ...   249384   603651   191295   -914492
+4  382174  690105 -289642  -92208  ...   785061  -655153   -85379   -716686
+
+[5 rows x 1000 columns]
+
+Modified dataset saved to 'case1_erased.csv'
+
+real	0m2,983s
+user	0m3,866s
+sys	0m0,258s

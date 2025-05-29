@@ -1,0 +1,11 @@
+usage: erase_generator_MNAR_GPU.py [-h] [--input INPUT] --column COLUMN
+                                   [COLUMN ...] --cutoff CUTOFF [CUTOFF ...]
+                                   --pi_high PI_HIGH [PI_HIGH ...] --pi_low
+                                   PI_LOW [PI_LOW ...] [--seed SEED]
+                                   [--output OUTPUT] [--gpu]
+erase_generator_MNAR_GPU.py: error: the following arguments are required: --column/-c, --cutoff, --pi_high, --pi_low
+CUDA not available. Will use CPU processing only.
+
+real	0m0,258s
+user	0m1,448s
+sys	0m0,054s

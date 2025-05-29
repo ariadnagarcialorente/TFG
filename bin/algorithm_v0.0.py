@@ -4,15 +4,13 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import argparse
 
-def clean_dataset(filepath, min_rows=0, min_percent=0, important_cols=None, imp_weight=1.0):
+def clean_dataset(filepath, output_filepath, min_rows=0, min_percent=0, important_cols=None, imp_weight=1.0):
     # Load the dataset with missing values
     data = pd.read_csv(filepath)
     
     # Store original row count
     original_rows = data.shape[0]
-    print(f"Dataset shape: {data.shape}")
-    print(f"Available columns: {list(data.columns)}")
-    
+
     # Calculate weighted missing value counts
     if important_cols and imp_weight > 1.0:
         # Create a weighted na_count where important columns count more
@@ -52,7 +50,7 @@ def clean_dataset(filepath, min_rows=0, min_percent=0, important_cols=None, imp_
     # Drop the 'na_count' column (as it's no longer needed)
     data = data.drop(columns=['na_count'])
 
-    data.to_csv('cleaned_dataset.csv', index=False)
+    data.to_csv(output_filepath, index=False)
     
     return data
 
@@ -98,12 +96,13 @@ def algorithm0_0():
 
     args = parser.parse_args()
     filepath = args.input
+    output_filepath = args.output
     min_rows = args.min_rows
     min_percent = args.min_percent
     important_cols = [c.strip() for c in args.important_cols.split(',') if c.strip()] if args.important_cols else []
     imp_weight = args.importance_weight
     # Clean the dataset
-    cleaned_data = clean_dataset(filepath, min_rows, min_percent, important_cols, imp_weight)
+    cleaned_data = clean_dataset(filepath, output_filepath, min_rows, min_percent, important_cols, imp_weight)
     
     # Save the cleaned dataset
     print(f"Cleaned dataset saved to 'cleaned_dataset.csv' with {cleaned_data.shape[0]} rows")
