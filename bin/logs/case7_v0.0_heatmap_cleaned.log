@@ -20,6 +20,6 @@ Traceback (most recent call last):
              ^^^^^
 FileNotFoundError: [Errno 2] No such file or directory: 'case7_v0.0_cleaned.csv'
 
-real	0m0,882s
-user	0m3,245s
-sys	0m0,123s
+real	0m0,864s
+user	0m3,239s
+sys	0m0,112s

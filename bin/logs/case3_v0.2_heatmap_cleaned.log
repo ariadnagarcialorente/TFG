@@ -1,6 +1,6 @@
 Loading data from case3_v0.2_cleaned.csv...
 Heatmap saved to logs/case3_v0.2_heatmap_cleaned.png
 
-real	0m5,754s
-user	0m7,688s
-sys	0m0,432s
+real	0m5,661s
+user	0m7,575s
+sys	0m0,471s

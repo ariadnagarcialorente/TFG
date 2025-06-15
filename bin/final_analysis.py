@@ -1,128 +1,138 @@
 import pandas as pd
+from pandas.errors import EmptyDataError
 import argparse
 
-def calculate_score(complete_path, erased_path, cleaned_path, constraints):
+def calculate_score(erased_path, cleaned_path, constraints):
     """Calculate and print the quality score for a cleaned dataset."""
-    # Read datasets
-    complete = pd.read_csv(complete_path)
+    # 1) Load datasets
     erased = pd.read_csv(erased_path)
-    cleaned = pd.read_csv(cleaned_path)
-    
-    # Base metrics
-    complete_rows = len(complete)
-    complete_cols = len(complete.columns)
-    
-    erased_rows = len(erased)
-    erased_cols = len(erased.columns)
+    try:
+        cleaned = pd.read_csv(cleaned_path)
+    except EmptyDataError:
+        cleaned = pd.DataFrame()
+
+    erased_rows, erased_cols = erased.shape
+    cleaned_rows, cleaned_cols = cleaned.shape
     erased_missing = erased.isna().sum().sum()
-    
-    cleaned_rows = len(cleaned)
-    cleaned_cols = len(cleaned.columns)
-    cleaned_missing = cleaned.isna().sum().sum()
-    
-    # Important columns metrics
-    important_cols = [col.strip() for col in constraints['important_cols'].split(',') if col.strip()]
-    erased_imp_missing = erased[important_cols].isna().sum().sum() if important_cols else 0
-    cleaned_imp_missing = cleaned[important_cols].isna().sum().sum() if important_cols else 0
+    raw_cleaned_missing = cleaned.isna().sum().sum()
 
-    # 1. Constraint Adherence Score (40%)
-    met_constraints = 0
-    total_constraints = 0
-    
-    # Check row constraints
+    # 2) Important-column missing counts + detect dropped
+    important_cols = [c.strip() for c in constraints['important_cols'].split(',') if c.strip()]
+    erased_imp_missing = 0
+    cleaned_imp_missing = 0
+    dropped_imp = []
+
+    for col in important_cols:
+        if col in erased.columns:
+            erased_imp_missing += erased[col].isna().sum()
+        if col in cleaned.columns:
+            cleaned_imp_missing += cleaned[col].isna().sum()
+        else:
+            # Column dropped ⇒ penalize as erased_rows NAs
+            dropped_imp.append(col)
+            cleaned_imp_missing += erased_rows
+
+    # 3) Include drop-penalties in overall missing count
+    cleaned_missing = raw_cleaned_missing + cleaned_imp_missing
+
+    if dropped_imp:
+        print(f"Warning: Important columns dropped (penalized as missing): {', '.join(dropped_imp)}")
+
+    # 4) Constraint Adherence Score (40%)
+    met = total = 0
+    # Min rows
     if constraints['min_rows'] > 0:
-        total_constraints += 1
-        met_constraints += 1 if cleaned_rows >= constraints['min_rows'] else 0
-        
+        total += 1
+        if cleaned_rows >= constraints['min_rows']:
+            met += 1
+    # Min percent rows
     if constraints['min_percent'] > 0:
-        total_constraints += 1
-        percent_kept = (cleaned_rows / complete_rows) * 100
-        met_constraints += 1 if percent_kept >= constraints['min_percent'] else 0
-        
+        total += 1
+        if (cleaned_rows / erased_rows) * 100 >= constraints['min_percent']:
+            met += 1
+    # Max missing
     if constraints['max_missing'] > 0:
-        total_constraints += 1
-        met_constraints += 1 if cleaned_missing <= constraints['max_missing'] else 0
-    
-    # Check column constraints
+        total += 1
+        if cleaned_missing <= constraints['max_missing']:
+            met += 1
+    # Min cols
     if constraints['col_threshold'] > 0:
-        total_constraints += 1
-        met_constraints += 1 if cleaned_cols >= constraints['col_threshold'] else 0
-        
+        total += 1
+        if cleaned_cols >= constraints['col_threshold']:
+            met += 1
+    # Min percent cols
     if constraints['col_relative_threshold'] > 0:
-        total_constraints += 1
-        percent_cols = (cleaned_cols / complete_cols) * 100
-        met_constraints += 1 if percent_cols >= constraints['col_relative_threshold'] else 0
-        
-    constraint_score = (met_constraints / total_constraints * 40) if total_constraints > 0 else 40.0
+        total += 1
+        if (cleaned_cols / erased_cols) * 100 >= constraints['col_relative_threshold']:
+            met += 1
 
-    # 2. Missing Value Reduction Score (30%)
+    constraint_score = (met / total * 40.0) if total > 0 else 40.0
+
+    # 5) Missing Value Reduction Score (30%)
     if erased_missing == 0:
-        missing_score = 30.0  # Full points if no missing to begin with
+        missing_score = 30.0
     else:
-        missing_reduction = (erased_missing - cleaned_missing) / erased_missing
-        missing_score = max(0.0, min(30.0, missing_reduction * 30))
+        reduction = (erased_missing - cleaned_missing) / erased_missing
+        missing_score = max(0.0, min(30.0, reduction * 30.0))
 
-    # 3. Data Retention Score (20%)
-    row_retention = cleaned_rows / complete_rows
-    col_retention = cleaned_cols / complete_cols
-    retention_score = (row_retention + col_retention) * 10  # Max 20
-    
-    # Penalize only if column retention drops below 50%
-    if col_retention < 0.5:
-        retention_score -= 5
+    # 6) Data Retention Score (20%)
+    row_ret = cleaned_rows / erased_rows
+    col_ret = cleaned_cols / erased_cols
+    retention_score = (row_ret + col_ret) * 10.0
 
-    # 4. Important Columns Bonus (10%)
-    if not important_cols or erased_imp_missing == 0:
-        important_bonus = 10.0
+    # 7) Important Columns Bonus (10%)
+    if dropped_imp:
+        bonus = 0.0
+    elif not important_cols or erased_imp_missing == 0:
+        bonus = 10.0
     else:
-        imp_reduction = (erased_imp_missing - cleaned_imp_missing) / erased_imp_missing
-        important_bonus = min(10.0, imp_reduction * 10)
+        imp_red = (erased_imp_missing - cleaned_imp_missing) / erased_imp_missing
+        bonus = max(0.0, min(10.0, imp_red * 10.0))
 
-    total_score = constraint_score + missing_score + retention_score + important_bonus
+    # 8) Total Score
+    total_score = max(constraint_score + missing_score + retention_score + bonus, 0)
 
     # Print metrics
-    print(f"\n{' DATASET METRICS ':=^40}")
-    print(f"Complete: {complete_rows} rows, {complete_cols} columns")
+    print(f"\n{' DATASET METRICS ':=^50}")
     print(f"Erased: {erased_rows} rows, {erased_cols} columns, {erased_missing} missing")
     print(f"Cleaned: {cleaned_rows} rows, {cleaned_cols} columns, {cleaned_missing} missing")
-    
+
     if important_cols:
         print(f"\nImportant Columns ({', '.join(important_cols)}):")
-        print(f"Erased Missing: {erased_imp_missing}")
-        print(f"Cleaned Missing: {cleaned_imp_missing}")
-        print(f"Reduction: {erased_imp_missing - cleaned_imp_missing} ({((erased_imp_missing - cleaned_imp_missing)/erased_imp_missing*100 if erased_imp_missing > 0 else 0):.1f}%)")
-    
-    print(f"\nRetention Rates:")
-    print(f"Rows: {row_retention:.1%}")
-    print(f"Columns: {col_retention:.1%}{' (Penalty Applied)' if col_retention < 0.5 else ''}")
+        print(f"  Erased Missing: {erased_imp_missing}")
+        print(f"  Cleaned Missing (including penalized drops): {cleaned_imp_missing}")
+        if erased_imp_missing > 0:
+            red = erased_imp_missing - cleaned_imp_missing
+            pct = (red / erased_imp_missing) * 100
+            print(f"  Reduction: {red} ({pct:.1f}%)")
 
-    # Print scores
-    print(f"\n{' SCORE BREAKDOWN ':=^40}")
+    print(f"\nRetention Rates:")
+    print(f"  Rows: {row_ret:.1%}")
+    print(f"  Columns: {col_ret:.1%}{' (Penalty Applied)' if col_ret < 0.5 else ''}")
+
+    print(f"\n{' SCORE BREAKDOWN ':=^50}")
     print(f"Constraint Adherence: {constraint_score:.1f}/40")
     print(f"Missing Value Reduction: {missing_score:.1f}/30")
     print(f"Data Retention: {retention_score:.1f}/20")
-    print(f"Important Columns Bonus: {important_bonus:.1f}/10")
-    print(f"{' TOTAL SCORE ':=^40}")
+    print(f"Important Columns Bonus: {bonus:.1f}/10")
+    print(f"{' TOTAL SCORE ':=^50}")
     print(f"{total_score:.1f}/100\n")
-    
+
     return total_score
 
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Calculate cleaning score for a single dataset')
-    parser.add_argument('--complete', required=True, help='Complete dataset path')
-    parser.add_argument('--erased', required=True, help='Erased dataset path')
-    parser.add_argument('--cleaned', required=True, help='Cleaned dataset path')
-    parser.add_argument('--min-rows', type=int, default=0, help='Minimum rows requirement')
-    parser.add_argument('--min-percent', type=float, default=0.0, help='Minimum %% rows to keep')
-    parser.add_argument('--max-missing', type=int, default=0, help='Maximum allowed missing values')
-    parser.add_argument('--col-threshold', type=int, default=0, help='Minimum columns to keep')
-    parser.add_argument('--col-relative-threshold', type=float, default=0.0, help='Minimum %% of columns to keep (0-100)')
-    parser.add_argument('--important-cols', default='', help='Comma-separated important columns')
-    
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='Calculate cleaning score for a dataset')
+    parser.add_argument('--erased', required=True, help='Path to erased dataset')
+    parser.add_argument('--cleaned', required=True, help='Path to cleaned dataset')
+    parser.add_argument('--min-rows', type=int, default=0, help='Minimum number of rows')
+    parser.add_argument('--min-percent', type=float, default=0.0, help='Minimum % of rows to keep')
+    parser.add_argument('--max-missing', type=int, default=0, help='Max allowed missing values')
+    parser.add_argument('--col-threshold', type=int, default=0, help='Minimum number of columns to keep')
+    parser.add_argument('--col-relative-threshold', type=float, default=0.0, help='Minimum % of columns to keep')
+    parser.add_argument('--important-cols', default='', help='Comma-separated list of important columns')
     args = parser.parse_args()
-    
+
     calculate_score(
-        complete_path=args.complete,
         erased_path=args.erased,
         cleaned_path=args.cleaned,
         constraints={

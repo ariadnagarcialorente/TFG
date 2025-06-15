@@ -6,38 +6,38 @@ Using CPU processing...
 
 --- MAR Rule 1 ---
 Reference: col_601, Target: col_11, Cutoff: 7500.0, pi_high: 0.6, pi_low: 0.2
-High: 4934 (49.34%), Low: 5066 (50.66%)
-Missing values to introduce: 3999 (39.99%)
+High: 4963 (49.63%), Low: 5037 (50.37%)
+Missing values to introduce: 4014 (40.14%)
 
 --- MAR Rule 2 ---
 Reference: col_602, Target: col_12, Cutoff: 7500.0, pi_high: 0.6, pi_low: 0.2
-High: 4880 (48.80%), Low: 5120 (51.20%)
-Missing values to introduce: 3928 (39.28%)
+High: 5016 (50.16%), Low: 4984 (49.84%)
+Missing values to introduce: 4011 (40.11%)
 
 --- MAR Rule 3 ---
 Reference: col_603, Target: col_13, Cutoff: 7500.0, pi_high: 0.6, pi_low: 0.2
-High: 5014 (50.14%), Low: 4986 (49.86%)
-Missing values to introduce: 3985 (39.85%)
+High: 4831 (48.31%), Low: 5169 (51.69%)
+Missing values to introduce: 3910 (39.10%)
 
 --- MAR Rule 4 ---
 Reference: col_604, Target: col_14, Cutoff: 7500.0, pi_high: 0.6, pi_low: 0.2
-High: 4965 (49.65%), Low: 5035 (50.35%)
-Missing values to introduce: 3928 (39.28%)
+High: 4911 (49.11%), Low: 5089 (50.89%)
+Missing values to introduce: 3936 (39.36%)
 
 --- MAR Rule 5 ---
 Reference: col_605, Target: col_15, Cutoff: 7500.0, pi_high: 0.6, pi_low: 0.2
-High: 4990 (49.90%), Low: 5010 (50.10%)
-Missing values to introduce: 3966 (39.66%)
+High: 4898 (48.98%), Low: 5102 (51.02%)
+Missing values to introduce: 3905 (39.05%)
 
 --- Final Missingness Summary ---
-col_11: 3999 missing (39.99%)
-col_12: 3928 missing (39.28%)
-col_13: 3985 missing (39.85%)
-col_14: 3928 missing (39.28%)
-col_15: 3966 missing (39.66%)
+col_11: 4014 missing (40.14%)
+col_12: 4011 missing (40.11%)
+col_13: 3910 missing (39.10%)
+col_14: 3936 missing (39.36%)
+col_15: 3905 missing (39.05%)
 
 Modified dataset saved to 'case4_erased.csv'
 
-real	0m2,534s
-user	0m3,471s
-sys	0m0,284s
+real	0m2,447s
+user	0m3,461s
+sys	0m0,240s

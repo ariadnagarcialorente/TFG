@@ -1,123 +1,123 @@
 CUDA not available. Will use CPU processing only.
 Loading data from case2_complete.csv...
 Dataset shape: 10000 rows × 1000 columns
-Selected columns for MCAR (100): ['col_517', 'col_893', 'col_79', 'col_448', 'col_18', 'col_127', 'col_583', 'col_157', 'col_268', 'col_685', 'col_87', 'col_218', 'col_673', 'col_747', 'col_954', 'col_147', 'col_977', 'col_976', 'col_203', 'col_839', 'col_524', 'col_479', 'col_666', 'col_100', 'col_284', 'col_263', 'col_951', 'col_899', 'col_459', 'col_274', 'col_359', 'col_213', 'col_219', 'col_584', 'col_633', 'col_930', 'col_806', 'col_915', 'col_315', 'col_201', 'col_690', 'col_804', 'col_850', 'col_287', 'col_754', 'col_702', 'col_426', 'col_655', 'col_692', 'col_437', 'col_163', 'col_77', 'col_603', 'col_923', 'col_630', 'col_634', 'col_48', 'col_507', 'col_823', 'col_468', 'col_780', 'col_636', 'col_989', 'col_288', 'col_548', 'col_134', 'col_982', 'col_337', 'col_467', 'col_857', 'col_88', 'col_159', 'col_323', 'col_504', 'col_947', 'col_90', 'col_793', 'col_945', 'col_353', 'col_844', 'col_811', 'col_867', 'col_227', 'col_549', 'col_928', 'col_991', 'col_138', 'col_799', 'col_842', 'col_946', 'col_22', 'col_202', 'col_784', 'col_837', 'col_277', 'col_569', 'col_670', 'col_637', 'col_336', 'col_509']
+Selected columns for MCAR (100): ['col_940', 'col_216', 'col_871', 'col_780', 'col_329', 'col_920', 'col_72', 'col_454', 'col_796', 'col_882', 'col_671', 'col_750', 'col_659', 'col_648', 'col_203', 'col_484', 'col_257', 'col_8', 'col_512', 'col_720', 'col_602', 'col_141', 'col_807', 'col_263', 'col_166', 'col_613', 'col_145', 'col_690', 'col_490', 'col_643', 'col_503', 'col_870', 'col_973', 'col_4', 'col_498', 'col_217', 'col_858', 'col_803', 'col_360', 'col_588', 'col_868', 'col_712', 'col_104', 'col_615', 'col_482', 'col_531', 'col_462', 'col_854', 'col_447', 'col_628', 'col_246', 'col_548', 'col_554', 'col_180', 'col_20', 'col_184', 'col_730', 'col_148', 'col_95', 'col_211', 'col_102', 'col_135', 'col_576', 'col_928', 'col_381', 'col_792', 'col_716', 'col_111', 'col_366', 'col_989', 'col_520', 'col_846', 'col_812', 'col_86', 'col_418', 'col_873', 'col_195', 'col_149', 'col_25', 'col_994', 'col_119', 'col_731', 'col_243', 'col_161', 'col_737', 'col_383', 'col_590', 'col_207', 'col_889', 'col_108', 'col_997', 'col_902', 'col_850', 'col_260', 'col_749', 'col_709', 'col_665', 'col_567', 'col_625', 'col_805']
 Erasing 2500 entries per selected column (25.00% of each column)
 Using CPU processing...
 
-Column 'col_517': erased 2500 values
-Column 'col_893': erased 2500 values
-Column 'col_79': erased 2500 values
-Column 'col_448': erased 2500 values
-Column 'col_18': erased 2500 values
-Column 'col_127': erased 2500 values
-Column 'col_583': erased 2500 values
-Column 'col_157': erased 2500 values
-Column 'col_268': erased 2500 values
-Column 'col_685': erased 2500 values
-Column 'col_87': erased 2500 values
-Column 'col_218': erased 2500 values
-Column 'col_673': erased 2500 values
-Column 'col_747': erased 2500 values
-Column 'col_954': erased 2500 values
-Column 'col_147': erased 2500 values
-Column 'col_977': erased 2500 values
-Column 'col_976': erased 2500 values
-Column 'col_203': erased 2500 values
-Column 'col_839': erased 2500 values
-Column 'col_524': erased 2500 values
-Column 'col_479': erased 2500 values
-Column 'col_666': erased 2500 values
-Column 'col_100': erased 2500 values
-Column 'col_284': erased 2500 values
-Column 'col_263': erased 2500 values
-Column 'col_951': erased 2500 values
-Column 'col_899': erased 2500 values
-Column 'col_459': erased 2500 values
-Column 'col_274': erased 2500 values
-Column 'col_359': erased 2500 values
-Column 'col_213': erased 2500 values
-Column 'col_219': erased 2500 values
-Column 'col_584': erased 2500 values
-Column 'col_633': erased 2500 values
-Column 'col_930': erased 2500 values
-Column 'col_806': erased 2500 values
-Column 'col_915': erased 2500 values
-Column 'col_315': erased 2500 values
-Column 'col_201': erased 2500 values
-Column 'col_690': erased 2500 values
-Column 'col_804': erased 2500 values
-Column 'col_850': erased 2500 values
-Column 'col_287': erased 2500 values
-Column 'col_754': erased 2500 values
-Column 'col_702': erased 2500 values
-Column 'col_426': erased 2500 values
-Column 'col_655': erased 2500 values
-Column 'col_692': erased 2500 values
-Column 'col_437': erased 2500 values
-Column 'col_163': erased 2500 values
-Column 'col_77': erased 2500 values
-Column 'col_603': erased 2500 values
-Column 'col_923': erased 2500 values
-Column 'col_630': erased 2500 values
-Column 'col_634': erased 2500 values
-Column 'col_48': erased 2500 values
-Column 'col_507': erased 2500 values
-Column 'col_823': erased 2500 values
-Column 'col_468': erased 2500 values
+Column 'col_940': erased 2500 values
+Column 'col_216': erased 2500 values
+Column 'col_871': erased 2500 values
 Column 'col_780': erased 2500 values
-Column 'col_636': erased 2500 values
-Column 'col_989': erased 2500 values
-Column 'col_288': erased 2500 values
+Column 'col_329': erased 2500 values
+Column 'col_920': erased 2500 values
+Column 'col_72': erased 2500 values
+Column 'col_454': erased 2500 values
+Column 'col_796': erased 2500 values
+Column 'col_882': erased 2500 values
+Column 'col_671': erased 2500 values
+Column 'col_750': erased 2500 values
+Column 'col_659': erased 2500 values
+Column 'col_648': erased 2500 values
+Column 'col_203': erased 2500 values
+Column 'col_484': erased 2500 values
+Column 'col_257': erased 2500 values
+Column 'col_8': erased 2500 values
+Column 'col_512': erased 2500 values
+Column 'col_720': erased 2500 values
+Column 'col_602': erased 2500 values
+Column 'col_141': erased 2500 values
+Column 'col_807': erased 2500 values
+Column 'col_263': erased 2500 values
+Column 'col_166': erased 2500 values
+Column 'col_613': erased 2500 values
+Column 'col_145': erased 2500 values
+Column 'col_690': erased 2500 values
+Column 'col_490': erased 2500 values
+Column 'col_643': erased 2500 values
+Column 'col_503': erased 2500 values
+Column 'col_870': erased 2500 values
+Column 'col_973': erased 2500 values
+Column 'col_4': erased 2500 values
+Column 'col_498': erased 2500 values
+Column 'col_217': erased 2500 values
+Column 'col_858': erased 2500 values
+Column 'col_803': erased 2500 values
+Column 'col_360': erased 2500 values
+Column 'col_588': erased 2500 values
+Column 'col_868': erased 2500 values
+Column 'col_712': erased 2500 values
+Column 'col_104': erased 2500 values
+Column 'col_615': erased 2500 values
+Column 'col_482': erased 2500 values
+Column 'col_531': erased 2500 values
+Column 'col_462': erased 2500 values
+Column 'col_854': erased 2500 values
+Column 'col_447': erased 2500 values
+Column 'col_628': erased 2500 values
+Column 'col_246': erased 2500 values
 Column 'col_548': erased 2500 values
-Column 'col_134': erased 2500 values
-Column 'col_982': erased 2500 values
-Column 'col_337': erased 2500 values
-Column 'col_467': erased 2500 values
-Column 'col_857': erased 2500 values
-Column 'col_88': erased 2500 values
-Column 'col_159': erased 2500 values
-Column 'col_323': erased 2500 values
-Column 'col_504': erased 2500 values
-Column 'col_947': erased 2500 values
-Column 'col_90': erased 2500 values
-Column 'col_793': erased 2500 values
-Column 'col_945': erased 2500 values
-Column 'col_353': erased 2500 values
-Column 'col_844': erased 2500 values
-Column 'col_811': erased 2500 values
-Column 'col_867': erased 2500 values
-Column 'col_227': erased 2500 values
-Column 'col_549': erased 2500 values
+Column 'col_554': erased 2500 values
+Column 'col_180': erased 2500 values
+Column 'col_20': erased 2500 values
+Column 'col_184': erased 2500 values
+Column 'col_730': erased 2500 values
+Column 'col_148': erased 2500 values
+Column 'col_95': erased 2500 values
+Column 'col_211': erased 2500 values
+Column 'col_102': erased 2500 values
+Column 'col_135': erased 2500 values
+Column 'col_576': erased 2500 values
 Column 'col_928': erased 2500 values
-Column 'col_991': erased 2500 values
-Column 'col_138': erased 2500 values
-Column 'col_799': erased 2500 values
-Column 'col_842': erased 2500 values
-Column 'col_946': erased 2500 values
-Column 'col_22': erased 2500 values
-Column 'col_202': erased 2500 values
-Column 'col_784': erased 2500 values
-Column 'col_837': erased 2500 values
-Column 'col_277': erased 2500 values
-Column 'col_569': erased 2500 values
-Column 'col_670': erased 2500 values
-Column 'col_637': erased 2500 values
-Column 'col_336': erased 2500 values
-Column 'col_509': erased 2500 values
+Column 'col_381': erased 2500 values
+Column 'col_792': erased 2500 values
+Column 'col_716': erased 2500 values
+Column 'col_111': erased 2500 values
+Column 'col_366': erased 2500 values
+Column 'col_989': erased 2500 values
+Column 'col_520': erased 2500 values
+Column 'col_846': erased 2500 values
+Column 'col_812': erased 2500 values
+Column 'col_86': erased 2500 values
+Column 'col_418': erased 2500 values
+Column 'col_873': erased 2500 values
+Column 'col_195': erased 2500 values
+Column 'col_149': erased 2500 values
+Column 'col_25': erased 2500 values
+Column 'col_994': erased 2500 values
+Column 'col_119': erased 2500 values
+Column 'col_731': erased 2500 values
+Column 'col_243': erased 2500 values
+Column 'col_161': erased 2500 values
+Column 'col_737': erased 2500 values
+Column 'col_383': erased 2500 values
+Column 'col_590': erased 2500 values
+Column 'col_207': erased 2500 values
+Column 'col_889': erased 2500 values
+Column 'col_108': erased 2500 values
+Column 'col_997': erased 2500 values
+Column 'col_902': erased 2500 values
+Column 'col_850': erased 2500 values
+Column 'col_260': erased 2500 values
+Column 'col_749': erased 2500 values
+Column 'col_709': erased 2500 values
+Column 'col_665': erased 2500 values
+Column 'col_567': erased 2500 values
+Column 'col_625': erased 2500 values
+Column 'col_805': erased 2500 values
 
 First 5 rows of modified data:
-    col_1   col_2   col_3   col_4  ...  col_997  col_998  col_999  col_1000
-0   83123  898379 -615849  227575  ...   651247   128153   813417    447530
-1  874469  235553  409536 -103651  ...  -862635   341070  -755642    -68133
-2  -53807  837073  577454  430860  ...  -680639   650570  -982564    764854
-3 -756122  341072  725567  353455  ...  -790732  -624530   512289   -566843
-4  -49581  540975 -117297  645213  ...   -39635  -538787  -304251    -90121
+    col_1   col_2   col_3     col_4  ...   col_997  col_998  col_999  col_1000
+0 -823756 -704891  -28207 -263332.0  ... -657371.0  -547053   453884    -48208
+1 -703320  606106  -86912  996025.0  ...  693836.0  -773298   923511    650893
+2 -319336  272955 -850807  569561.0  ...       NaN   -66234   274094   -932437
+3  222758 -540146  744167 -256071.0  ...  225761.0  -761747  -607862   -222252
+4 -515628  -50427 -210606       NaN  ...       NaN  -782069    23359   -305737
 
 [5 rows x 1000 columns]
 
 Modified dataset saved to 'case2_erased.csv'
 
-real	0m3,397s
-user	0m4,302s
-sys	0m0,268s
+real	0m3,318s
+user	0m4,262s
+sys	0m0,223s

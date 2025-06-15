@@ -6,38 +6,38 @@ Using CPU processing...
 
 --- MNAR Rule 1 ---
 Column: col_31, Cutoff: 8000.0, pi_high: 0.7, pi_low: 0.3
-High: 4930 (49.30%), Low: 5070 (50.70%)
-Missing values to introduce: 4963 (49.63%)
+High: 4902 (49.02%), Low: 5098 (50.98%)
+Missing values to introduce: 4988 (49.88%)
 
 --- MNAR Rule 2 ---
 Column: col_32, Cutoff: 8000.0, pi_high: 0.7, pi_low: 0.3
-High: 4910 (49.10%), Low: 5090 (50.90%)
-Missing values to introduce: 4992 (49.92%)
+High: 5017 (50.17%), Low: 4983 (49.83%)
+Missing values to introduce: 5015 (50.15%)
 
 --- MNAR Rule 3 ---
 Column: col_33, Cutoff: 8000.0, pi_high: 0.7, pi_low: 0.3
-High: 5006 (50.06%), Low: 4994 (49.94%)
+High: 5010 (50.10%), Low: 4990 (49.90%)
 Missing values to introduce: 5016 (50.16%)
 
 --- MNAR Rule 4 ---
 Column: col_34, Cutoff: 8000.0, pi_high: 0.7, pi_low: 0.3
-High: 4982 (49.82%), Low: 5018 (50.18%)
-Missing values to introduce: 4956 (49.56%)
+High: 4882 (48.82%), Low: 5118 (51.18%)
+Missing values to introduce: 4856 (48.56%)
 
 --- MNAR Rule 5 ---
 Column: col_35, Cutoff: 8000.0, pi_high: 0.7, pi_low: 0.3
-High: 4971 (49.71%), Low: 5029 (50.29%)
-Missing values to introduce: 4925 (49.25%)
+High: 5013 (50.13%), Low: 4987 (49.87%)
+Missing values to introduce: 4939 (49.39%)
 
 --- Final Missingness Summary ---
-col_31: 4963 missing (49.63%)
-col_32: 4992 missing (49.92%)
+col_31: 4988 missing (49.88%)
+col_32: 5015 missing (50.15%)
 col_33: 5016 missing (50.16%)
-col_34: 4956 missing (49.56%)
-col_35: 4925 missing (49.25%)
+col_34: 4856 missing (48.56%)
+col_35: 4939 missing (49.39%)
 
 Modified dataset saved to 'case6_erased.csv'
 
-real	0m2,601s
-user	0m3,498s
-sys	0m0,275s
+real	0m2,546s
+user	0m3,423s
+sys	0m0,256s

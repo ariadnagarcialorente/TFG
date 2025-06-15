@@ -1,6 +1,6 @@
-Success: thresholds met (7047 rows, 70.5%, 9999 missing values)
-Result saved to case4_v0.1_cleaned.csv with 7047 rows.
+Success: thresholds met (7049 rows, 70.5%, 9998 missing values)
+Result saved to case4_v0.1_cleaned.csv with 7049 rows.
 
-real	0m2,347s
-user	0m3,218s
-sys	0m0,261s
+real	0m2,283s
+user	0m3,216s
+sys	0m0,245s

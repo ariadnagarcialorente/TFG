@@ -2,6 +2,6 @@ Saved cleaned dataset to: /home/ariadna/Documentos/TFG/bin/case9_v0.3_cleaned.cs
 Plot saved to: /home/ariadna/Documentos/TFG/bin/missing_distribution.png
 Final row count: 5692 (from 10000)
 
-real	0m2,835s
-user	0m6,065s
-sys	0m0,376s
+real	0m2,772s
+user	0m6,092s
+sys	0m0,317s

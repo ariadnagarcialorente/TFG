@@ -6,6 +6,6 @@ Threshold: 4.00 weighted missing values
 Results saved to /home/ariadna/Documentos/TFG/bin/case9_v0.2_cleaned.csv
 Distribution plot saved to /home/ariadna/Documentos/TFG/bin/missing_distribution.png
 
-real	0m3,285s
-user	0m6,454s
-sys	0m0,439s
+real	0m3,272s
+user	0m6,445s
+sys	0m0,410s

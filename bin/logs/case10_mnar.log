@@ -1,37 +1,11 @@
+usage: erase_generator_MNAR_GPU.py [-h] [--input INPUT] --column COLUMN
+                                   [COLUMN ...] --cutoff CUTOFF [CUTOFF ...]
+                                   --pi_high PI_HIGH [PI_HIGH ...] --pi_low
+                                   PI_LOW [PI_LOW ...] [--seed SEED]
+                                   [--output OUTPUT] [--gpu]
+erase_generator_MNAR_GPU.py: error: the following arguments are required: --column/-c, --cutoff, --pi_high, --pi_low
 CUDA not available. Will use CPU processing only.
-Loading data from case10_complete.csv...
-Dataset shape: (10000, 1000)
-Using CPU processing...
 
-
---- MNAR Rule 1 ---
-Column: col_51, Cutoff: 7000.0, pi_high: 0.6, pi_low: 0.2
-High: 4915 (49.15%), Low: 5085 (50.85%)
-Missing values to introduce: 3983 (39.83%)
-
---- MNAR Rule 2 ---
-Column: col_52, Cutoff: 7000.0, pi_high: 0.6, pi_low: 0.2
-High: 4947 (49.47%), Low: 5053 (50.53%)
-Missing values to introduce: 3948 (39.48%)
-
---- MNAR Rule 3 ---
-Column: col_53, Cutoff: 7000.0, pi_high: 0.6, pi_low: 0.2
-High: 4898 (48.98%), Low: 5102 (51.02%)
-Missing values to introduce: 3946 (39.46%)
-
---- MNAR Rule 4 ---
-Column: col_54, Cutoff: 7000.0, pi_high: 0.6, pi_low: 0.2
-High: 5002 (50.02%), Low: 4998 (49.98%)
-Missing values to introduce: 3907 (39.07%)
-
---- Final Missingness Summary ---
-col_51: 3983 missing (39.83%)
-col_52: 3948 missing (39.48%)
-col_53: 3946 missing (39.46%)
-col_54: 3907 missing (39.07%)
-
-Modified dataset saved to 'case10_erased.csv'
-
-real	0m2,563s
-user	0m3,525s
-sys	0m0,261s
+real	0m0,253s
+user	0m1,465s
+sys	0m0,041s

@@ -24,6 +24,6 @@ Traceback (most recent call last):
              ^^^^^
 FileNotFoundError: [Errno 2] No such file or directory: 'case7_erased.csv'
 
-real	0m0,899s
-user	0m3,250s
-sys	0m0,131s
+real	0m0,884s
+user	0m3,265s
+sys	0m0,115s

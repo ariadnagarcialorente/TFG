@@ -1,6 +1,6 @@
 Loading data from case2_erased.csv...
 Heatmap saved to logs/case2_heatmap_erased.png
 
-real	0m6,374s
-user	0m8,193s
-sys	0m0,518s
+real	0m6,302s
+user	0m8,141s
+sys	0m0,545s

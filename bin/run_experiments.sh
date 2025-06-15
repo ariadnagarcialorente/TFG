@@ -61,9 +61,6 @@ CASE_PARAMS=(
   # Case 6: MNAR - Strong self-dependency
   "--column col_31 col_32 col_33 col_34 col_35 --cutoff 8000 8000 8000 8000 8000 --pi_high 0.7 0.7 0.7 0.7 0.7 --pi_low 0.3 0.3 0.3 0.3 0.3"
   
-  # Case 7: Hybrid - Combined MAR+MNAR
-  "HYBRID"
-  
   # Case 8: MCAR - Medium missing (15%)
   "--num_columns 75 --percentage 15"
   
@@ -126,21 +123,6 @@ for case_idx in "${!CASE_TYPES[@]}"; do
       -i "$complete_file" \
       -o "$erased_file" \
       $PARAM --gpu
-
-  elif [[ "$CASE_TYPE" == "Hybrid" ]]; then
-    # Apply MNAR first, then MAR
-    echo "Applying hybrid pattern (MNAR + MAR)..."
-    run_and_log "${case_id}_mnar_step" python erase_generator_MNAR_GPU.py \
-      -i "$complete_file" \
-      -o "temp_mnar.csv" \
-      "${CASE_PARAMS[4]}" --gpu
-    
-    run_and_log "${case_id}_mar_step" python erase_generator_MAR_GPU.py \
-      -i "temp_mnar.csv" \
-      -o "$erased_file" \
-      "${CASE_PARAMS[2]}" --gpu
-    
-    rm -f "temp_mnar.csv"
   fi
 
   # Generate heatmap of erased data
@@ -182,7 +164,6 @@ for case_idx in "${!CASE_TYPES[@]}"; do
     # Run evaluation
     echo "  Evaluating results for $algo..."
     run_and_log "${log_label}_eval" python final_analysis.py \
-      --complete "$complete_file" \
       --erased "$erased_file" \
       --cleaned "$cleaned_file" \
       --min-rows "$min_rows" \

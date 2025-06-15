@@ -20,6 +20,6 @@ Traceback (most recent call last):
              ^^^^^
 FileNotFoundError: [Errno 2] No such file or directory: 'case7_bnb_cleaned.csv'
 
-real	0m0,925s
-user	0m3,234s
-sys	0m0,132s
+real	0m0,873s
+user	0m3,253s
+sys	0m0,105s

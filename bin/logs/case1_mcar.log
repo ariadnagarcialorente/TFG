@@ -1,73 +1,73 @@
 CUDA not available. Will use CPU processing only.
 Loading data from case1_complete.csv...
 Dataset shape: 10000 rows × 1000 columns
-Selected columns for MCAR (50): ['col_975', 'col_534', 'col_687', 'col_920', 'col_584', 'col_405', 'col_993', 'col_389', 'col_922', 'col_524', 'col_262', 'col_840', 'col_238', 'col_317', 'col_760', 'col_311', 'col_472', 'col_466', 'col_931', 'col_72', 'col_266', 'col_509', 'col_440', 'col_633', 'col_909', 'col_467', 'col_905', 'col_420', 'col_514', 'col_144', 'col_446', 'col_531', 'col_473', 'col_68', 'col_363', 'col_719', 'col_452', 'col_223', 'col_354', 'col_474', 'col_525', 'col_915', 'col_376', 'col_337', 'col_300', 'col_286', 'col_181', 'col_335', 'col_558', 'col_444']
+Selected columns for MCAR (50): ['col_122', 'col_46', 'col_280', 'col_821', 'col_141', 'col_692', 'col_511', 'col_674', 'col_164', 'col_405', 'col_722', 'col_558', 'col_248', 'col_213', 'col_653', 'col_585', 'col_189', 'col_315', 'col_598', 'col_935', 'col_786', 'col_990', 'col_234', 'col_369', 'col_703', 'col_824', 'col_68', 'col_352', 'col_531', 'col_737', 'col_427', 'col_718', 'col_24', 'col_358', 'col_346', 'col_292', 'col_524', 'col_380', 'col_5', 'col_408', 'col_950', 'col_656', 'col_167', 'col_415', 'col_321', 'col_220', 'col_319', 'col_293', 'col_233', 'col_529']
 Erasing 1000 entries per selected column (10.00% of each column)
 Using CPU processing...
 
-Column 'col_975': erased 1000 values
-Column 'col_534': erased 1000 values
-Column 'col_687': erased 1000 values
-Column 'col_920': erased 1000 values
-Column 'col_584': erased 1000 values
+Column 'col_122': erased 1000 values
+Column 'col_46': erased 1000 values
+Column 'col_280': erased 1000 values
+Column 'col_821': erased 1000 values
+Column 'col_141': erased 1000 values
+Column 'col_692': erased 1000 values
+Column 'col_511': erased 1000 values
+Column 'col_674': erased 1000 values
+Column 'col_164': erased 1000 values
 Column 'col_405': erased 1000 values
-Column 'col_993': erased 1000 values
-Column 'col_389': erased 1000 values
-Column 'col_922': erased 1000 values
-Column 'col_524': erased 1000 values
-Column 'col_262': erased 1000 values
-Column 'col_840': erased 1000 values
-Column 'col_238': erased 1000 values
-Column 'col_317': erased 1000 values
-Column 'col_760': erased 1000 values
-Column 'col_311': erased 1000 values
-Column 'col_472': erased 1000 values
-Column 'col_466': erased 1000 values
-Column 'col_931': erased 1000 values
-Column 'col_72': erased 1000 values
-Column 'col_266': erased 1000 values
-Column 'col_509': erased 1000 values
-Column 'col_440': erased 1000 values
-Column 'col_633': erased 1000 values
-Column 'col_909': erased 1000 values
-Column 'col_467': erased 1000 values
-Column 'col_905': erased 1000 values
-Column 'col_420': erased 1000 values
-Column 'col_514': erased 1000 values
-Column 'col_144': erased 1000 values
-Column 'col_446': erased 1000 values
-Column 'col_531': erased 1000 values
-Column 'col_473': erased 1000 values
-Column 'col_68': erased 1000 values
-Column 'col_363': erased 1000 values
-Column 'col_719': erased 1000 values
-Column 'col_452': erased 1000 values
-Column 'col_223': erased 1000 values
-Column 'col_354': erased 1000 values
-Column 'col_474': erased 1000 values
-Column 'col_525': erased 1000 values
-Column 'col_915': erased 1000 values
-Column 'col_376': erased 1000 values
-Column 'col_337': erased 1000 values
-Column 'col_300': erased 1000 values
-Column 'col_286': erased 1000 values
-Column 'col_181': erased 1000 values
-Column 'col_335': erased 1000 values
+Column 'col_722': erased 1000 values
 Column 'col_558': erased 1000 values
-Column 'col_444': erased 1000 values
+Column 'col_248': erased 1000 values
+Column 'col_213': erased 1000 values
+Column 'col_653': erased 1000 values
+Column 'col_585': erased 1000 values
+Column 'col_189': erased 1000 values
+Column 'col_315': erased 1000 values
+Column 'col_598': erased 1000 values
+Column 'col_935': erased 1000 values
+Column 'col_786': erased 1000 values
+Column 'col_990': erased 1000 values
+Column 'col_234': erased 1000 values
+Column 'col_369': erased 1000 values
+Column 'col_703': erased 1000 values
+Column 'col_824': erased 1000 values
+Column 'col_68': erased 1000 values
+Column 'col_352': erased 1000 values
+Column 'col_531': erased 1000 values
+Column 'col_737': erased 1000 values
+Column 'col_427': erased 1000 values
+Column 'col_718': erased 1000 values
+Column 'col_24': erased 1000 values
+Column 'col_358': erased 1000 values
+Column 'col_346': erased 1000 values
+Column 'col_292': erased 1000 values
+Column 'col_524': erased 1000 values
+Column 'col_380': erased 1000 values
+Column 'col_5': erased 1000 values
+Column 'col_408': erased 1000 values
+Column 'col_950': erased 1000 values
+Column 'col_656': erased 1000 values
+Column 'col_167': erased 1000 values
+Column 'col_415': erased 1000 values
+Column 'col_321': erased 1000 values
+Column 'col_220': erased 1000 values
+Column 'col_319': erased 1000 values
+Column 'col_293': erased 1000 values
+Column 'col_233': erased 1000 values
+Column 'col_529': erased 1000 values
 
 First 5 rows of modified data:
     col_1   col_2   col_3   col_4  ...  col_997  col_998  col_999  col_1000
-0  -39435  949373 -180674 -736800  ...   817340   661331   999895   -422756
-1  106543  153078  292342 -770195  ...    52054   244991  -517283    106840
-2  630529  675800  -72580  204680  ...  -944560   987061   846290   -116394
-3 -981357 -841893  345635 -201961  ...   249384   603651   191295   -914492
-4  382174  690105 -289642  -92208  ...   785061  -655153   -85379   -716686
+0 -745214 -165847 -112552 -662413  ...  -242640   217575  -875169    986730
+1 -641947  257481  103948  656635  ...  -741271   430943  -640693     85764
+2  642065  151758  589654  287846  ...   381838  -261490  -422658   -875990
+3  297084  348111   25842 -555590  ...  -390283   977591   853115   -174466
+4 -915582 -403346 -967638 -941149  ...   239494  -531675   463080   -149202
 
 [5 rows x 1000 columns]
 
 Modified dataset saved to 'case1_erased.csv'
 
-real	0m2,983s
-user	0m3,866s
-sys	0m0,258s
+real	0m2,936s
+user	0m3,862s
+sys	0m0,228s

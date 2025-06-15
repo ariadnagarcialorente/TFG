@@ -1,4 +1,7 @@
 from tkinter import *
+from data_MAR import open_data_MAR  # Import the new MAR interface
+from data_MCAR import open_data_MCAR 
+from data_MNAR import open_data_MNAR 
 
 def open_data_generator(data_input,root):
     data_input.withdraw()
@@ -8,7 +11,7 @@ def open_data_generator(data_input,root):
     data_generator.configure(bg='#F5E0C8')
 
     Label(data_generator,
-          text="Choose Type of data Data:",
+          text="Choose Type of Data:",
           anchor=CENTER,
           bg='#E6B7A9',
           height=3,
@@ -22,9 +25,10 @@ def open_data_generator(data_input,root):
     button_frame = Frame(data_generator, bg='#F5E0C8')
     button_frame.pack(pady=20)
 
+    # Updated MAR button command
     Button(button_frame,
            text="MAR",
-           command=lambda: print("Button 1 clicked"),
+           command=lambda: open_data_MAR(data_generator, root),
            bg='#E6B7A9',
            height=2,
            width=20,
@@ -36,7 +40,7 @@ def open_data_generator(data_input,root):
 
     Button(button_frame,
            text="MCAR",
-           command=lambda: print("Button 2 clicked"),
+           command=lambda: open_data_MCAR(data_generator, root),
            bg='#E6B7A9',
            height=2,
            width=20,
@@ -45,9 +49,10 @@ def open_data_generator(data_input,root):
            cursor="hand2",
            fg='black',
            relief=RAISED).pack(side=LEFT, padx=10)
+    
     Button(button_frame,
            text="MNAR",
-           command=lambda: print("Button 3 clicked"),
+           command=lambda: open_data_MNAR(data_generator, root),
            bg='#E6B7A9',
            height=2,
            width=20,

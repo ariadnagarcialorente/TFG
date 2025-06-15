@@ -1,6 +1,6 @@
 Program ended successfully: 9000
 Cleaned dataset saved to 'cleaned_dataset.csv' with 9000 rows
 
-real	0m3,867s
-user	0m5,983s
-sys	0m0,351s
+real	0m3,735s
+user	0m5,891s
+sys	0m0,323s

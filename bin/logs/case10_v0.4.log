@@ -10,6 +10,6 @@ Constraints: NOT MET
 Removed columns: col_1000, col_101, col_102, col_103, col_984... (+195 more)
 Output saved to: /home/ariadna/Documentos/TFG/bin/case10_v0.4_cleaned.csv
 
-real	0m7,793s
-user	0m5,837s
-sys	0m3,127s
+real	0m7,699s
+user	0m5,814s
+sys	0m3,126s

@@ -28,6 +28,6 @@ Traceback (most recent call last):
     raise FileNotFoundError(f"Input file not found: {args.input}")
 FileNotFoundError: Input file not found: case7_erased.csv
 
-real	0m0,932s
-user	0m3,281s
-sys	0m0,132s
+real	0m0,870s
+user	0m3,246s
+sys	0m0,124s

@@ -9,6 +9,6 @@ Branch-and-bound complete.
 Optimal solution cost: 0
 Cleaned dataset saved to: case1_bnb_cleaned.csv
 
-real	0m2,810s
-user	0m3,648s
-sys	0m0,387s
+real	0m2,792s
+user	0m3,714s
+sys	0m0,295s

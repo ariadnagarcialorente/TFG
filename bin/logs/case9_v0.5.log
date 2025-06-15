@@ -5,6 +5,6 @@ Rows retained: 9500/10000 (95.0%)
 Constraints: NOT MET
 Saved to /home/ariadna/Documentos/TFG/bin/case9_v0.5_cleaned.csv
 
-real	0m17,693s
-user	0m11,684s
-sys	0m7,234s
+real	0m17,173s
+user	0m11,446s
+sys	0m6,947s

@@ -6,26 +6,26 @@ Using CPU processing...
 
 --- MNAR Rule 1 ---
 Column: col_21, Cutoff: 6000.0, pi_high: 0.4, pi_low: 0.15
-High: 5076 (50.76%), Low: 4924 (49.24%)
-Missing values to introduce: 2802 (28.02%)
+High: 4956 (49.56%), Low: 5044 (50.44%)
+Missing values to introduce: 2709 (27.09%)
 
 --- MNAR Rule 2 ---
 Column: col_22, Cutoff: 6000.0, pi_high: 0.4, pi_low: 0.15
-High: 5003 (50.03%), Low: 4997 (49.97%)
-Missing values to introduce: 2744 (27.44%)
+High: 4963 (49.63%), Low: 5037 (50.37%)
+Missing values to introduce: 2681 (26.81%)
 
 --- MNAR Rule 3 ---
 Column: col_23, Cutoff: 6000.0, pi_high: 0.4, pi_low: 0.15
-High: 4927 (49.27%), Low: 5073 (50.73%)
-Missing values to introduce: 2757 (27.57%)
+High: 4955 (49.55%), Low: 5045 (50.45%)
+Missing values to introduce: 2765 (27.65%)
 
 --- Final Missingness Summary ---
-col_21: 2802 missing (28.02%)
-col_22: 2744 missing (27.44%)
-col_23: 2757 missing (27.57%)
+col_21: 2709 missing (27.09%)
+col_22: 2681 missing (26.81%)
+col_23: 2765 missing (27.65%)
 
 Modified dataset saved to 'case5_erased.csv'
 
-real	0m2,550s
-user	0m3,473s
-sys	0m0,269s
+real	0m2,499s
+user	0m3,520s
+sys	0m0,233s

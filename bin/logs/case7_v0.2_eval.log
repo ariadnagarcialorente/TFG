@@ -1,5 +1,5 @@
 Traceback (most recent call last):
-  File "/home/ariadna/Documentos/TFG/bin/final_analysis.py", line 124, in <module>
+  File "/home/ariadna/Documentos/TFG/bin/final_analysis.py", line 135, in <module>
     calculate_score(
   File "/home/ariadna/Documentos/TFG/bin/final_analysis.py", line 8, in calculate_score
     erased = pd.read_csv(erased_path)
@@ -21,6 +21,6 @@ Traceback (most recent call last):
              ^^^^^
 FileNotFoundError: [Errno 2] No such file or directory: 'case7_erased.csv'
 
-real	0m0,876s
-user	0m1,892s
-sys	0m0,124s
+real	0m0,249s
+user	0m1,455s
+sys	0m0,048s
