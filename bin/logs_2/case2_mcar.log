@@ -1,0 +1,123 @@
+CUDA not available. Will use CPU processing only.
+Loading data from case2_complete.csv...
+Dataset shape: 10000 rows × 1000 columns
+Selected columns for MCAR (100): ['col_512', 'col_939', 'col_207', 'col_929', 'col_859', 'col_782', 'col_56', 'col_741', 'col_189', 'col_73', 'col_987', 'col_224', 'col_636', 'col_772', 'col_787', 'col_459', 'col_790', 'col_961', 'col_341', 'col_592', 'col_725', 'col_498', 'col_540', 'col_153', 'col_211', 'col_897', 'col_116', 'col_578', 'col_286', 'col_251', 'col_338', 'col_176', 'col_894', 'col_817', 'col_413', 'col_60', 'col_979', 'col_125', 'col_361', 'col_444', 'col_677', 'col_244', 'col_821', 'col_398', 'col_406', 'col_562', 'col_882', 'col_44', 'col_339', 'col_999', 'col_456', 'col_771', 'col_146', 'col_692', 'col_57', 'col_114', 'col_697', 'col_462', 'col_960', 'col_54', 'col_650', 'col_657', 'col_139', 'col_778', 'col_365', 'col_553', 'col_958', 'col_944', 'col_599', 'col_133', 'col_306', 'col_446', 'col_417', 'col_367', 'col_359', 'col_791', 'col_527', 'col_5', 'col_633', 'col_705', 'col_985', 'col_829', 'col_119', 'col_39', 'col_530', 'col_399', 'col_260', 'col_145', 'col_192', 'col_494', 'col_759', 'col_528', 'col_90', 'col_368', 'col_954', 'col_959', 'col_695', 'col_432', 'col_992', 'col_131']
+Erasing 2500 entries per selected column (25.00% of each column)
+Using CPU processing...
+
+Column 'col_512': erased 2500 values
+Column 'col_939': erased 2500 values
+Column 'col_207': erased 2500 values
+Column 'col_929': erased 2500 values
+Column 'col_859': erased 2500 values
+Column 'col_782': erased 2500 values
+Column 'col_56': erased 2500 values
+Column 'col_741': erased 2500 values
+Column 'col_189': erased 2500 values
+Column 'col_73': erased 2500 values
+Column 'col_987': erased 2500 values
+Column 'col_224': erased 2500 values
+Column 'col_636': erased 2500 values
+Column 'col_772': erased 2500 values
+Column 'col_787': erased 2500 values
+Column 'col_459': erased 2500 values
+Column 'col_790': erased 2500 values
+Column 'col_961': erased 2500 values
+Column 'col_341': erased 2500 values
+Column 'col_592': erased 2500 values
+Column 'col_725': erased 2500 values
+Column 'col_498': erased 2500 values
+Column 'col_540': erased 2500 values
+Column 'col_153': erased 2500 values
+Column 'col_211': erased 2500 values
+Column 'col_897': erased 2500 values
+Column 'col_116': erased 2500 values
+Column 'col_578': erased 2500 values
+Column 'col_286': erased 2500 values
+Column 'col_251': erased 2500 values
+Column 'col_338': erased 2500 values
+Column 'col_176': erased 2500 values
+Column 'col_894': erased 2500 values
+Column 'col_817': erased 2500 values
+Column 'col_413': erased 2500 values
+Column 'col_60': erased 2500 values
+Column 'col_979': erased 2500 values
+Column 'col_125': erased 2500 values
+Column 'col_361': erased 2500 values
+Column 'col_444': erased 2500 values
+Column 'col_677': erased 2500 values
+Column 'col_244': erased 2500 values
+Column 'col_821': erased 2500 values
+Column 'col_398': erased 2500 values
+Column 'col_406': erased 2500 values
+Column 'col_562': erased 2500 values
+Column 'col_882': erased 2500 values
+Column 'col_44': erased 2500 values
+Column 'col_339': erased 2500 values
+Column 'col_999': erased 2500 values
+Column 'col_456': erased 2500 values
+Column 'col_771': erased 2500 values
+Column 'col_146': erased 2500 values
+Column 'col_692': erased 2500 values
+Column 'col_57': erased 2500 values
+Column 'col_114': erased 2500 values
+Column 'col_697': erased 2500 values
+Column 'col_462': erased 2500 values
+Column 'col_960': erased 2500 values
+Column 'col_54': erased 2500 values
+Column 'col_650': erased 2500 values
+Column 'col_657': erased 2500 values
+Column 'col_139': erased 2500 values
+Column 'col_778': erased 2500 values
+Column 'col_365': erased 2500 values
+Column 'col_553': erased 2500 values
+Column 'col_958': erased 2500 values
+Column 'col_944': erased 2500 values
+Column 'col_599': erased 2500 values
+Column 'col_133': erased 2500 values
+Column 'col_306': erased 2500 values
+Column 'col_446': erased 2500 values
+Column 'col_417': erased 2500 values
+Column 'col_367': erased 2500 values
+Column 'col_359': erased 2500 values
+Column 'col_791': erased 2500 values
+Column 'col_527': erased 2500 values
+Column 'col_5': erased 2500 values
+Column 'col_633': erased 2500 values
+Column 'col_705': erased 2500 values
+Column 'col_985': erased 2500 values
+Column 'col_829': erased 2500 values
+Column 'col_119': erased 2500 values
+Column 'col_39': erased 2500 values
+Column 'col_530': erased 2500 values
+Column 'col_399': erased 2500 values
+Column 'col_260': erased 2500 values
+Column 'col_145': erased 2500 values
+Column 'col_192': erased 2500 values
+Column 'col_494': erased 2500 values
+Column 'col_759': erased 2500 values
+Column 'col_528': erased 2500 values
+Column 'col_90': erased 2500 values
+Column 'col_368': erased 2500 values
+Column 'col_954': erased 2500 values
+Column 'col_959': erased 2500 values
+Column 'col_695': erased 2500 values
+Column 'col_432': erased 2500 values
+Column 'col_992': erased 2500 values
+Column 'col_131': erased 2500 values
+
+First 5 rows of modified data:
+    col_1   col_2   col_3   col_4  ...  col_997  col_998   col_999  col_1000
+0  500046  882026 -216152 -349284  ...   747734   748761  788839.0     54698
+1  589940  333212 -198697  808483  ...  -168353   496081       NaN     18793
+2  896588 -159405 -366733  171864  ...    87957  -173070       NaN    638404
+3 -423153  893490  989855  246751  ...  -398271  -478934       NaN   -591279
+4  -69203  110516  868605  973961  ...  -712390   985794 -117665.0   -953137
+
+[5 rows x 1000 columns]
+
+Modified dataset saved to 'case2_erased.csv'
+
+real	0m3,155s
+user	0m4,053s
+sys	0m0,263s

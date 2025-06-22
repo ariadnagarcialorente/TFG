@@ -1,0 +1,15 @@
+Starting optimal branch-and-bound optimization...
+New best solution found with cost 0
+
+Branch-and-bound complete.
+Nodes explored: 1
+Nodes pruned: 0
+Total iterations: 1
+Optimal solution cost: 0
+Final dataset shape: (10000, 1000)
+Max column missing rate: 0.100
+Cleaned dataset saved to: case1_bnb_cleaned.csv
+
+real	0m2,744s
+user	0m3,638s
+sys	0m0,336s

@@ -1,0 +1,8 @@
+Thresholds not fully met.
+  Percent: 95.0% < 90.0%
+  Total missing: 45110 > 10000
+Result saved to case1_v0.1_cleaned.csv with 9499 rows.
+
+real	0m2,677s
+user	0m3,605s
+sys	0m0,311s

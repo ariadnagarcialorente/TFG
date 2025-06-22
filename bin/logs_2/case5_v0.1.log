@@ -1,0 +1,8 @@
+Thresholds not fully met.
+  Rows: 10000 < 9500
+  Percent: 100.0% < 90.0%
+Result saved to case5_v0.1_cleaned.csv with 10000 rows.
+
+real	0m2,564s
+user	0m3,502s
+sys	0m0,298s

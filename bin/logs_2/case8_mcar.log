@@ -1,0 +1,9 @@
+usage: erase_generator_MCAR_GPU.py [-h] [--input INPUT] --num_columns
+                                   NUM_COLUMNS --percentage PERCENTAGE
+                                   [--output OUTPUT] [--gpu]
+erase_generator_MCAR_GPU.py: error: the following arguments are required: --num_columns/-n, --percentage/-p
+CUDA not available. Will use CPU processing only.
+
+real	0m0,284s
+user	0m1,396s
+sys	0m0,056s

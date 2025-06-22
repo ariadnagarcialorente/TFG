@@ -1,0 +1,14 @@
+usage: erase_generator_MAR_GPU.py [-h] [--input INPUT] --reference_column
+                                  REFERENCE_COLUMN [REFERENCE_COLUMN ...]
+                                  --target_column TARGET_COLUMN
+                                  [TARGET_COLUMN ...]
+                                  [--cutoff CUTOFF [CUTOFF ...]]
+                                  [--pi_high PI_HIGH [PI_HIGH ...]]
+                                  [--pi_low PI_LOW [PI_LOW ...]] [--seed SEED]
+                                  [--output OUTPUT] [--gpu]
+erase_generator_MAR_GPU.py: error: the following arguments are required: --reference_column/-r, --target_column/-t
+CUDA not available. Will use CPU processing only.
+
+real	0m0,291s
+user	0m1,418s
+sys	0m0,045s

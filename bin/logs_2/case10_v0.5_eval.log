@@ -1,0 +1,33 @@
+[DEBUG] Erased missing: 15784
+[DEBUG] Cleaned missing: 14033
+
+================= ERASED COLUMNS =================
+Total erased columns (200): col_163, col_311, col_207, col_277, col_257, col_236, col_295, col_282, col_197, col_208, col_132, col_239, col_143, col_175, col_176, col_125, col_213, col_274, col_201, col_238, col_248, col_976, col_152, col_179, col_156, col_267, col_969, col_293, col_980, col_165, col_138, col_212, col_288, col_206, col_221, col_174, col_268, col_225, col_170, col_171, col_136, col_127, col_266, col_281, col_202, col_284, col_280, col_199, col_250, col_249, col_296, col_164, col_278, col_223, col_141, col_196, col_142, col_177, col_258, col_189, col_153, col_283, col_193, col_271, col_312, col_292, col_276, col_233, col_185, col_184, col_214, col_309, col_137, col_237, col_231, col_272, col_135, col_133, col_161, col_241, col_229, col_178, col_290, col_254, col_173, col_146, col_158, col_294, col_251, col_151, col_131, col_129, col_128, col_155, col_270, col_973, col_210, col_126, col_148, col_228, col_103, col_195, col_167, col_169, col_255, col_162, col_145, col_287, col_220, col_234, col_259, col_200, col_209, col_232, col_149, col_123, col_217, col_144, col_286, col_224, col_134, col_101, col_240, col_983, col_972, col_244, col_122, col_187, col_242, col_192, col_982, col_264, col_243, col_971, col_140, col_166, col_279, col_139, col_246, col_265, col_260, col_186, col_159, col_227, col_245, col_181, col_261, col_289, col_198, col_121, col_263, col_974, col_102, col_310, col_262, col_975, col_247, col_150, col_979, col_977, col_230, col_273, col_191, col_984, col_269, col_147, col_216, col_190, col_204, col_154, col_226, col_160, col_275, col_172, col_1000, col_219, col_291, col_168, col_256, col_194, col_222, col_970, col_252, col_215, col_978, col_235, col_130, col_981, col_203, col_253, col_218, col_285, col_180, col_205, col_182, col_157, col_188, col_211, col_124, col_183
+
+No important columns were erased
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 15784 missing
+Cleaned: 9500 rows, 800 columns, 14033 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 15784
+  Cleaned Missing (including penalized drops): 14033
+  Reduction: 1751 (11.1%)
+
+Retention Rates:
+  Rows: 95.0%
+  Columns: 80.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 3.3/30
+Data Retention: 17.5/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+60.8/100
+
+
+real	0m1,269s
+user	0m2,280s
+sys	0m0,165s

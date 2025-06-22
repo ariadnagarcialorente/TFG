@@ -1,0 +1,2033 @@
+=== File: *eval.txt ===
+=== Added at: vie 20 jun 2025 08:46:58 CEST ===
+
+=== File: case10_bnb_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 15784 missing
+Cleaned: 10000 rows, 1000 columns, 31568 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 15784
+  Cleaned Missing (including penalized drops): 15784
+  Reduction: 0 (0.0%)
+
+Retention Rates:
+  Rows: 100.0%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 20.0/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+60.0/100
+
+
+real	0m1,415s
+user	0m2,480s
+sys	0m0,175s
+
+=== File: case10_v0.0_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 15784 missing
+Cleaned: 9000 rows, 1000 columns, 25066 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 15784
+  Cleaned Missing (including penalized drops): 12533
+  Reduction: 3251 (20.6%)
+
+Retention Rates:
+  Rows: 90.0%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 19.0/20
+Important Columns Bonus: 2.1/10
+================== TOTAL SCORE ===================
+61.1/100
+
+
+real	0m1,337s
+user	0m2,430s
+sys	0m0,165s
+
+=== File: case10_v0.1_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 15784 missing
+Cleaned: 8097 rows, 1000 columns, 20000 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 15784
+  Cleaned Missing (including penalized drops): 10000
+  Reduction: 5784 (36.6%)
+
+Retention Rates:
+  Rows: 81.0%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 32.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 18.1/20
+Important Columns Bonus: 3.7/10
+================== TOTAL SCORE ===================
+53.8/100
+
+
+real	0m1,294s
+user	0m2,384s
+sys	0m0,163s
+
+=== File: case10_v0.2_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 15784 missing
+Cleaned: 8273 rows, 1000 columns, 20704 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 15784
+  Cleaned Missing (including penalized drops): 10352
+  Reduction: 5432 (34.4%)
+
+Retention Rates:
+  Rows: 82.7%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 32.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 18.3/20
+Important Columns Bonus: 3.4/10
+================== TOTAL SCORE ===================
+53.7/100
+
+
+real	0m1,317s
+user	0m2,401s
+sys	0m0,161s
+
+=== File: case10_v0.3_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 15784 missing
+Cleaned: 5453 rows, 1000 columns, 20000 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 15784
+  Cleaned Missing (including penalized drops): 10000
+  Reduction: 5784 (36.6%)
+
+Retention Rates:
+  Rows: 54.5%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 32.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 15.5/20
+Important Columns Bonus: 3.7/10
+================== TOTAL SCORE ===================
+51.1/100
+
+
+real	0m1,145s
+user	0m2,253s
+sys	0m0,148s
+
+=== File: case10_v0.4_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 15784 missing
+Cleaned: 9500 rows, 800 columns, 28066 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 15784
+  Cleaned Missing (including penalized drops): 14033
+  Reduction: 1751 (11.1%)
+
+Retention Rates:
+  Rows: 95.0%
+  Columns: 80.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 17.5/20
+Important Columns Bonus: 1.1/10
+================== TOTAL SCORE ===================
+58.6/100
+
+
+real	0m1,278s
+user	0m2,362s
+sys	0m0,161s
+
+=== File: case10_v0.5_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 15784 missing
+Cleaned: 9500 rows, 800 columns, 28066 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 15784
+  Cleaned Missing (including penalized drops): 14033
+  Reduction: 1751 (11.1%)
+
+Retention Rates:
+  Rows: 95.0%
+  Columns: 80.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 17.5/20
+Important Columns Bonus: 1.1/10
+================== TOTAL SCORE ===================
+58.6/100
+
+
+real	0m1,263s
+user	0m2,356s
+sys	0m0,152s
+
+=== File: case1_bnb_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 50000 missing
+Cleaned: 10000 rows, 1000 columns, 54000 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 4000
+  Cleaned Missing (including penalized drops): 4000
+  Reduction: 0 (0.0%)
+
+Retention Rates:
+  Rows: 100.0%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 32.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 20.0/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+52.0/100
+
+
+real	0m1,442s
+user	0m2,457s
+sys	0m0,219s
+
+=== File: case1_v0.0_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 50000 missing
+Cleaned: 9000 rows, 1000 columns, 44366 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 4000
+  Cleaned Missing (including penalized drops): 3308
+  Reduction: 692 (17.3%)
+
+Retention Rates:
+  Rows: 90.0%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 3.4/30
+Data Retention: 19.0/20
+Important Columns Bonus: 1.7/10
+================== TOTAL SCORE ===================
+64.1/100
+
+
+real	0m1,380s
+user	0m2,436s
+sys	0m0,195s
+
+=== File: case1_v0.1_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 50000 missing
+Cleaned: 3522 rows, 1000 columns, 10775 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 4000
+  Cleaned Missing (including penalized drops): 777
+  Reduction: 3223 (80.6%)
+
+Retention Rates:
+  Rows: 35.2%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 24.0/40
+Missing Value Reduction: 23.5/30
+Data Retention: 13.5/20
+Important Columns Bonus: 8.1/10
+================== TOTAL SCORE ===================
+69.1/100
+
+
+real	0m1,078s
+user	0m2,148s
+sys	0m0,166s
+
+=== File: case1_v0.2_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 50000 missing
+Cleaned: 8119 rows, 1000 columns, 37059 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 4000
+  Cleaned Missing (including penalized drops): 2311
+  Reduction: 1689 (42.2%)
+
+Retention Rates:
+  Rows: 81.2%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 32.0/40
+Missing Value Reduction: 7.8/30
+Data Retention: 18.1/20
+Important Columns Bonus: 4.2/10
+================== TOTAL SCORE ===================
+62.1/100
+
+
+real	0m1,331s
+user	0m2,349s
+sys	0m0,199s
+
+=== File: case1_v0.3_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 50000 missing
+Cleaned: 1321 rows, 1000 columns, 11027 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 4000
+  Cleaned Missing (including penalized drops): 1028
+  Reduction: 2972 (74.3%)
+
+Retention Rates:
+  Rows: 13.2%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 24.0/40
+Missing Value Reduction: 23.4/30
+Data Retention: 11.3/20
+Important Columns Bonus: 7.4/10
+================== TOTAL SCORE ===================
+66.1/100
+
+
+real	0m0,948s
+user	0m2,050s
+sys	0m0,152s
+
+=== File: case1_v0.4_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 50000 missing
+Cleaned: 10000 rows, 960 columns, 14000 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 4000
+  Cleaned Missing (including penalized drops): 4000
+  Reduction: 0 (0.0%)
+
+Retention Rates:
+  Rows: 100.0%
+  Columns: 96.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 21.6/30
+Data Retention: 19.6/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+81.2/100
+
+
+real	0m1,394s
+user	0m2,439s
+sys	0m0,199s
+
+=== File: case1_v0.5_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 50000 missing
+Cleaned: 9719 rows, 961 columns, 13455 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 4000
+  Cleaned Missing (including penalized drops): 3457
+  Reduction: 543 (13.6%)
+
+Retention Rates:
+  Rows: 97.2%
+  Columns: 96.1%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 21.9/30
+Data Retention: 19.3/20
+Important Columns Bonus: 1.4/10
+================== TOTAL SCORE ===================
+82.6/100
+
+
+real	0m1,384s
+user	0m2,437s
+sys	0m0,188s
+
+=== File: case2_bnb_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 250000 missing
+Cleaned: 10000 rows, 1000 columns, 267500 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 17500
+  Cleaned Missing (including penalized drops): 17500
+  Reduction: 0 (0.0%)
+
+Retention Rates:
+  Rows: 100.0%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 32.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 20.0/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+52.0/100
+
+
+real	0m1,462s
+user	0m2,490s
+sys	0m0,225s
+
+=== File: case2_v0.0_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 250000 missing
+Cleaned: 9000 rows, 1000 columns, 232421 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 17500
+  Cleaned Missing (including penalized drops): 15243
+  Reduction: 2257 (12.9%)
+
+Retention Rates:
+  Rows: 90.0%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 32.0/40
+Missing Value Reduction: 2.1/30
+Data Retention: 19.0/20
+Important Columns Bonus: 1.3/10
+================== TOTAL SCORE ===================
+54.4/100
+
+
+real	0m1,410s
+user	0m2,473s
+sys	0m0,191s
+
+=== File: case2_v0.1_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 250000 missing
+Cleaned: 596 rows, 1000 columns, 10732 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 17500
+  Cleaned Missing (including penalized drops): 741
+  Reduction: 16759 (95.8%)
+
+Retention Rates:
+  Rows: 6.0%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 24.0/40
+Missing Value Reduction: 28.7/30
+Data Retention: 10.6/20
+Important Columns Bonus: 9.6/10
+================== TOTAL SCORE ===================
+72.9/100
+
+
+real	0m0,935s
+user	0m2,036s
+sys	0m0,154s
+
+=== File: case2_v0.2_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 250000 missing
+Cleaned: 7834 rows, 1000 columns, 195308 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 17500
+  Cleaned Missing (including penalized drops): 12022
+  Reduction: 5478 (31.3%)
+
+Retention Rates:
+  Rows: 78.3%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 24.0/40
+Missing Value Reduction: 6.6/30
+Data Retention: 17.8/20
+Important Columns Bonus: 3.1/10
+================== TOTAL SCORE ===================
+51.5/100
+
+
+real	0m1,334s
+user	0m2,385s
+sys	0m0,203s
+
+=== File: case2_v0.3_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 250000 missing
+Cleaned: 327 rows, 1000 columns, 10789 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 17500
+  Cleaned Missing (including penalized drops): 805
+  Reduction: 16695 (95.4%)
+
+Retention Rates:
+  Rows: 3.3%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 24.0/40
+Missing Value Reduction: 28.7/30
+Data Retention: 10.3/20
+Important Columns Bonus: 9.5/10
+================== TOTAL SCORE ===================
+72.6/100
+
+
+real	0m0,908s
+user	0m1,997s
+sys	0m0,160s
+
+=== File: case2_v0.4_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 250000 missing
+Cleaned: 9500 rows, 800 columns, 30718 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 17500
+  Cleaned Missing (including penalized drops): 15359
+  Reduction: 2141 (12.2%)
+
+Retention Rates:
+  Rows: 95.0%
+  Columns: 80.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 26.3/30
+Data Retention: 17.5/20
+Important Columns Bonus: 1.2/10
+================== TOTAL SCORE ===================
+85.0/100
+
+
+real	0m1,312s
+user	0m2,335s
+sys	0m0,187s
+
+=== File: case2_v0.5_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 250000 missing
+Cleaned: 9500 rows, 800 columns, 30718 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 17500
+  Cleaned Missing (including penalized drops): 15359
+  Reduction: 2141 (12.2%)
+
+Retention Rates:
+  Rows: 95.0%
+  Columns: 80.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 26.3/30
+Data Retention: 17.5/20
+Important Columns Bonus: 1.2/10
+================== TOTAL SCORE ===================
+85.0/100
+
+
+real	0m1,313s
+user	0m2,376s
+sys	0m0,191s
+
+=== File: case3_bnb_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 5913 missing
+Cleaned: 10000 rows, 1000 columns, 11826 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 5913
+  Cleaned Missing (including penalized drops): 5913
+  Reduction: 0 (0.0%)
+
+Retention Rates:
+  Rows: 100.0%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 20.0/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+60.0/100
+
+
+real	0m1,325s
+user	0m2,427s
+sys	0m0,143s
+
+=== File: case3_v0.0_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 5913 missing
+Cleaned: 9000 rows, 1000 columns, 7660 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 5913
+  Cleaned Missing (including penalized drops): 3830
+  Reduction: 2083 (35.2%)
+
+Retention Rates:
+  Rows: 90.0%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 19.0/20
+Important Columns Bonus: 3.5/10
+================== TOTAL SCORE ===================
+62.5/100
+
+
+real	0m1,289s
+user	0m2,390s
+sys	0m0,140s
+
+=== File: case3_v0.1_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 5913 missing
+Cleaned: 9000 rows, 1000 columns, 7660 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 5913
+  Cleaned Missing (including penalized drops): 3830
+  Reduction: 2083 (35.2%)
+
+Retention Rates:
+  Rows: 90.0%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 19.0/20
+Important Columns Bonus: 3.5/10
+================== TOTAL SCORE ===================
+62.5/100
+
+
+real	0m1,284s
+user	0m2,386s
+sys	0m0,146s
+
+=== File: case3_v0.2_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 5913 missing
+Cleaned: 8959 rows, 1000 columns, 7496 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 5913
+  Cleaned Missing (including penalized drops): 3748
+  Reduction: 2165 (36.6%)
+
+Retention Rates:
+  Rows: 89.6%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 32.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 19.0/20
+Important Columns Bonus: 3.7/10
+================== TOTAL SCORE ===================
+54.6/100
+
+
+real	0m1,295s
+user	0m2,400s
+sys	0m0,150s
+
+=== File: case3_v0.3_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 5913 missing
+Cleaned: 7500 rows, 1000 columns, 10790 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 5913
+  Cleaned Missing (including penalized drops): 5395
+  Reduction: 518 (8.8%)
+
+Retention Rates:
+  Rows: 75.0%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 32.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 17.5/20
+Important Columns Bonus: 0.9/10
+================== TOTAL SCORE ===================
+50.4/100
+
+
+real	0m1,216s
+user	0m2,345s
+sys	0m0,127s
+
+=== File: case3_v0.4_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 5913 missing
+Cleaned: 10000 rows, 1000 columns, 11826 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 5913
+  Cleaned Missing (including penalized drops): 5913
+  Reduction: 0 (0.0%)
+
+Retention Rates:
+  Rows: 100.0%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 20.0/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+60.0/100
+
+
+real	0m1,365s
+user	0m2,472s
+sys	0m0,148s
+
+=== File: case3_v0.5_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 5913 missing
+Cleaned: 10000 rows, 1000 columns, 11826 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 5913
+  Cleaned Missing (including penalized drops): 5913
+  Reduction: 0 (0.0%)
+
+Retention Rates:
+  Rows: 100.0%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 20.0/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+60.0/100
+
+
+real	0m1,321s
+user	0m2,414s
+sys	0m0,149s
+
+=== File: case4_bnb_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 19776 missing
+Cleaned: 10000 rows, 1000 columns, 39552 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 19776
+  Cleaned Missing (including penalized drops): 19776
+  Reduction: 0 (0.0%)
+
+Retention Rates:
+  Rows: 100.0%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 20.0/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+60.0/100
+
+
+real	0m1,401s
+user	0m2,482s
+sys	0m0,174s
+
+=== File: case4_v0.0_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 19776 missing
+Cleaned: 9000 rows, 1000 columns, 31702 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 19776
+  Cleaned Missing (including penalized drops): 15851
+  Reduction: 3925 (19.8%)
+
+Retention Rates:
+  Rows: 90.0%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 19.0/20
+Important Columns Bonus: 2.0/10
+================== TOTAL SCORE ===================
+61.0/100
+
+
+real	0m1,367s
+user	0m2,415s
+sys	0m0,165s
+
+=== File: case4_v0.1_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 19776 missing
+Cleaned: 7049 rows, 1000 columns, 19996 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 19776
+  Cleaned Missing (including penalized drops): 9998
+  Reduction: 9778 (49.4%)
+
+Retention Rates:
+  Rows: 70.5%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 32.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 17.0/20
+Important Columns Bonus: 4.9/10
+================== TOTAL SCORE ===================
+54.0/100
+
+
+real	0m1,227s
+user	0m2,321s
+sys	0m0,159s
+
+=== File: case4_v0.2_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 19776 missing
+Cleaned: 9162 rows, 1000 columns, 32674 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 19776
+  Cleaned Missing (including penalized drops): 16337
+  Reduction: 3439 (17.4%)
+
+Retention Rates:
+  Rows: 91.6%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 19.2/20
+Important Columns Bonus: 1.7/10
+================== TOTAL SCORE ===================
+60.9/100
+
+
+real	0m1,342s
+user	0m2,436s
+sys	0m0,151s
+
+=== File: case4_v0.3_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 19776 missing
+Cleaned: 3656 rows, 1000 columns, 19996 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 19776
+  Cleaned Missing (including penalized drops): 9998
+  Reduction: 9778 (49.4%)
+
+Retention Rates:
+  Rows: 36.6%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 24.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 13.7/20
+Important Columns Bonus: 4.9/10
+================== TOTAL SCORE ===================
+42.6/100
+
+
+real	0m1,036s
+user	0m2,153s
+sys	0m0,137s
+
+=== File: case4_v0.4_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 19776 missing
+Cleaned: 9500 rows, 800 columns, 35378 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 19776
+  Cleaned Missing (including penalized drops): 17689
+  Reduction: 2087 (10.6%)
+
+Retention Rates:
+  Rows: 95.0%
+  Columns: 80.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 17.5/20
+Important Columns Bonus: 1.1/10
+================== TOTAL SCORE ===================
+58.6/100
+
+
+real	0m1,259s
+user	0m2,330s
+sys	0m0,161s
+
+=== File: case4_v0.5_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 19776 missing
+Cleaned: 9500 rows, 800 columns, 35378 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 19776
+  Cleaned Missing (including penalized drops): 17689
+  Reduction: 2087 (10.6%)
+
+Retention Rates:
+  Rows: 95.0%
+  Columns: 80.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 17.5/20
+Important Columns Bonus: 1.1/10
+================== TOTAL SCORE ===================
+58.6/100
+
+
+real	0m1,276s
+user	0m2,359s
+sys	0m0,170s
+
+=== File: case5_bnb_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 8155 missing
+Cleaned: 10000 rows, 1000 columns, 16310 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 8155
+  Cleaned Missing (including penalized drops): 8155
+  Reduction: 0 (0.0%)
+
+Retention Rates:
+  Rows: 100.0%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 20.0/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+60.0/100
+
+
+real	0m1,378s
+user	0m2,450s
+sys	0m0,172s
+
+=== File: case5_v0.0_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 8155 missing
+Cleaned: 9000 rows, 1000 columns, 11884 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 8155
+  Cleaned Missing (including penalized drops): 5942
+  Reduction: 2213 (27.1%)
+
+Retention Rates:
+  Rows: 90.0%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 19.0/20
+Important Columns Bonus: 2.7/10
+================== TOTAL SCORE ===================
+61.7/100
+
+
+real	0m1,339s
+user	0m2,381s
+sys	0m0,183s
+
+=== File: case5_v0.1_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 8155 missing
+Cleaned: 9000 rows, 1000 columns, 11884 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 8155
+  Cleaned Missing (including penalized drops): 5942
+  Reduction: 2213 (27.1%)
+
+Retention Rates:
+  Rows: 90.0%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 19.0/20
+Important Columns Bonus: 2.7/10
+================== TOTAL SCORE ===================
+61.7/100
+
+
+real	0m1,333s
+user	0m2,429s
+sys	0m0,156s
+
+=== File: case5_v0.2_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 8155 missing
+Cleaned: 8175 rows, 1000 columns, 8584 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 8155
+  Cleaned Missing (including penalized drops): 4292
+  Reduction: 3863 (47.4%)
+
+Retention Rates:
+  Rows: 81.8%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 32.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 18.2/20
+Important Columns Bonus: 4.7/10
+================== TOTAL SCORE ===================
+54.9/100
+
+
+real	0m1,286s
+user	0m2,365s
+sys	0m0,173s
+
+=== File: case5_v0.3_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 8155 missing
+Cleaned: 7500 rows, 1000 columns, 13294 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 8155
+  Cleaned Missing (including penalized drops): 6647
+  Reduction: 1508 (18.5%)
+
+Retention Rates:
+  Rows: 75.0%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 32.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 17.5/20
+Important Columns Bonus: 1.8/10
+================== TOTAL SCORE ===================
+51.3/100
+
+
+real	0m1,249s
+user	0m2,328s
+sys	0m0,173s
+
+=== File: case5_v0.4_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 8155 missing
+Cleaned: 10000 rows, 1000 columns, 16310 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 8155
+  Cleaned Missing (including penalized drops): 8155
+  Reduction: 0 (0.0%)
+
+Retention Rates:
+  Rows: 100.0%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 20.0/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+60.0/100
+
+
+real	0m1,375s
+user	0m2,447s
+sys	0m0,183s
+
+=== File: case5_v0.5_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 8155 missing
+Cleaned: 10000 rows, 1000 columns, 16310 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 8155
+  Cleaned Missing (including penalized drops): 8155
+  Reduction: 0 (0.0%)
+
+Retention Rates:
+  Rows: 100.0%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 20.0/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+60.0/100
+
+
+real	0m1,384s
+user	0m2,407s
+sys	0m0,182s
+
+=== File: case6_bnb_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 24814 missing
+Cleaned: 10000 rows, 1000 columns, 49628 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 24814
+  Cleaned Missing (including penalized drops): 24814
+  Reduction: 0 (0.0%)
+
+Retention Rates:
+  Rows: 100.0%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 20.0/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+60.0/100
+
+
+real	0m1,416s
+user	0m2,492s
+sys	0m0,177s
+
+=== File: case6_v0.0_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 24814 missing
+Cleaned: 9000 rows, 1000 columns, 41014 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 24814
+  Cleaned Missing (including penalized drops): 20507
+  Reduction: 4307 (17.4%)
+
+Retention Rates:
+  Rows: 90.0%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 19.0/20
+Important Columns Bonus: 1.7/10
+================== TOTAL SCORE ===================
+60.7/100
+
+
+real	0m1,349s
+user	0m2,424s
+sys	0m0,178s
+
+=== File: case6_v0.1_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 24814 missing
+Cleaned: 5771 rows, 1000 columns, 20000 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 24814
+  Cleaned Missing (including penalized drops): 10000
+  Reduction: 14814 (59.7%)
+
+Retention Rates:
+  Rows: 57.7%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 32.0/40
+Missing Value Reduction: 5.8/30
+Data Retention: 15.8/20
+Important Columns Bonus: 6.0/10
+================== TOTAL SCORE ===================
+59.6/100
+
+
+real	0m1,151s
+user	0m2,263s
+sys	0m0,144s
+
+=== File: case6_v0.2_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 24814 missing
+Cleaned: 8180 rows, 1000 columns, 34454 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 24814
+  Cleaned Missing (including penalized drops): 17227
+  Reduction: 7587 (30.6%)
+
+Retention Rates:
+  Rows: 81.8%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 32.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 18.2/20
+Important Columns Bonus: 3.1/10
+================== TOTAL SCORE ===================
+53.2/100
+
+
+real	0m1,291s
+user	0m2,367s
+sys	0m0,145s
+
+=== File: case6_v0.3_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 24814 missing
+Cleaned: 3135 rows, 1000 columns, 19998 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 24814
+  Cleaned Missing (including penalized drops): 9999
+  Reduction: 14815 (59.7%)
+
+Retention Rates:
+  Rows: 31.4%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 24.0/40
+Missing Value Reduction: 5.8/30
+Data Retention: 13.1/20
+Important Columns Bonus: 6.0/10
+================== TOTAL SCORE ===================
+48.9/100
+
+
+real	0m1,040s
+user	0m2,106s
+sys	0m0,133s
+
+=== File: case6_v0.4_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 24814 missing
+Cleaned: 9500 rows, 800 columns, 45014 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 24814
+  Cleaned Missing (including penalized drops): 22507
+  Reduction: 2307 (9.3%)
+
+Retention Rates:
+  Rows: 95.0%
+  Columns: 80.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 17.5/20
+Important Columns Bonus: 0.9/10
+================== TOTAL SCORE ===================
+58.4/100
+
+
+real	0m1,259s
+user	0m2,353s
+sys	0m0,163s
+
+=== File: case6_v0.5_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 24814 missing
+Cleaned: 9500 rows, 800 columns, 45014 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 24814
+  Cleaned Missing (including penalized drops): 22507
+  Reduction: 2307 (9.3%)
+
+Retention Rates:
+  Rows: 95.0%
+  Columns: 80.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 17.5/20
+Important Columns Bonus: 0.9/10
+================== TOTAL SCORE ===================
+58.4/100
+
+
+real	0m1,248s
+user	0m2,339s
+sys	0m0,164s
+
+=== File: case7_bnb_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+Traceback (most recent call last):
+  File "/home/ariadna/Documentos/TFG/bin/final_analysis.py", line 135, in <module>
+    calculate_score(
+  File "/home/ariadna/Documentos/TFG/bin/final_analysis.py", line 8, in calculate_score
+    erased = pd.read_csv(erased_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ariadna/Documentos/TFG/env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ariadna/Documentos/TFG/env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ariadna/Documentos/TFG/env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ariadna/Documentos/TFG/env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/home/ariadna/Documentos/TFG/env/lib/python3.12/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'case7_erased.csv'
+
+real	0m0,255s
+user	0m1,454s
+sys	0m0,044s
+
+=== File: case7_v0.0_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+Traceback (most recent call last):
+  File "/home/ariadna/Documentos/TFG/bin/final_analysis.py", line 135, in <module>
+    calculate_score(
+  File "/home/ariadna/Documentos/TFG/bin/final_analysis.py", line 8, in calculate_score
+    erased = pd.read_csv(erased_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ariadna/Documentos/TFG/env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ariadna/Documentos/TFG/env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ariadna/Documentos/TFG/env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ariadna/Documentos/TFG/env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/home/ariadna/Documentos/TFG/env/lib/python3.12/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'case7_erased.csv'
+
+real	0m0,249s
+user	0m1,457s
+sys	0m0,044s
+
+=== File: case7_v0.1_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+Traceback (most recent call last):
+  File "/home/ariadna/Documentos/TFG/bin/final_analysis.py", line 135, in <module>
+    calculate_score(
+  File "/home/ariadna/Documentos/TFG/bin/final_analysis.py", line 8, in calculate_score
+    erased = pd.read_csv(erased_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ariadna/Documentos/TFG/env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ariadna/Documentos/TFG/env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ariadna/Documentos/TFG/env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ariadna/Documentos/TFG/env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/home/ariadna/Documentos/TFG/env/lib/python3.12/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'case7_erased.csv'
+
+real	0m0,251s
+user	0m1,471s
+sys	0m0,036s
+
+=== File: case7_v0.2_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+Traceback (most recent call last):
+  File "/home/ariadna/Documentos/TFG/bin/final_analysis.py", line 135, in <module>
+    calculate_score(
+  File "/home/ariadna/Documentos/TFG/bin/final_analysis.py", line 8, in calculate_score
+    erased = pd.read_csv(erased_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ariadna/Documentos/TFG/env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ariadna/Documentos/TFG/env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ariadna/Documentos/TFG/env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ariadna/Documentos/TFG/env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/home/ariadna/Documentos/TFG/env/lib/python3.12/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'case7_erased.csv'
+
+real	0m0,249s
+user	0m1,455s
+sys	0m0,048s
+
+=== File: case7_v0.3_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+Traceback (most recent call last):
+  File "/home/ariadna/Documentos/TFG/bin/final_analysis.py", line 135, in <module>
+    calculate_score(
+  File "/home/ariadna/Documentos/TFG/bin/final_analysis.py", line 8, in calculate_score
+    erased = pd.read_csv(erased_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ariadna/Documentos/TFG/env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ariadna/Documentos/TFG/env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ariadna/Documentos/TFG/env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ariadna/Documentos/TFG/env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/home/ariadna/Documentos/TFG/env/lib/python3.12/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'case7_erased.csv'
+
+real	0m0,250s
+user	0m1,453s
+sys	0m0,054s
+
+=== File: case7_v0.4_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+Traceback (most recent call last):
+  File "/home/ariadna/Documentos/TFG/bin/final_analysis.py", line 135, in <module>
+    calculate_score(
+  File "/home/ariadna/Documentos/TFG/bin/final_analysis.py", line 8, in calculate_score
+    erased = pd.read_csv(erased_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ariadna/Documentos/TFG/env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ariadna/Documentos/TFG/env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ariadna/Documentos/TFG/env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ariadna/Documentos/TFG/env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/home/ariadna/Documentos/TFG/env/lib/python3.12/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'case7_erased.csv'
+
+real	0m0,251s
+user	0m1,467s
+sys	0m0,041s
+
+=== File: case7_v0.5_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+Traceback (most recent call last):
+  File "/home/ariadna/Documentos/TFG/bin/final_analysis.py", line 135, in <module>
+    calculate_score(
+  File "/home/ariadna/Documentos/TFG/bin/final_analysis.py", line 8, in calculate_score
+    erased = pd.read_csv(erased_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ariadna/Documentos/TFG/env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ariadna/Documentos/TFG/env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ariadna/Documentos/TFG/env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ariadna/Documentos/TFG/env/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/home/ariadna/Documentos/TFG/env/lib/python3.12/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'case7_erased.csv'
+
+real	0m0,252s
+user	0m1,454s
+sys	0m0,048s
+
+=== File: case8_bnb_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 112500 missing
+Cleaned: 10000 rows, 1000 columns, 124500 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 12000
+  Cleaned Missing (including penalized drops): 12000
+  Reduction: 0 (0.0%)
+
+Retention Rates:
+  Rows: 100.0%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 32.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 20.0/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+52.0/100
+
+
+real	0m1,456s
+user	0m2,489s
+sys	0m0,220s
+
+=== File: case8_v0.0_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 112500 missing
+Cleaned: 9000 rows, 1000 columns, 105824 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 12000
+  Cleaned Missing (including penalized drops): 10192
+  Reduction: 1808 (15.1%)
+
+Retention Rates:
+  Rows: 90.0%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 32.0/40
+Missing Value Reduction: 1.8/30
+Data Retention: 19.0/20
+Important Columns Bonus: 1.5/10
+================== TOTAL SCORE ===================
+54.3/100
+
+
+real	0m1,416s
+user	0m2,433s
+sys	0m0,235s
+
+=== File: case8_v0.1_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 112500 missing
+Cleaned: 1501 rows, 1000 columns, 11066 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 12000
+  Cleaned Missing (including penalized drops): 1070
+  Reduction: 10930 (91.1%)
+
+Retention Rates:
+  Rows: 15.0%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 24.0/40
+Missing Value Reduction: 27.0/30
+Data Retention: 11.5/20
+Important Columns Bonus: 9.1/10
+================== TOTAL SCORE ===================
+71.7/100
+
+
+real	0m0,992s
+user	0m2,063s
+sys	0m0,186s
+
+=== File: case8_v0.2_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 112500 missing
+Cleaned: 8042 rows, 1000 columns, 89926 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 12000
+  Cleaned Missing (including penalized drops): 7866
+  Reduction: 4134 (34.4%)
+
+Retention Rates:
+  Rows: 80.4%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 24.0/40
+Missing Value Reduction: 6.0/30
+Data Retention: 18.0/20
+Important Columns Bonus: 3.4/10
+================== TOTAL SCORE ===================
+51.5/100
+
+
+real	0m1,377s
+user	0m2,372s
+sys	0m0,220s
+
+=== File: case8_v0.3_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 112500 missing
+Cleaned: 664 rows, 1000 columns, 11267 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 12000
+  Cleaned Missing (including penalized drops): 1281
+  Reduction: 10719 (89.3%)
+
+Retention Rates:
+  Rows: 6.6%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 24.0/40
+Missing Value Reduction: 27.0/30
+Data Retention: 10.7/20
+Important Columns Bonus: 8.9/10
+================== TOTAL SCORE ===================
+70.6/100
+
+
+real	0m0,951s
+user	0m1,995s
+sys	0m0,180s
+
+=== File: case8_v0.4_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 112500 missing
+Cleaned: 9500 rows, 800 columns, 20514 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 12000
+  Cleaned Missing (including penalized drops): 10257
+  Reduction: 1743 (14.5%)
+
+Retention Rates:
+  Rows: 95.0%
+  Columns: 80.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 24.5/30
+Data Retention: 17.5/20
+Important Columns Bonus: 1.5/10
+================== TOTAL SCORE ===================
+83.5/100
+
+
+real	0m1,309s
+user	0m2,377s
+sys	0m0,184s
+
+=== File: case8_v0.5_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 112500 missing
+Cleaned: 9500 rows, 800 columns, 20514 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 12000
+  Cleaned Missing (including penalized drops): 10257
+  Reduction: 1743 (14.5%)
+
+Retention Rates:
+  Rows: 95.0%
+  Columns: 80.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 24.5/30
+Data Retention: 17.5/20
+Important Columns Bonus: 1.5/10
+================== TOTAL SCORE ===================
+83.5/100
+
+
+real	0m1,328s
+user	0m2,368s
+sys	0m0,178s
+
+=== File: case9_bnb_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 14834 missing
+Cleaned: 10000 rows, 1000 columns, 29668 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 14834
+  Cleaned Missing (including penalized drops): 14834
+  Reduction: 0 (0.0%)
+
+Retention Rates:
+  Rows: 100.0%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 20.0/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+60.0/100
+
+
+real	0m1,398s
+user	0m2,474s
+sys	0m0,179s
+
+=== File: case9_v0.0_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 14834 missing
+Cleaned: 9000 rows, 1000 columns, 23298 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 14834
+  Cleaned Missing (including penalized drops): 11649
+  Reduction: 3185 (21.5%)
+
+Retention Rates:
+  Rows: 90.0%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 19.0/20
+Important Columns Bonus: 2.1/10
+================== TOTAL SCORE ===================
+61.1/100
+
+
+real	0m1,353s
+user	0m2,357s
+sys	0m0,171s
+
+=== File: case9_v0.1_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 14834 missing
+Cleaned: 8427 rows, 1000 columns, 20000 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 14834
+  Cleaned Missing (including penalized drops): 10000
+  Reduction: 4834 (32.6%)
+
+Retention Rates:
+  Rows: 84.3%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 32.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 18.4/20
+Important Columns Bonus: 3.3/10
+================== TOTAL SCORE ===================
+53.7/100
+
+
+real	0m1,314s
+user	0m2,398s
+sys	0m0,171s
+
+=== File: case9_v0.2_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 14834 missing
+Cleaned: 8497 rows, 1000 columns, 20280 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 14834
+  Cleaned Missing (including penalized drops): 10140
+  Reduction: 4694 (31.6%)
+
+Retention Rates:
+  Rows: 85.0%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 32.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 18.5/20
+Important Columns Bonus: 3.2/10
+================== TOTAL SCORE ===================
+53.7/100
+
+
+real	0m1,312s
+user	0m2,396s
+sys	0m0,168s
+
+=== File: case9_v0.3_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 14834 missing
+Cleaned: 5692 rows, 1000 columns, 20000 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 14834
+  Cleaned Missing (including penalized drops): 10000
+  Reduction: 4834 (32.6%)
+
+Retention Rates:
+  Rows: 56.9%
+  Columns: 100.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 32.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 15.7/20
+Important Columns Bonus: 3.3/10
+================== TOTAL SCORE ===================
+51.0/100
+
+
+real	0m1,160s
+user	0m2,198s
+sys	0m0,156s
+
+=== File: case9_v0.4_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 14834 missing
+Cleaned: 9500 rows, 800 columns, 26298 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 14834
+  Cleaned Missing (including penalized drops): 13149
+  Reduction: 1685 (11.4%)
+
+Retention Rates:
+  Rows: 95.0%
+  Columns: 80.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 17.5/20
+Important Columns Bonus: 1.1/10
+================== TOTAL SCORE ===================
+58.6/100
+
+
+real	0m1,263s
+user	0m2,363s
+sys	0m0,147s
+
+=== File: case9_v0.5_eval.log ===
+=== Added at: vie 20 jun 2025 08:47:23 CEST ===
+
+================ DATASET METRICS =================
+Erased: 10000 rows, 1000 columns, 14834 missing
+Cleaned: 9500 rows, 800 columns, 26298 missing
+
+Important Columns (col_1, col_2, col_3, col_4, col_5, col_6, col_7, col_8, col_9, col_10, col_11, col_12, col_13, col_14, col_15, col_16, col_17, col_18, col_19, col_20, col_21, col_22, col_23, col_24, col_25, col_26, col_27, col_28, col_29, col_30, col_31, col_32, col_33, col_34, col_35, col_36, col_37, col_38, col_39, col_40, col_41, col_42, col_43, col_44, col_45, col_46, col_47, col_48, col_49, col_50, col_51, col_52, col_53, col_54, col_55, col_56, col_57, col_58, col_59, col_60, col_61, col_62, col_63, col_64, col_65, col_66, col_67, col_68, col_69, col_70, col_71, col_72, col_73, col_74, col_75, col_76, col_77, col_78, col_79, col_80, col_81, col_82, col_83, col_84, col_85, col_86, col_87, col_88, col_89, col_90, col_91, col_92, col_93, col_94, col_95, col_96, col_97, col_98, col_99, col_100):
+  Erased Missing: 14834
+  Cleaned Missing (including penalized drops): 13149
+  Reduction: 1685 (11.4%)
+
+Retention Rates:
+  Rows: 95.0%
+  Columns: 80.0%
+
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 17.5/20
+Important Columns Bonus: 1.1/10
+================== TOTAL SCORE ===================
+58.6/100
+
+
+real	0m1,257s
+user	0m2,306s
+sys	0m0,167s
+

@@ -1,0 +1,150 @@
+\begin{thebibliography}{10}
+
+\bibitem{1}
+L.~Ren, T.~Wang, A.~Sekhari, and Seklouli.
+\newblock A review on missing values for main challenges and methods.
+\newblock {\em Information Systems}, 119:102268, 2023.
+
+\bibitem{4}
+Abhigyan.
+\newblock Different types of missing data, 2020.
+
+\bibitem{24}
+Xijuan Zhang.
+\newblock Tutorial: How to generate missing data for simulation studies.
+
+\bibitem{34}
+GeeksforGeeks.
+\newblock Different types of missing data.
+
+\bibitem{3}
+Mohammed Shantal, Zalinda Othman, and Azuraliza~Abu Bakar.
+\newblock Impact of missing data on correlation coefficient values: Deletion and imputation methods for data preparation.
+\newblock {\em Malaysian Journal of Fundamental and Applied Sciences}, 19(6):1052--1067, 2023.
+
+\bibitem{33}
+{Wikipedia contributors}.
+\newblock Imputation (statistics) --- wikipedia{,} the free encyclopedia, 2024.
+
+\bibitem{2}
+Kenneth Smith and Sharlee Climer.
+\newblock Improving data cleaning using discrete optimization.
+\newblock {\em arXiv}, May 2024.
+\newblock Submitted on 1 May 2024.
+
+\bibitem{5}
+Statistics Solutions.
+\newblock Missing data: Listwise vs. pairwise deletion.
+
+\bibitem{6}
+Airbyte.
+\newblock Data imputation: A comprehensive guide, 2024.
+
+\bibitem{7}
+GeeksforGeeks.
+\newblock Introduction to computation complex theory, 2025.
+
+\bibitem{8}
+Overleaf.
+\newblock Latex tutorials.
+
+\bibitem{9}
+Mike Nguyen.
+\newblock {\em A Guide on Data Analysis}.
+\newblock Bookdown, 2020.
+
+\bibitem{10}
+Thesaurus.com.
+\newblock Thesaurus.com: Synonyms and antonyms of words.
+
+\bibitem{11}
+Corrector.
+\newblock Grammar and spell checker.
+
+\bibitem{12}
+Google.
+\newblock Google translate.
+
+\bibitem{13}
+joke2k.
+\newblock Faker github ci workflow.
+
+\bibitem{14}
+Faker.
+\newblock Barcode provider — faker documentation.
+
+\bibitem{15}
+Shane Lynn.
+\newblock Using pandas dataframe: Creating, editing, viewing data in python.
+
+\bibitem{16}
+Stack Overflow.
+\newblock How can i randomly select/choose an item from a list (get a random element)?
+
+\bibitem{17}
+GeeksforGeeks.
+\newblock How to randomly select elements of an array with numpy in python?
+
+\bibitem{18}
+GeeksforGeeks.
+\newblock Working with missing data in pandas.
+
+\bibitem{19}
+GeeksforGeeks.
+\newblock Different ways to create pandas dataframe.
+
+\bibitem{20}
+AskPython.
+\newblock Update the value of a row in a pandas dataframe.
+
+\bibitem{21}
+Seaborn.
+\newblock seaborn.heatmap — seaborn 0.12.2 documentation.
+
+\bibitem{22}
+Matplotlib.
+\newblock matplotlib.pyplot.savefig.
+
+\bibitem{23}
+Pandas.
+\newblock pandas.dataframe.sort_values — pandas documentation.
+
+\bibitem{25}
+Python Docs.
+\newblock tkinter — python interface to tcl/tk.
+
+\bibitem{26}
+GeeksforGeeks.
+\newblock Python tkinter tutorial.
+
+\bibitem{27}
+NVIDIA.
+\newblock Cuda toolkit — developer zone.
+
+\bibitem{28}
+CuPy.
+\newblock Cupy documentation.
+
+\bibitem{29}
+CuPy.
+\newblock Cupy documentation (stable).
+
+\bibitem{30}
+Wikipedia.
+\newblock Silhouette (clustering).
+
+\bibitem{31}
+J.A. González, E.~Cobo, P.~Muñoz, and M.~Martí-Recober.
+\newblock {\em Estadística per a enginyers informàtics}.
+\newblock Edicions UPC, 2008.
+
+\bibitem{32}
+M.~Baron.
+\newblock {\em Probability and Statistics for Computer Scientists}.
+\newblock CRC Press, 2019.
+
+\bibitem{35}
+{Wikipedia contributors}.
+\newblock Branch and bound --- wikipedia{,} the free encyclopedia, 2024.
+
+\end{thebibliography}

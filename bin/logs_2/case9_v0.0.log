@@ -1,0 +1,6 @@
+Program ended successfully: 9000
+Cleaned dataset saved to 'cleaned_dataset.csv' with 9000 rows
+
+real	0m3,701s
+user	0m5,868s
+sys	0m0,344s

@@ -1,0 +1,43 @@
+CUDA not available. Will use CPU processing only.
+Loading data from case6_complete.csv...
+Dataset shape: (10000, 1000)
+Using CPU processing...
+
+
+--- MNAR Rule 1 ---
+Column: col_31, Cutoff: 8000.0, pi_high: 0.7, pi_low: 0.3
+High: 4862 (48.62%), Low: 5138 (51.38%)
+Missing values to introduce: 4935 (49.35%)
+
+--- MNAR Rule 2 ---
+Column: col_32, Cutoff: 8000.0, pi_high: 0.7, pi_low: 0.3
+High: 4928 (49.28%), Low: 5072 (50.72%)
+Missing values to introduce: 4976 (49.76%)
+
+--- MNAR Rule 3 ---
+Column: col_33, Cutoff: 8000.0, pi_high: 0.7, pi_low: 0.3
+High: 4961 (49.61%), Low: 5039 (50.39%)
+Missing values to introduce: 5035 (50.35%)
+
+--- MNAR Rule 4 ---
+Column: col_34, Cutoff: 8000.0, pi_high: 0.7, pi_low: 0.3
+High: 4893 (48.93%), Low: 5107 (51.07%)
+Missing values to introduce: 4878 (48.78%)
+
+--- MNAR Rule 5 ---
+Column: col_35, Cutoff: 8000.0, pi_high: 0.7, pi_low: 0.3
+High: 4994 (49.94%), Low: 5006 (50.06%)
+Missing values to introduce: 4961 (49.61%)
+
+--- Final Missingness Summary ---
+col_31: 4935 missing (49.35%)
+col_32: 4976 missing (49.76%)
+col_33: 5035 missing (50.35%)
+col_34: 4878 missing (48.78%)
+col_35: 4961 missing (49.61%)
+
+Modified dataset saved to 'case6_erased.csv'
+
+real	0m2,508s
+user	0m3,427s
+sys	0m0,247s

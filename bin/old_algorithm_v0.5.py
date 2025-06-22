@@ -119,8 +119,8 @@ def main():
     
     # Validate constraints
     if not (current_missing <= args.max_missing and
-            current_rows >= min_rows_required and
-            current_percent >= args.min_percent):
+            current_rows <= min_rows_required and
+            current_percent <= args.min_percent):
         print("Warning: Failed to meet all constraints")
     
     # Save results

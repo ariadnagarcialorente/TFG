@@ -1,0 +1,16 @@
+Loading data from case1_erased.csv...
+[START] 10000 rows, 1000 cols, 50000 missing
+[CONSTRAINTS] min_rows=9500, max_missing=10000, min_cols=800
+[EARLY EXIT] Missing value constraint met after column removal
+
+[RESULTS]
+Rows: 10000/10000 (100.0%)
+Columns: 960/1000
+Missing values: 10000
+Constraints: NOT MET
+Removed columns: col_587, col_534, col_530, col_253, col_652... (+35 more)
+Output saved to: /home/ariadna/Documentos/TFG/bin/case1_v0.4_cleaned.csv
+
+real	0m2,610s
+user	0m3,465s
+sys	0m0,390s

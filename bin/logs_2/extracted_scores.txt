@@ -1,0 +1,587 @@
+File: case10_bnb_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 20.0/20
+Important Columns Bonus: 10.0/10
+================== TOTAL SCORE ===================
+70.0/100
+
+File: case10_v0.0_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 6.2/30
+Data Retention: 19.0/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+65.2/100
+
+File: case10_v0.1_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 3.3/30
+Data Retention: 19.5/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+62.8/100
+
+File: case10_v0.2_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 32.0/40
+Missing Value Reduction: 10.3/30
+Data Retention: 18.3/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+60.6/100
+
+File: case10_v0.3_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 32.0/40
+Missing Value Reduction: 11.0/30
+Data Retention: 15.5/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+58.4/100
+
+File: case10_v0.4_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 3.3/30
+Data Retention: 17.5/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+60.8/100
+
+File: case10_v0.5_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 3.3/30
+Data Retention: 17.5/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+60.8/100
+
+File: case1_bnb_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 20.0/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+60.0/100
+
+File: case1_v0.0_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 5.4/30
+Data Retention: 19.0/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+64.4/100
+
+File: case1_v0.1_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 2.9/30
+Data Retention: 19.5/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+62.4/100
+
+File: case1_v0.2_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 32.0/40
+Missing Value Reduction: 10.1/30
+Data Retention: 17.9/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+59.9/100
+
+File: case1_v0.3_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 24.0/40
+Missing Value Reduction: 24.0/30
+Data Retention: 11.3/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+59.3/100
+
+File: case1_v0.4_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 24.0/30
+Data Retention: 19.6/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+83.6/100
+
+File: case1_v0.5_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 24.0/30
+Data Retention: 19.3/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+83.3/100
+
+File: case2_bnb_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 32.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 20.0/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+52.0/100
+
+File: case2_v0.0_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 32.0/40
+Missing Value Reduction: 3.9/30
+Data Retention: 19.0/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+54.9/100
+
+File: case2_v0.1_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 32.0/40
+Missing Value Reduction: 2.1/30
+Data Retention: 19.5/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+53.6/100
+
+File: case2_v0.2_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 24.0/40
+Missing Value Reduction: 9.0/30
+Data Retention: 17.5/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+50.5/100
+
+File: case2_v0.3_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 24.0/40
+Missing Value Reduction: 28.8/30
+Data Retention: 10.3/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+63.1/100
+
+File: case2_v0.4_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 27.6/30
+Data Retention: 17.5/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+85.1/100
+
+File: case2_v0.5_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 27.6/30
+Data Retention: 17.5/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+85.1/100
+
+File: case3_bnb_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 20.0/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+60.0/100
+
+File: case3_v0.0_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 10.6/30
+Data Retention: 19.0/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+69.6/100
+
+File: case3_v0.1_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 20.0/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+60.0/100
+
+File: case3_v0.2_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 32.0/40
+Missing Value Reduction: 10.7/30
+Data Retention: 19.0/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+61.7/100
+
+File: case3_v0.3_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 32.0/40
+Missing Value Reduction: 2.7/30
+Data Retention: 17.5/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+52.2/100
+
+File: case3_v0.4_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 20.0/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+60.0/100
+
+File: case3_v0.5_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 20.0/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+60.0/100
+
+File: case4_bnb_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 20.0/20
+Important Columns Bonus: 10.0/10
+================== TOTAL SCORE ===================
+70.0/100
+
+File: case4_v0.0_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 5.9/30
+Data Retention: 19.0/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+64.9/100
+
+File: case4_v0.1_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 3.2/30
+Data Retention: 19.5/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+62.7/100
+
+File: case4_v0.2_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 5.2/30
+Data Retention: 19.2/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+64.4/100
+
+File: case4_v0.3_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 24.0/40
+Missing Value Reduction: 14.9/30
+Data Retention: 13.7/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+52.6/100
+
+File: case4_v0.4_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 3.2/30
+Data Retention: 17.5/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+60.7/100
+
+File: case4_v0.5_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 3.2/30
+Data Retention: 17.5/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+60.7/100
+
+File: case5_bnb_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 20.0/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+60.0/100
+
+File: case5_v0.0_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 8.1/30
+Data Retention: 19.0/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+67.1/100
+
+File: case5_v0.1_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 20.0/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+60.0/100
+
+File: case5_v0.2_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 32.0/40
+Missing Value Reduction: 14.4/30
+Data Retention: 18.1/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+64.5/100
+
+File: case5_v0.3_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 32.0/40
+Missing Value Reduction: 5.5/30
+Data Retention: 17.5/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+55.0/100
+
+File: case5_v0.4_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 20.0/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+60.0/100
+
+File: case5_v0.5_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 20.0/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+60.0/100
+
+File: case6_bnb_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 20.0/20
+Important Columns Bonus: 10.0/10
+================== TOTAL SCORE ===================
+70.0/100
+
+File: case6_v0.0_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 5.2/30
+Data Retention: 19.0/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+64.2/100
+
+File: case6_v0.1_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 2.8/30
+Data Retention: 19.5/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+62.3/100
+
+File: case6_v0.2_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 32.0/40
+Missing Value Reduction: 9.2/30
+Data Retention: 18.2/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+59.4/100
+
+File: case6_v0.3_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 24.0/40
+Missing Value Reduction: 17.9/30
+Data Retention: 13.1/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+55.0/100
+
+File: case6_v0.4_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 2.8/30
+Data Retention: 17.5/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+60.3/100
+
+File: case6_v0.5_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 2.8/30
+Data Retention: 17.5/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+60.3/100
+
+File: case7_bnb_eval.log
+Score data not found in expected format.
+
+File: case7_v0.0_eval.log
+Score data not found in expected format.
+
+File: case7_v0.1_eval.log
+Score data not found in expected format.
+
+File: case7_v0.2_eval.log
+Score data not found in expected format.
+
+File: case7_v0.3_eval.log
+Score data not found in expected format.
+
+File: case7_v0.4_eval.log
+Score data not found in expected format.
+
+File: case7_v0.5_eval.log
+Score data not found in expected format.
+
+File: case8_bnb_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 32.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 20.0/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+52.0/100
+
+File: case8_v0.0_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 32.0/40
+Missing Value Reduction: 4.5/30
+Data Retention: 19.0/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+55.5/100
+
+File: case8_v0.1_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 32.0/40
+Missing Value Reduction: 2.4/30
+Data Retention: 19.5/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+53.9/100
+
+File: case8_v0.2_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 24.0/40
+Missing Value Reduction: 8.1/30
+Data Retention: 18.0/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+50.2/100
+
+File: case8_v0.3_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 24.0/40
+Missing Value Reduction: 27.3/30
+Data Retention: 10.7/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+62.0/100
+
+File: case8_v0.4_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 27.3/30
+Data Retention: 17.5/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+84.8/100
+
+File: case8_v0.5_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 27.3/30
+Data Retention: 17.5/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+84.8/100
+
+File: case9_bnb_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 0.0/30
+Data Retention: 20.0/20
+Important Columns Bonus: 10.0/10
+================== TOTAL SCORE ===================
+70.0/100
+
+File: case9_v0.0_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 6.4/30
+Data Retention: 19.0/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+65.4/100
+
+File: case9_v0.1_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 3.4/30
+Data Retention: 19.5/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+62.9/100
+
+File: case9_v0.2_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 32.0/40
+Missing Value Reduction: 9.5/30
+Data Retention: 18.5/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+60.0/100
+
+File: case9_v0.3_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 32.0/40
+Missing Value Reduction: 9.8/30
+Data Retention: 15.7/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+57.5/100
+
+File: case9_v0.4_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 3.4/30
+Data Retention: 17.5/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+60.9/100
+
+File: case9_v0.5_eval.log
+================ SCORE BREAKDOWN =================
+Constraint Adherence: 40.0/40
+Missing Value Reduction: 3.4/30
+Data Retention: 17.5/20
+Important Columns Bonus: 0.0/10
+================== TOTAL SCORE ===================
+60.9/100

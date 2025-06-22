@@ -1,0 +1,95 @@
+\contentsline {section}{\numberline {1}Abstract}{3}{section.1}%
+\contentsline {section}{\numberline {2}Resumen}{3}{section.2}%
+\contentsline {section}{\numberline {3}Resum}{3}{section.3}%
+\contentsline {section}{\numberline {4}Acknowledgement}{5}{section.4}%
+\contentsline {section}{\numberline {5}Introduction}{6}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Context}{6}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Main goal}{6}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Extended Context}{7}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Specific Goals}{8}{subsection.5.4}%
+\contentsline {subsubsection}{\numberline {5.4.1}Theoretical Analysis and Objectives}{8}{subsubsection.5.4.1}%
+\contentsline {subsubsection}{\numberline {5.4.2}Practical Objectives}{8}{subsubsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.5}Structure of the Document}{8}{subsection.5.5}%
+\contentsline {section}{\numberline {6}Background and State of the Art}{10}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Missing Data: Definitions and Types (MCAR, MAR, MNAR)}{10}{subsection.6.1}%
+\contentsline {subsubsection}{\numberline {6.1.1}Missing Completely At Random (MCAR)}{10}{subsubsection.6.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.2}Missing At Random (MAR)}{11}{subsubsection.6.1.2}%
+\contentsline {subsubsection}{\numberline {6.1.3}Missing Not At Random (MNAR)}{12}{subsubsection.6.1.3}%
+\contentsline {subsection}{\numberline {6.2}Traditional Methods for Handling Missing Data}{13}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}Listwise Deletion}{13}{subsubsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2}Pairwise Deletion}{14}{subsubsection.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.3}Hot-deck Imputation}{15}{subsubsection.6.2.3}%
+\contentsline {subsubsection}{\numberline {6.2.4}Cold-deck Imputation}{15}{subsubsection.6.2.4}%
+\contentsline {subsubsection}{\numberline {6.2.5}Median Imputation}{16}{subsubsection.6.2.5}%
+\contentsline {subsubsection}{\numberline {6.2.6}Limitations of Existing Approaches}{16}{subsubsection.6.2.6}%
+\contentsline {section}{\numberline {7}Evaluation Metrics and Data Generation}{17}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Evaluation Metrics}{17}{subsection.7.1}%
+\contentsline {subsubsection}{\numberline {7.1.1}User's Restrictions}{17}{subsubsection.7.1.1}%
+\contentsline {subsubsection}{\numberline {7.1.2}Reduction of Missing Values}{18}{subsubsection.7.1.2}%
+\contentsline {subsubsection}{\numberline {7.1.3}Data Retention}{18}{subsubsection.7.1.3}%
+\contentsline {subsubsection}{\numberline {7.1.4}Preservation of Important Columns}{19}{subsubsection.7.1.4}%
+\contentsline {subsubsection}{\numberline {7.1.5}Total Health Score}{19}{subsubsection.7.1.5}%
+\contentsline {subsubsection}{\numberline {7.1.6}Test Validation: 100/100 and 0/100}{19}{subsubsection.7.1.6}%
+\contentsline {paragraph}{Perfect Score (100/100):}{19}{subsubsection.7.1.6}%
+\contentsline {paragraph}{Zero Score (0/100):}{20}{subsubsection.7.1.6}%
+\contentsline {subsection}{\numberline {7.2}Data Generation}{21}{subsection.7.2}%
+\contentsline {subsubsection}{\numberline {7.2.1}MCAR Data Generation}{21}{subsubsection.7.2.1}%
+\contentsline {subsubsection}{\numberline {7.2.2}Single Cutoff Method for MAR and MNAR}{21}{subsubsection.7.2.2}%
+\contentsline {section}{\numberline {8}Algorithms}{22}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Algorithmic Evolution}{22}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Description of the Algorithms}{23}{subsection.8.2}%
+\contentsline {subsubsection}{\numberline {8.2.1}Algorithm v0.0}{23}{subsubsection.8.2.1}%
+\contentsline {subsubsection}{\numberline {8.2.2}Algorithm v0.1}{24}{subsubsection.8.2.2}%
+\contentsline {subsubsection}{\numberline {8.2.3}Algorithm v0.2}{26}{subsubsection.8.2.3}%
+\contentsline {subsubsection}{\numberline {8.2.4}Algorithm v0.3}{27}{subsubsection.8.2.4}%
+\contentsline {subsubsection}{\numberline {8.2.5}Algorithm v0.4}{28}{subsubsection.8.2.5}%
+\contentsline {subsubsection}{\numberline {8.2.6}Algorithm v0.5}{30}{subsubsection.8.2.6}%
+\contentsline {subsubsection}{\numberline {8.2.7}Branch and Bound}{32}{subsubsection.8.2.7}%
+\contentsline {subsection}{\numberline {8.3}UI Functionality and Integration}{35}{subsection.8.3}%
+\contentsline {subsubsection}{\numberline {8.3.1}General Structure}{35}{subsubsection.8.3.1}%
+\contentsline {subsection}{\numberline {8.4}Technologies and Tools Used}{38}{subsection.8.4}%
+\contentsline {section}{\numberline {9}Experimentation and Results}{39}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Experimental Setup}{39}{subsection.9.1}%
+\contentsline {subsubsection}{\numberline {9.1.1}Generation of Complete Datasets}{39}{subsubsection.9.1.1}%
+\contentsline {subsubsection}{\numberline {9.1.2}Identification of Important Columns}{39}{subsubsection.9.1.2}%
+\contentsline {subsubsection}{\numberline {9.1.3}Simulation of Missing Values}{40}{subsubsection.9.1.3}%
+\contentsline {subsubsection}{\numberline {9.1.4}Algorithm Application}{40}{subsubsection.9.1.4}%
+\contentsline {subsubsection}{\numberline {9.1.5}Visualization}{40}{subsubsection.9.1.5}%
+\contentsline {subsubsection}{\numberline {9.1.6}Result Evaluation}{40}{subsubsection.9.1.6}%
+\contentsline {subsection}{\numberline {9.2}Experimental Case Descriptions}{41}{subsection.9.2}%
+\contentsline {subsubsection}{\numberline {9.2.1}Case 1: MCAR - 10\%}{41}{subsubsection.9.2.1}%
+\contentsline {subsubsection}{\numberline {9.2.2}Case 2: MCAR - 25\%}{41}{subsubsection.9.2.2}%
+\contentsline {subsubsection}{\numberline {9.2.3}Case 3: MAR Dependency in Three Reference Columns}{41}{subsubsection.9.2.3}%
+\contentsline {subsubsection}{\numberline {9.2.4}Case 4: MAR – Dependency on Five Reference Columns}{42}{subsubsection.9.2.4}%
+\contentsline {subsubsection}{\numberline {9.2.5}Case 5: MNAR – Moderate Dependency}{42}{subsubsection.9.2.5}%
+\contentsline {subsubsection}{\numberline {9.2.6}Case 6: MNAR – Strong Dependency}{43}{subsubsection.9.2.6}%
+\contentsline {subsubsection}{\numberline {9.2.7}Case 7: MCAR – 15\%}{43}{subsubsection.9.2.7}%
+\contentsline {subsubsection}{\numberline {9.2.8}Case 8: MAR – Dependency on Four Reference Columns}{43}{subsubsection.9.2.8}%
+\contentsline {subsubsection}{\numberline {9.2.9}Case 9: MNAR – Complex Dependency}{44}{subsubsection.9.2.9}%
+\contentsline {subsection}{\numberline {9.3}Comparative Analysis}{44}{subsection.9.3}%
+\contentsline {subsubsection}{\numberline {9.3.1}Case 1: MCAR – 10\%}{45}{subsubsection.9.3.1}%
+\contentsline {subsubsection}{\numberline {9.3.2}Case 2: MCAR – 25\%}{46}{subsubsection.9.3.2}%
+\contentsline {subsubsection}{\numberline {9.3.3}Case 3: MAR – Dependency on Three Reference Columns}{48}{subsubsection.9.3.3}%
+\contentsline {subsubsection}{\numberline {9.3.4}Case 4: MAR – Dependency on Five Reference Columns}{49}{subsubsection.9.3.4}%
+\contentsline {subsubsection}{\numberline {9.3.5}Case 5: MNAR – Moderate Dependency}{51}{subsubsection.9.3.5}%
+\contentsline {subsubsection}{\numberline {9.3.6}Case 6: MNAR – Strong Dependency}{52}{subsubsection.9.3.6}%
+\contentsline {subsubsection}{\numberline {9.3.7}Case 7: MCAR – 15\% Missingness}{54}{subsubsection.9.3.7}%
+\contentsline {subsubsection}{\numberline {9.3.8}Case 8: MAR – Complex Dependency}{55}{subsubsection.9.3.8}%
+\contentsline {subsubsection}{\numberline {9.3.9}Case 9: MNAR – Complex Dependency}{56}{subsubsection.9.3.9}%
+\contentsline {subsection}{\numberline {9.4}Results and Interpretation}{58}{subsection.9.4}%
+\contentsline {subsubsection}{\numberline {9.4.1}Algorithmic Observations}{58}{subsubsection.9.4.1}%
+\contentsline {paragraph}{Variance}{59}{subsubsection.9.4.1}%
+\contentsline {subsection}{\numberline {9.5}Real World Application}{61}{subsection.9.5}%
+\contentsline {subsubsection}{\numberline {9.5.1}Real Dataset}{61}{subsubsection.9.5.1}%
+\contentsline {subsubsection}{\numberline {9.5.2}Analysis}{61}{subsubsection.9.5.2}%
+\contentsline {subsubsection}{\numberline {9.5.3}Interpretation}{63}{subsubsection.9.5.3}%
+\contentsline {subsection}{\numberline {9.6}Limitations}{63}{subsection.9.6}%
+\contentsline {section}{\numberline {10}Conclusions and Future Work}{65}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Summary of Achievements}{65}{subsection.10.1}%
+\contentsline {subsubsection}{\numberline {10.1.1}Theoretical Contributions}{65}{subsubsection.10.1.1}%
+\contentsline {subsubsection}{\numberline {10.1.2}Practical Contributions}{66}{subsubsection.10.1.2}%
+\contentsline {subsection}{\numberline {10.2}Future Improvements}{66}{subsection.10.2}%
+\contentsline {section}{Bibliography}{68}{subsection.10.2}%
+\contentsline {section}{\numberline {A}Example Code Snippets}{70}{appendix.A}%
+\contentsline {section}{\numberline {B}Extended Tables and Graphs}{123}{appendix.B}%
+\contentsline {section}{\numberline {C}User Guide}{123}{appendix.C}%
