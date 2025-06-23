@@ -1,150 +1,1147 @@
-\begin{thebibliography}{10}
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\bibitem{1}
-L.~Ren, T.~Wang, A.~Sekhari, and Seklouli.
-\newblock A review on missing values for main challenges and methods.
-\newblock {\em Information Systems}, 119:102268, 2023.
 
-\bibitem{4}
-Abhigyan.
-\newblock Different types of missing data, 2020.
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{1}{article}{}
+      \name{author}{4}{}{%
+        {{hash=d9f9171a0d036f60f5918fb3cd6bfb7d}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=2ca38ebc0e0cb8064a936205d2da287f}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=55b026e1806ec53661c396d713786f59}{%
+           family={Sekhari},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5e7a30a728684e8cf0e210ced5b96f94}{%
+           family={Seklouli},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{54612a01e68c6610b3f98c0b55060ebb}
+      \strng{fullhash}{a173580bf96ec317fb4b6c1b930be9d3}
+      \strng{bibnamehash}{54612a01e68c6610b3f98c0b55060ebb}
+      \strng{authorbibnamehash}{54612a01e68c6610b3f98c0b55060ebb}
+      \strng{authornamehash}{54612a01e68c6610b3f98c0b55060ebb}
+      \strng{authorfullhash}{a173580bf96ec317fb4b6c1b930be9d3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0306-4379}
+      \field{journaltitle}{Information Systems}
+      \field{title}{A review on missing values for main challenges and methods}
+      \field{urlday}{15}
+      \field{urlmonth}{2}
+      \field{urlyear}{2025}
+      \field{volume}{119}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{102268}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.is.2023.102268
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0306437923001047
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0306437923001047
+      \endverb
+    \endentry
+    \entry{4}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=de25df881046e416ee45831cb384709d}{%
+           family={Abhigyan},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{de25df881046e416ee45831cb384709d}
+      \strng{fullhash}{de25df881046e416ee45831cb384709d}
+      \strng{bibnamehash}{de25df881046e416ee45831cb384709d}
+      \strng{authorbibnamehash}{de25df881046e416ee45831cb384709d}
+      \strng{authornamehash}{de25df881046e416ee45831cb384709d}
+      \strng{authorfullhash}{de25df881046e416ee45831cb384709d}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Different Types of Missing Data}
+      \field{urlday}{10}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://medium.com/analytics-vidhya/different-types-of-missing-data-59c87c046bf7
+      \endverb
+      \verb{url}
+      \verb https://medium.com/analytics-vidhya/different-types-of-missing-data-59c87c046bf7
+      \endverb
+    \endentry
+    \entry{24}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c50af1a22210f2ff945de2bc8c9ab0bf}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xijuan},
+           giveni={X\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {University of British Columbia}%
+      }
+      \strng{namehash}{c50af1a22210f2ff945de2bc8c9ab0bf}
+      \strng{fullhash}{c50af1a22210f2ff945de2bc8c9ab0bf}
+      \strng{bibnamehash}{c50af1a22210f2ff945de2bc8c9ab0bf}
+      \strng{authorbibnamehash}{c50af1a22210f2ff945de2bc8c9ab0bf}
+      \strng{authornamehash}{c50af1a22210f2ff945de2bc8c9ab0bf}
+      \strng{authorfullhash}{c50af1a22210f2ff945de2bc8c9ab0bf}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Tutorial: How to Generate Missing Data For Simulation Studies}
+      \field{urlday}{10}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.stat.ubc.ca/~boxiang/teaching/stat545a2016/missingdata_tutorial.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.stat.ubc.ca/~boxiang/teaching/stat545a2016/missingdata_tutorial.pdf
+      \endverb
+    \endentry
+    \entry{34}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f1e069787ece74531d112559945c6871}{%
+           family={GeeksforGeeks},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{f1e069787ece74531d112559945c6871}
+      \strng{fullhash}{f1e069787ece74531d112559945c6871}
+      \strng{bibnamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authorbibnamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authornamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authorfullhash}{f1e069787ece74531d112559945c6871}
+      \field{extraname}{1}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Different Types of Missing Data}
+      \field{urlday}{20}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.geeksforgeeks.org/machine-learning/types-of-missing-data-in-machine-learning/
+      \endverb
+      \verb{url}
+      \verb https://www.geeksforgeeks.org/machine-learning/types-of-missing-data-in-machine-learning/
+      \endverb
+    \endentry
+    \entry{3}{article}{}
+      \name{author}{3}{}{%
+        {{hash=9afe035dd6929bad6e4fde1c6daf74c7}{%
+           family={Shantal},
+           familyi={S\bibinitperiod},
+           given={Mohammed},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7ffb1f99eea22d2b0b3211406ded018c}{%
+           family={Othman},
+           familyi={O\bibinitperiod},
+           given={Zalinda},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=9299a18b25f0d02e1cb007021d2a7bdd}{%
+           family={Bakar},
+           familyi={B\bibinitperiod},
+           given={Azuraliza\bibnamedelima Abu},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{6c6a1ca453891fa7c8ce062258db913a}
+      \strng{fullhash}{6c6a1ca453891fa7c8ce062258db913a}
+      \strng{bibnamehash}{6c6a1ca453891fa7c8ce062258db913a}
+      \strng{authorbibnamehash}{6c6a1ca453891fa7c8ce062258db913a}
+      \strng{authornamehash}{6c6a1ca453891fa7c8ce062258db913a}
+      \strng{authorfullhash}{6c6a1ca453891fa7c8ce062258db913a}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Malaysian Journal of Fundamental and Applied Sciences}
+      \field{number}{6}
+      \field{title}{Impact of Missing Data on Correlation Coefficient Values: Deletion and Imputation Methods for Data Preparation}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{volume}{19}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{1052\bibrangedash 1067}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.11113/mjfas.v19n6.3098
+      \endverb
+      \verb{urlraw}
+      \verb https://www.researchgate.net/publication/376225096_Impact_of_Missing_Data_on_Correlation_Coefficient_Values_Deletion_and_Imputation_Methods_for_Data_Preparation/fulltext/656f1f06a760eb7cc7504b1b/Impact-of-Missing-Data-on-Correlation-Coefficient-Values-Deletion-and-Imputation-Methods-for-Data-Preparation.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/publication/376225096_Impact_of_Missing_Data_on_Correlation_Coefficient_Values_Deletion_and_Imputation_Methods_for_Data_Preparation/fulltext/656f1f06a760eb7cc7504b1b/Impact-of-Missing-Data-on-Correlation-Coefficient-Values-Deletion-and-Imputation-Methods-for-Data-Preparation.pdf
+      \endverb
+    \endentry
+    \entry{33}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b6aea1a416c89509a7df1cbb69249cb6}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{fullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{bibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorbibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Imputation (statistics) --- Wikipedia{,} The Free Encyclopedia}
+      \field{urlday}{20}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Imputation_(statistics)
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Imputation_(statistics)
+      \endverb
+    \endentry
+    \entry{2}{article}{}
+      \name{author}{2}{}{%
+        {{hash=df0bb8027f3a8796e94f9fff87cfb776}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Kenneth},
+           giveni={K\bibinitperiod}}}%
+        {{hash=62468e920e7c96d8d51228b8df9c9a94}{%
+           family={Climer},
+           familyi={C\bibinitperiod},
+           given={Sharlee},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{710b817499dc9156c0ee9fa9e5d26e61}
+      \strng{fullhash}{710b817499dc9156c0ee9fa9e5d26e61}
+      \strng{bibnamehash}{710b817499dc9156c0ee9fa9e5d26e61}
+      \strng{authorbibnamehash}{710b817499dc9156c0ee9fa9e5d26e61}
+      \strng{authornamehash}{710b817499dc9156c0ee9fa9e5d26e61}
+      \strng{authorfullhash}{710b817499dc9156c0ee9fa9e5d26e61}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv}
+      \field{month}{5}
+      \field{note}{Submitted on 1 May 2024}
+      \field{title}{Improving Data Cleaning Using Discrete Optimization}
+      \field{urlday}{12}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2405.00764
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2405.00764
+      \endverb
+    \endentry
+    \entry{5}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=6c5daf08abcc0867f8934e1bc24b84b2}{%
+           family={Solutions},
+           familyi={S\bibinitperiod},
+           given={Statistics},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{6c5daf08abcc0867f8934e1bc24b84b2}
+      \strng{fullhash}{6c5daf08abcc0867f8934e1bc24b84b2}
+      \strng{bibnamehash}{6c5daf08abcc0867f8934e1bc24b84b2}
+      \strng{authorbibnamehash}{6c5daf08abcc0867f8934e1bc24b84b2}
+      \strng{authornamehash}{6c5daf08abcc0867f8934e1bc24b84b2}
+      \strng{authorfullhash}{6c5daf08abcc0867f8934e1bc24b84b2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Missing Data: Listwise vs. Pairwise Deletion}
+      \field{urlday}{20}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.statisticssolutions.com/missing-data-listwise-vs-pairwise/
+      \endverb
+      \verb{url}
+      \verb https://www.statisticssolutions.com/missing-data-listwise-vs-pairwise/
+      \endverb
+    \endentry
+    \entry{6}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c26480dbd84b1e3b6b28fad3844afea1}{%
+           family={Airbyte},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c26480dbd84b1e3b6b28fad3844afea1}
+      \strng{fullhash}{c26480dbd84b1e3b6b28fad3844afea1}
+      \strng{bibnamehash}{c26480dbd84b1e3b6b28fad3844afea1}
+      \strng{authorbibnamehash}{c26480dbd84b1e3b6b28fad3844afea1}
+      \strng{authornamehash}{c26480dbd84b1e3b6b28fad3844afea1}
+      \strng{authorfullhash}{c26480dbd84b1e3b6b28fad3844afea1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Data Imputation: A Comprehensive Guide}
+      \field{urlday}{10}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://airbyte.com/data-engineering-resources/data-imputation
+      \endverb
+      \verb{url}
+      \verb https://airbyte.com/data-engineering-resources/data-imputation
+      \endverb
+    \endentry
+    \entry{7}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f1e069787ece74531d112559945c6871}{%
+           family={GeeksforGeeks},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{f1e069787ece74531d112559945c6871}
+      \strng{fullhash}{f1e069787ece74531d112559945c6871}
+      \strng{bibnamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authorbibnamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authornamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authorfullhash}{f1e069787ece74531d112559945c6871}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to Computation Complex Theory}
+      \field{urlday}{12}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.geeksforgeeks.org/introduction-to-computation-complex-theory/
+      \endverb
+      \verb{url}
+      \verb https://www.geeksforgeeks.org/introduction-to-computation-complex-theory/
+      \endverb
+    \endentry
+    \entry{8}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=80d685e90fa23d7996a66e45aa2d24ad}{%
+           family={Overleaf},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{fullhash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{bibnamehash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{authorbibnamehash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{authornamehash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{authorfullhash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{LaTeX Tutorials}
+      \field{urlday}{23}
+      \field{urlmonth}{2}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.overleaf.com/learn/latex/Tutorials
+      \endverb
+      \verb{url}
+      \verb https://www.overleaf.com/learn/latex/Tutorials
+      \endverb
+    \endentry
+    \entry{9}{book}{}
+      \name{author}{1}{}{%
+        {{hash=19f877e5bbc8a549c332a3a554a05bab}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Bookdown}%
+      }
+      \strng{namehash}{19f877e5bbc8a549c332a3a554a05bab}
+      \strng{fullhash}{19f877e5bbc8a549c332a3a554a05bab}
+      \strng{bibnamehash}{19f877e5bbc8a549c332a3a554a05bab}
+      \strng{authorbibnamehash}{19f877e5bbc8a549c332a3a554a05bab}
+      \strng{authornamehash}{19f877e5bbc8a549c332a3a554a05bab}
+      \strng{authorfullhash}{19f877e5bbc8a549c332a3a554a05bab}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Guide on Data Analysis}
+      \field{urlday}{12}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://bookdown.org/mike/data_analysis/
+      \endverb
+      \verb{url}
+      \verb https://bookdown.org/mike/data_analysis/
+      \endverb
+    \endentry
+    \entry{10}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=484f60f321a07de79913eba455e20f09}{%
+           family={Thesaurus.com},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{484f60f321a07de79913eba455e20f09}
+      \strng{fullhash}{484f60f321a07de79913eba455e20f09}
+      \strng{bibnamehash}{484f60f321a07de79913eba455e20f09}
+      \strng{authorbibnamehash}{484f60f321a07de79913eba455e20f09}
+      \strng{authornamehash}{484f60f321a07de79913eba455e20f09}
+      \strng{authorfullhash}{484f60f321a07de79913eba455e20f09}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Thesaurus.com: Synonyms and Antonyms of Words}
+      \field{urlday}{1}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.thesaurus.com/
+      \endverb
+      \verb{url}
+      \verb https://www.thesaurus.com/
+      \endverb
+    \endentry
+    \entry{11}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c8e971c41594e5eac2ad92440d4b9e6c}{%
+           family={Corrector},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{c8e971c41594e5eac2ad92440d4b9e6c}
+      \strng{fullhash}{c8e971c41594e5eac2ad92440d4b9e6c}
+      \strng{bibnamehash}{c8e971c41594e5eac2ad92440d4b9e6c}
+      \strng{authorbibnamehash}{c8e971c41594e5eac2ad92440d4b9e6c}
+      \strng{authornamehash}{c8e971c41594e5eac2ad92440d4b9e6c}
+      \strng{authorfullhash}{c8e971c41594e5eac2ad92440d4b9e6c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Grammar and Spell Checker}
+      \field{urlday}{28}
+      \field{urlmonth}{2}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://corrector.co/
+      \endverb
+      \verb{url}
+      \verb https://corrector.co/
+      \endverb
+    \endentry
+    \entry{12}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=8b36e9207c24c76e6719268e49201d94}{%
+           family={Google},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{bibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Google Translate}
+      \field{urlday}{15}
+      \field{urlmonth}{2}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://translate.google.com/
+      \endverb
+      \verb{url}
+      \verb https://translate.google.com/
+      \endverb
+    \endentry
+    \entry{13}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=1828f43f1bc501b9e396b5354abc27a6}{%
+           family={joke2k},
+           familyi={j\bibinitperiod}}}%
+      }
+      \strng{namehash}{1828f43f1bc501b9e396b5354abc27a6}
+      \strng{fullhash}{1828f43f1bc501b9e396b5354abc27a6}
+      \strng{bibnamehash}{1828f43f1bc501b9e396b5354abc27a6}
+      \strng{authorbibnamehash}{1828f43f1bc501b9e396b5354abc27a6}
+      \strng{authornamehash}{1828f43f1bc501b9e396b5354abc27a6}
+      \strng{authorfullhash}{1828f43f1bc501b9e396b5354abc27a6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Faker GitHub CI Workflow}
+      \field{urlday}{3}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://github.com/joke2k/faker/actions/workflows/ci.yml
+      \endverb
+      \verb{url}
+      \verb https://github.com/joke2k/faker/actions/workflows/ci.yml
+      \endverb
+    \endentry
+    \entry{14}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=e1edfc5cea461399a63cb813cf795cc9}{%
+           family={Faker},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{e1edfc5cea461399a63cb813cf795cc9}
+      \strng{fullhash}{e1edfc5cea461399a63cb813cf795cc9}
+      \strng{bibnamehash}{e1edfc5cea461399a63cb813cf795cc9}
+      \strng{authorbibnamehash}{e1edfc5cea461399a63cb813cf795cc9}
+      \strng{authornamehash}{e1edfc5cea461399a63cb813cf795cc9}
+      \strng{authorfullhash}{e1edfc5cea461399a63cb813cf795cc9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Barcode Provider — Faker Documentation}
+      \field{urlday}{3}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://faker.readthedocs.io/en/master/providers/faker.providers.barcode.html
+      \endverb
+      \verb{url}
+      \verb https://faker.readthedocs.io/en/master/providers/faker.providers.barcode.html
+      \endverb
+    \endentry
+    \entry{15}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=d43aa83e50fb7b3f85cdfaa834bc0cf8}{%
+           family={Lynn},
+           familyi={L\bibinitperiod},
+           given={Shane},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{d43aa83e50fb7b3f85cdfaa834bc0cf8}
+      \strng{fullhash}{d43aa83e50fb7b3f85cdfaa834bc0cf8}
+      \strng{bibnamehash}{d43aa83e50fb7b3f85cdfaa834bc0cf8}
+      \strng{authorbibnamehash}{d43aa83e50fb7b3f85cdfaa834bc0cf8}
+      \strng{authornamehash}{d43aa83e50fb7b3f85cdfaa834bc0cf8}
+      \strng{authorfullhash}{d43aa83e50fb7b3f85cdfaa834bc0cf8}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Using Pandas DataFrame: Creating, Editing, Viewing Data in Python}
+      \field{urlday}{5}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.shanelynn.ie/using-pandas-dataframe-creating-editing-viewing-data-in-python/
+      \endverb
+      \verb{url}
+      \verb https://www.shanelynn.ie/using-pandas-dataframe-creating-editing-viewing-data-in-python/
+      \endverb
+    \endentry
+    \entry{16}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=928a3e3d99440ed892dda5028159a3aa}{%
+           family={Overflow},
+           familyi={O\bibinitperiod},
+           given={Stack},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{928a3e3d99440ed892dda5028159a3aa}
+      \strng{fullhash}{928a3e3d99440ed892dda5028159a3aa}
+      \strng{bibnamehash}{928a3e3d99440ed892dda5028159a3aa}
+      \strng{authorbibnamehash}{928a3e3d99440ed892dda5028159a3aa}
+      \strng{authornamehash}{928a3e3d99440ed892dda5028159a3aa}
+      \strng{authorfullhash}{928a3e3d99440ed892dda5028159a3aa}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{How can I randomly select/choose an item from a list (get a random element)?}
+      \field{urlday}{19}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://stackoverflow.com/questions/306400/how-can-i-randomly-select-choose-an-item-from-a-list-get-a-random-element
+      \endverb
+      \verb{url}
+      \verb https://stackoverflow.com/questions/306400/how-can-i-randomly-select-choose-an-item-from-a-list-get-a-random-element
+      \endverb
+    \endentry
+    \entry{17}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f1e069787ece74531d112559945c6871}{%
+           family={GeeksforGeeks},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{f1e069787ece74531d112559945c6871}
+      \strng{fullhash}{f1e069787ece74531d112559945c6871}
+      \strng{bibnamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authorbibnamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authornamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authorfullhash}{f1e069787ece74531d112559945c6871}
+      \field{extraname}{3}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{How to randomly select elements of an array with NumPy in Python?}
+      \field{urlday}{19}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.geeksforgeeks.org/how-to-randomly-select-elements-of-an-array-with-numpy-in-python/
+      \endverb
+      \verb{url}
+      \verb https://www.geeksforgeeks.org/how-to-randomly-select-elements-of-an-array-with-numpy-in-python/
+      \endverb
+    \endentry
+    \entry{18}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f1e069787ece74531d112559945c6871}{%
+           family={GeeksforGeeks},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{f1e069787ece74531d112559945c6871}
+      \strng{fullhash}{f1e069787ece74531d112559945c6871}
+      \strng{bibnamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authorbibnamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authornamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authorfullhash}{f1e069787ece74531d112559945c6871}
+      \field{extraname}{4}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Working with Missing Data in Pandas}
+      \field{urlday}{25}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.geeksforgeeks.org/working-with-missing-data-in-pandas/
+      \endverb
+      \verb{url}
+      \verb https://www.geeksforgeeks.org/working-with-missing-data-in-pandas/
+      \endverb
+    \endentry
+    \entry{19}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f1e069787ece74531d112559945c6871}{%
+           family={GeeksforGeeks},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{f1e069787ece74531d112559945c6871}
+      \strng{fullhash}{f1e069787ece74531d112559945c6871}
+      \strng{bibnamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authorbibnamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authornamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authorfullhash}{f1e069787ece74531d112559945c6871}
+      \field{extraname}{5}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Different Ways to Create Pandas DataFrame}
+      \field{urlday}{25}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.geeksforgeeks.org/different-ways-to-create-pandas-dataframe/
+      \endverb
+      \verb{url}
+      \verb https://www.geeksforgeeks.org/different-ways-to-create-pandas-dataframe/
+      \endverb
+    \endentry
+    \entry{20}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=fd54fd0ea0b14458333b780a584c6179}{%
+           family={AskPython},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{fd54fd0ea0b14458333b780a584c6179}
+      \strng{fullhash}{fd54fd0ea0b14458333b780a584c6179}
+      \strng{bibnamehash}{fd54fd0ea0b14458333b780a584c6179}
+      \strng{authorbibnamehash}{fd54fd0ea0b14458333b780a584c6179}
+      \strng{authornamehash}{fd54fd0ea0b14458333b780a584c6179}
+      \strng{authorfullhash}{fd54fd0ea0b14458333b780a584c6179}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Update the Value of a Row in a Pandas DataFrame}
+      \field{urlday}{19}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.askpython.com/python-modules/pandas/update-the-value-of-a-row-dataframe
+      \endverb
+      \verb{url}
+      \verb https://www.askpython.com/python-modules/pandas/update-the-value-of-a-row-dataframe
+      \endverb
+    \endentry
+    \entry{21}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a77d2d31feb0c4a38b86e1750d26a8d5}{%
+           family={Seaborn},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{a77d2d31feb0c4a38b86e1750d26a8d5}
+      \strng{fullhash}{a77d2d31feb0c4a38b86e1750d26a8d5}
+      \strng{bibnamehash}{a77d2d31feb0c4a38b86e1750d26a8d5}
+      \strng{authorbibnamehash}{a77d2d31feb0c4a38b86e1750d26a8d5}
+      \strng{authornamehash}{a77d2d31feb0c4a38b86e1750d26a8d5}
+      \strng{authorfullhash}{a77d2d31feb0c4a38b86e1750d26a8d5}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{seaborn.heatmap — Seaborn 0.12.2 documentation}
+      \field{urlday}{8}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://seaborn.pydata.org/generated/seaborn.heatmap.html
+      \endverb
+      \verb{url}
+      \verb https://seaborn.pydata.org/generated/seaborn.heatmap.html
+      \endverb
+    \endentry
+    \entry{22}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=1587383cf8c21507d06fb51ef7ddda0c}{%
+           family={Matplotlib},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1587383cf8c21507d06fb51ef7ddda0c}
+      \strng{fullhash}{1587383cf8c21507d06fb51ef7ddda0c}
+      \strng{bibnamehash}{1587383cf8c21507d06fb51ef7ddda0c}
+      \strng{authorbibnamehash}{1587383cf8c21507d06fb51ef7ddda0c}
+      \strng{authornamehash}{1587383cf8c21507d06fb51ef7ddda0c}
+      \strng{authorfullhash}{1587383cf8c21507d06fb51ef7ddda0c}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{matplotlib.pyplot.savefig}
+      \field{urlday}{8}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.savefig.html
+      \endverb
+      \verb{url}
+      \verb https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.savefig.html
+      \endverb
+    \endentry
+    \entry{23}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=251d2bbfe9a3b95e5691ceb30dc6784a}{%
+           family={Pandas},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{251d2bbfe9a3b95e5691ceb30dc6784a}
+      \strng{fullhash}{251d2bbfe9a3b95e5691ceb30dc6784a}
+      \strng{bibnamehash}{251d2bbfe9a3b95e5691ceb30dc6784a}
+      \strng{authorbibnamehash}{251d2bbfe9a3b95e5691ceb30dc6784a}
+      \strng{authornamehash}{251d2bbfe9a3b95e5691ceb30dc6784a}
+      \strng{authorfullhash}{251d2bbfe9a3b95e5691ceb30dc6784a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{pandas.DataFrame.sort_values — pandas documentation}
+      \field{urlday}{19}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.sort_values.html
+      \endverb
+      \verb{url}
+      \verb https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.sort_values.html
+      \endverb
+    \endentry
+    \entry{25}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=6259acdcfaa971f2494bf1c13ef7c4c2}{%
+           family={Docs},
+           familyi={D\bibinitperiod},
+           given={Python},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{6259acdcfaa971f2494bf1c13ef7c4c2}
+      \strng{fullhash}{6259acdcfaa971f2494bf1c13ef7c4c2}
+      \strng{bibnamehash}{6259acdcfaa971f2494bf1c13ef7c4c2}
+      \strng{authorbibnamehash}{6259acdcfaa971f2494bf1c13ef7c4c2}
+      \strng{authornamehash}{6259acdcfaa971f2494bf1c13ef7c4c2}
+      \strng{authorfullhash}{6259acdcfaa971f2494bf1c13ef7c4c2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{tkinter — Python interface to Tcl/Tk}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://docs.python.org/3/library/tkinter.html
+      \endverb
+      \verb{url}
+      \verb https://docs.python.org/3/library/tkinter.html
+      \endverb
+    \endentry
+    \entry{26}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f1e069787ece74531d112559945c6871}{%
+           family={GeeksforGeeks},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{f1e069787ece74531d112559945c6871}
+      \strng{fullhash}{f1e069787ece74531d112559945c6871}
+      \strng{bibnamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authorbibnamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authornamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authorfullhash}{f1e069787ece74531d112559945c6871}
+      \field{extraname}{6}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Python Tkinter Tutorial}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.geeksforgeeks.org/python/python-tkinter-tutorial/
+      \endverb
+      \verb{url}
+      \verb https://www.geeksforgeeks.org/python/python-tkinter-tutorial/
+      \endverb
+    \endentry
+    \entry{27}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a2fe9051fe051f819bd739ef3e340377}{%
+           family={NVIDIA},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{a2fe9051fe051f819bd739ef3e340377}
+      \strng{fullhash}{a2fe9051fe051f819bd739ef3e340377}
+      \strng{bibnamehash}{a2fe9051fe051f819bd739ef3e340377}
+      \strng{authorbibnamehash}{a2fe9051fe051f819bd739ef3e340377}
+      \strng{authornamehash}{a2fe9051fe051f819bd739ef3e340377}
+      \strng{authorfullhash}{a2fe9051fe051f819bd739ef3e340377}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{CUDA Toolkit — Developer Zone}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://developer.nvidia.com/cuda-toolkit
+      \endverb
+      \verb{url}
+      \verb https://developer.nvidia.com/cuda-toolkit
+      \endverb
+    \endentry
+    \entry{28}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=8efb3259b03e64cfd05983690c33164c}{%
+           family={CuPy},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{8efb3259b03e64cfd05983690c33164c}
+      \strng{fullhash}{8efb3259b03e64cfd05983690c33164c}
+      \strng{bibnamehash}{8efb3259b03e64cfd05983690c33164c}
+      \strng{authorbibnamehash}{8efb3259b03e64cfd05983690c33164c}
+      \strng{authornamehash}{8efb3259b03e64cfd05983690c33164c}
+      \strng{authorfullhash}{8efb3259b03e64cfd05983690c33164c}
+      \field{extraname}{1}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{CuPy Documentation}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://cupy.dev/
+      \endverb
+      \verb{url}
+      \verb https://cupy.dev/
+      \endverb
+    \endentry
+    \entry{29}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=8efb3259b03e64cfd05983690c33164c}{%
+           family={CuPy},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{8efb3259b03e64cfd05983690c33164c}
+      \strng{fullhash}{8efb3259b03e64cfd05983690c33164c}
+      \strng{bibnamehash}{8efb3259b03e64cfd05983690c33164c}
+      \strng{authorbibnamehash}{8efb3259b03e64cfd05983690c33164c}
+      \strng{authornamehash}{8efb3259b03e64cfd05983690c33164c}
+      \strng{authorfullhash}{8efb3259b03e64cfd05983690c33164c}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{CuPy Documentation (stable)}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://docs.cupy.dev/en/stable/
+      \endverb
+      \verb{url}
+      \verb https://docs.cupy.dev/en/stable/
+      \endverb
+    \endentry
+    \entry{30}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Silhouette (clustering)}
+      \field{urlday}{20}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Silhouette_(clustering)
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Silhouette_(clustering)
+      \endverb
+    \endentry
+    \entry{31}{book}{}
+      \name{author}{4}{}{%
+        {{hash=c92e71f19eaea3c5827b0e4446d9f99c}{%
+           family={González},
+           familyi={G\bibinitperiod},
+           given={J.A.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d429cb9133b23f4117f0bf126f1a3435}{%
+           family={Cobo},
+           familyi={C\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=169d4a0b9cf5226db21ee965fbfef3e5}{%
+           family={Muñoz},
+           familyi={M\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=87d6f36e9a4620b704c6ed9cdeda42c6}{%
+           family={Martí-Recober},
+           familyi={M\bibinithyphendelim R\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Edicions UPC}%
+      }
+      \strng{namehash}{8591c39baf14d79ed718f0f4db980093}
+      \strng{fullhash}{3ae638e660af7701f6fe8d0ade1b9549}
+      \strng{bibnamehash}{8591c39baf14d79ed718f0f4db980093}
+      \strng{authorbibnamehash}{8591c39baf14d79ed718f0f4db980093}
+      \strng{authornamehash}{8591c39baf14d79ed718f0f4db980093}
+      \strng{authorfullhash}{3ae638e660af7701f6fe8d0ade1b9549}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9788483019535}
+      \field{title}{Estadística per a enginyers informàtics}
+      \field{year}{2008}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://discovery.upc.edu/discovery/fulldisplay?docid=alma991003417199706711&context=L&vid=34CSUC_UPC:VU1&lang=ca
+      \endverb
+      \verb{url}
+      \verb https://discovery.upc.edu/discovery/fulldisplay?docid=alma991003417199706711&context=L&vid=34CSUC_UPC:VU1&lang=ca
+      \endverb
+      \warn{\item book entry '31' (references.bib): Invalid format '2025-6-05' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{32}{book}{}
+      \name{author}{1}{}{%
+        {{hash=1f5d210ac4349c7054bf99f808c9d9e3}{%
+           family={Baron},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {CRC Press}%
+      }
+      \strng{namehash}{1f5d210ac4349c7054bf99f808c9d9e3}
+      \strng{fullhash}{1f5d210ac4349c7054bf99f808c9d9e3}
+      \strng{bibnamehash}{1f5d210ac4349c7054bf99f808c9d9e3}
+      \strng{authorbibnamehash}{1f5d210ac4349c7054bf99f808c9d9e3}
+      \strng{authornamehash}{1f5d210ac4349c7054bf99f808c9d9e3}
+      \strng{authorfullhash}{1f5d210ac4349c7054bf99f808c9d9e3}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781138044487}
+      \field{title}{Probability and Statistics for Computer Scientists}
+      \field{year}{2019}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://discovery.upc.edu/discovery/fulldisplay?docid=alma991004181089706711&context=L&vid=34CSUC_UPC:VU1&lang=ca
+      \endverb
+      \verb{url}
+      \verb https://discovery.upc.edu/discovery/fulldisplay?docid=alma991004181089706711&context=L&vid=34CSUC_UPC:VU1&lang=ca
+      \endverb
+      \warn{\item book entry '32' (references.bib): Invalid format '2025-6-05' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{35}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b6aea1a416c89509a7df1cbb69249cb6}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{fullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{bibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorbibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \field{extraname}{2}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Branch and bound --- Wikipedia{,} The Free Encyclopedia}
+      \field{urlday}{20}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Branch_and_bound
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Branch_and_bound
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
 
-\bibitem{24}
-Xijuan Zhang.
-\newblock Tutorial: How to generate missing data for simulation studies.
-
-\bibitem{34}
-GeeksforGeeks.
-\newblock Different types of missing data.
-
-\bibitem{3}
-Mohammed Shantal, Zalinda Othman, and Azuraliza~Abu Bakar.
-\newblock Impact of missing data on correlation coefficient values: Deletion and imputation methods for data preparation.
-\newblock {\em Malaysian Journal of Fundamental and Applied Sciences}, 19(6):1052--1067, 2023.
-
-\bibitem{33}
-{Wikipedia contributors}.
-\newblock Imputation (statistics) --- wikipedia{,} the free encyclopedia, 2024.
-
-\bibitem{2}
-Kenneth Smith and Sharlee Climer.
-\newblock Improving data cleaning using discrete optimization.
-\newblock {\em arXiv}, May 2024.
-\newblock Submitted on 1 May 2024.
-
-\bibitem{5}
-Statistics Solutions.
-\newblock Missing data: Listwise vs. pairwise deletion.
-
-\bibitem{6}
-Airbyte.
-\newblock Data imputation: A comprehensive guide, 2024.
-
-\bibitem{7}
-GeeksforGeeks.
-\newblock Introduction to computation complex theory, 2025.
-
-\bibitem{8}
-Overleaf.
-\newblock Latex tutorials.
-
-\bibitem{9}
-Mike Nguyen.
-\newblock {\em A Guide on Data Analysis}.
-\newblock Bookdown, 2020.
-
-\bibitem{10}
-Thesaurus.com.
-\newblock Thesaurus.com: Synonyms and antonyms of words.
-
-\bibitem{11}
-Corrector.
-\newblock Grammar and spell checker.
-
-\bibitem{12}
-Google.
-\newblock Google translate.
-
-\bibitem{13}
-joke2k.
-\newblock Faker github ci workflow.
-
-\bibitem{14}
-Faker.
-\newblock Barcode provider — faker documentation.
-
-\bibitem{15}
-Shane Lynn.
-\newblock Using pandas dataframe: Creating, editing, viewing data in python.
-
-\bibitem{16}
-Stack Overflow.
-\newblock How can i randomly select/choose an item from a list (get a random element)?
-
-\bibitem{17}
-GeeksforGeeks.
-\newblock How to randomly select elements of an array with numpy in python?
-
-\bibitem{18}
-GeeksforGeeks.
-\newblock Working with missing data in pandas.
-
-\bibitem{19}
-GeeksforGeeks.
-\newblock Different ways to create pandas dataframe.
-
-\bibitem{20}
-AskPython.
-\newblock Update the value of a row in a pandas dataframe.
-
-\bibitem{21}
-Seaborn.
-\newblock seaborn.heatmap — seaborn 0.12.2 documentation.
-
-\bibitem{22}
-Matplotlib.
-\newblock matplotlib.pyplot.savefig.
-
-\bibitem{23}
-Pandas.
-\newblock pandas.dataframe.sort_values — pandas documentation.
-
-\bibitem{25}
-Python Docs.
-\newblock tkinter — python interface to tcl/tk.
-
-\bibitem{26}
-GeeksforGeeks.
-\newblock Python tkinter tutorial.
-
-\bibitem{27}
-NVIDIA.
-\newblock Cuda toolkit — developer zone.
-
-\bibitem{28}
-CuPy.
-\newblock Cupy documentation.
-
-\bibitem{29}
-CuPy.
-\newblock Cupy documentation (stable).
-
-\bibitem{30}
-Wikipedia.
-\newblock Silhouette (clustering).
-
-\bibitem{31}
-J.A. González, E.~Cobo, P.~Muñoz, and M.~Martí-Recober.
-\newblock {\em Estadística per a enginyers informàtics}.
-\newblock Edicions UPC, 2008.
-
-\bibitem{32}
-M.~Baron.
-\newblock {\em Probability and Statistics for Computer Scientists}.
-\newblock CRC Press, 2019.
-
-\bibitem{35}
-{Wikipedia contributors}.
-\newblock Branch and bound --- wikipedia{,} the free encyclopedia, 2024.
-
-\end{thebibliography}

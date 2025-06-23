@@ -10,6 +10,30 @@
 \usepackage{amssymb}  % For \leq symbol
 \usepackage{bookmark} % Fix hyperref warnings
 \usepackage{amsmath}
+
+\usepackage[backend=biber, 
+    style=numeric,
+    sorting=none,
+    url=true,
+    urldate=comp,
+    maxcitenames=99,
+    maxbibnames=99]{biblatex}
+\addbibresource{your-references.bib} % Your .bib filename
+
+% Custom format for URLs and access dates
+\DeclareFieldFormat{url}{\newline\url{#1}}
+\DeclareFieldFormat{urldate}{\newline[Accessed: #1]}
+
+% Force display of URLs and access dates
+\renewbibmacro*{finentry}{%
+  \printfield{url}%
+  \printfield{urldate}%
+  \finentry
+}
+
+% Remove parentheses from year
+\DeclareFieldFormat{date}{#1}
+
 \usepackage{pdflscape}
 \usepackage{algorithm}
 \usepackage{algpseudocode}
@@ -62,7 +86,7 @@
 \titleformat{\subsection}{\bfseries}{\thesubsection.}{1em}{}
 
 % Line spacing: 1.5 for text, single for tables/figures
-\setstretch{1.5}
+\setstretch{1.25}
 \setlength{\parindent}{0pt} % No indentation for paragraphs
 \setlength{\parskip}{1em} % Space between paragraphs
 
@@ -86,16 +110,16 @@
 \listoftables
 \newpage
 
-\section{Abstract}
+\section*{Abstract}
 This project focuses on handling missing data in datasets, where traditional methods such as deletion and imputation often introduce bias and information loss. We propose a series of algorithms (v0.0–v0.5 and Branch-and-Bound) that balance data retention, completeness, and user-defined constraints. A quantitative evaluation metric assesses the algorithms’ performance on synthetic datasets with controlled missingness patterns (MCAR, MAR, MNAR). Experiments demonstrate that simpler heuristics (v0.4/v0.5) perform best under MCAR conditions, while the Branch-and-Bound algorithm achieves high performance with more complex MAR and MNAR dependencies. Validation on real-world data confirms improvements in clustering quality.
 
-\section{Resumen}
+\section*{Resumen}
 Este proyecto se centra en el tratamiento de datos faltantes en conjuntos de datos, donde los métodos tradicionales como la eliminación o la imputación suelen introducir sesgos y pérdida de información. Proponemos una serie de algoritmos (v0.0–v0.5 y Branch-and-Bound) que equilibran la retención de datos, la completitud y las restricciones definidas por el usuario. Una métrica cuantitativa evalúa el rendimiento de los algoritmos en conjuntos de datos sintéticos con patrones controlados de datos faltantes (MCAR, MAR, MNAR). Los experimentos muestran que heurísticas más simples (v0.4/v0.5) funcionan mejor en escenarios MCAR, mientras que el algoritmo Branch-and-Bound obtiene un alto rendimiento con dependencias complejas MAR y MNAR. La validación con datos reales confirma mejoras en la calidad del clustering.
 
-\section{Resum}
+\section*{Resum}
 Aquest projecte se centra en el tractament de dades mancants en conjunts de dades, on els mètodes tradicionals com l’eliminació o la imputació sovint introdueixen biaixos i pèrdua d’informació. Proposem una sèrie d’algoritmes (v0.0–v0.5 i Branch-and-Bound) que equilibren la retenció de dades, la completitud i les restriccions definides per l’usuari. Una mètrica quantitativa avalua el rendiment dels algorismes en conjunts de dades sintètiques amb patrons controlats de dades mancants (MCAR, MAR, MNAR). Els experiments mostren que heurístiques més simples (v0.4/v0.5) funcionen millor en escenaris MCAR, mentre que l’algorisme Branch-and-Bound aconsegueix un alt rendiment amb dependències complexes MAR i MNAR. La validació amb dades reals confirma millores en la qualitat del clustering.
 \newpage
-\section{Acknowledgement}
+\section*{Acknowledgement}
 This project has been both an academic and personal journey. And while I've put in a lot of effort, it wouldn't have been possible without the support and reassurance of many people.
 
 First, I would like to thank Professor Luis Antonio Belanche Muñoz, whose guidance, opinions, and comments were truly invaluable and appreciated. His constancy helped me stay focused and motivated from start to finish, and enabled me to create something I know I will look back on fondly for years to come.
@@ -157,6 +181,8 @@ Before closing this introductory section, I would like to explain how this docum
 
 \subsection{Missing Data: Definitions and Types (MCAR, MAR, MNAR)}
 
+This section describes the fundamental types of missing data: MCAR, MAR, and MNAR, it explains how they are created, they are formally described and illustrating each with an example.
+
 In data analysis, the presence of missing data is a common issue that can compromise the quality of results. Understanding the nature and pattern of missing data is essential for selecting an appropriate treatment strategy. In 1976, Rubin introduced the most widely accepted classification of missing data mechanisms: MCAR (Missing Completely At Random), MAR (Missing At Random), and MNAR (Missing Not At Random). ~\cite{4}
 
 \subsubsection{Missing Completely At Random (MCAR)}
@@ -178,12 +204,13 @@ Where:
 \item $\Pr(R \mid Y, X) = \Pr(R)$ tells us that the probability of a value being missing does not depend on X or Y. 
 \end{itemize}
 
-\textbf{Example:} Sensors that occasionally fail at random, or data lost due to transmission errors.
+\textbf{Example:} Sensors that occasionally fail at random, or data lost due to transmission errors. The figure~\ref{fig:mcar_heatmap} shows an example of a dataset with MCAR missingness. 
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.5\linewidth]{MCAR_heatmap.png}
     \caption{Missing Completely At Random}
+    \label{fig:mcar_heatmap}
 \end{figure}
 
 \textbf{Implication:} When datasets have an MCAR distribution, common statistical analysis methods, like estimation or regression, are still valid because the missingness does not introduce bias into the results. ~\cite{34}
@@ -205,12 +232,13 @@ Where:
 \item $\theta$ are the parameters of the model generating the data.
 \end{itemize}
 
-\textbf{Example:} In a survey, income data may be missing more frequently among respondents with lower levels of education.
+\textbf{Example:} In a survey, income data may be missing more frequently among respondents with lower levels of education. The figure~\ref{fig:mar_heatmap} shows an example of a dataset with MAR missingness.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.5\linewidth]{MAR_heatmap.png}
 \caption{Missing At Random}
+\label{fig:mar_heatmap}
 \end{figure}
 
 \textbf{Implication:} Statistical methods that model the relationship between missingness and observed variables are appropriate for handling MAR datasets.
@@ -232,17 +260,20 @@ Where:
 \end{itemize}
 
 
-\textbf{Example:} In a survey, individuals with very high incomes may choose not to report their salary, resulting in systematic missingness.
+\textbf{Example:} In a survey, individuals with very high incomes may choose not to report their salary, resulting in systematic missingness. The figure~\ref{fig:mnar_heatmap} shows an example of a dataset with MNAR missingness.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.5\linewidth]{MNAR_heatmap.png}
 \caption{Missing Not At Random}
+\label{fig:mnar_heatmap}
 \end{figure}
 
 \textbf{Implication:} Traditional methods can introduce significant bias. Special treatment or modeling is required to handle this type of missingness effectively.
 
 \subsection{Traditional Methods for Handling Missing Data}
+
+This section describes commonly used traditional techniques, such as deletion and imputation for handling missing data.
 
 Handling missing data is a fundamental step in the data analysis pipeline. Two traditional approaches are commonly used to address this issue: listwise deletion and pairwise deletion. This section explains these two methods.
 
@@ -250,7 +281,7 @@ Handling missing data is a fundamental step in the data analysis pipeline. Two t
 
 This method removes all rows that contain any missing value. It is straightforward to implement and ensures that analyses are performed using only complete cases, simplifying statistical modeling.
 
-However, its main disadvantage is the potential loss of a substantial amount of information, especially when missing data are widespread. Furthermore, it assumes that the data are MCAR—a condition that is rarely met in real-world scenarios—which can lead to biased results. ~\cite{3}
+However, its main disadvantage is the potential loss of a substantial amount of information, especially when missing data are widespread. Furthermore, it assumes that the data are MCAR—a condition that is rarely met in real-world scenarios—which can lead to biased results. ~\cite{3}. The figure~\ref{fig:listwise_deletion} compares the dataset before and after applying listwise deletion.
 
 \begin{figure}[H]
 \centering
@@ -264,6 +295,7 @@ However, its main disadvantage is the potential loss of a substantial amount of 
 \caption{Listwise Deletion}
 \end{subfigure}
 \caption{Listwise Deletion Example}
+\label{fig:listwise_deletion}
 \end{figure}
 
 
@@ -271,7 +303,7 @@ However, its main disadvantage is the potential loss of a substantial amount of 
 
 This approach is more flexible. Instead of removing entire rows, they impute values in the missing data cells. Pairwise deletion excludes missing values only from the specific calculations where they are needed.
 
-It allows for more efficient use of available data but may introduce inconsistencies across analyses, as the sample size can vary between computations. Like listwise deletion, it assumes an MCAR distribution. ~\cite{3}
+It allows for more efficient use of available data but may introduce inconsistencies across analyses, as the sample size can vary between computations. Like listwise deletion, it assumes an MCAR distribution. ~\cite{3}. Figure~\ref{fig:pairwise_deletion} compares the dataset before and after applying pairwise deletion.
 
 \begin{figure}[H]
 \centering
@@ -285,6 +317,7 @@ It allows for more efficient use of available data but may introduce inconsisten
 \caption{Pairwise Deletion}
 \end{subfigure}
 \caption{Pairwise Deletion Example}
+\label{fig:pairwise_deletion}
 \end{figure}
 
 \subsubsection{Hot-deck Imputation}
@@ -299,7 +332,7 @@ Let’s consider the following dataset as an example:
 \hline
 \textbf{Name} & \textbf{Age} & \textbf{Score} \\
 \hline
-Alice & 23 & 85 \\
+Alice & 20 & 85 \\
 \hline
 Bob & 27 & -- \\
 \hline
@@ -343,6 +376,9 @@ Summarizing the issues discussed, the traditional methods present the following 
 \section{Evaluation Metrics and Data Generation}
 
 \subsection{Evaluation Metrics}
+
+This section describes a scoring framework for evaluating missing data strategies, based on constraint satisfaction, missing value reduction, data retention, and preservation of key variables.
+
 To compare algorithms and select the best one for handling missing data, I designed criteria that quantify the quality of the "cleaned" dataset. These criteria guided the algorithm development and form the foundation of the health scoring function. Key criteria include:
 
 \begin{itemize}
@@ -417,14 +453,14 @@ The overall health score is the sum of the four components:
 
 This system provides a standardized way to compare different strategies for handling missing data. Moreover, its automated implementation allows for easy replication of experiments. It also prints all relevant information used in the calculations, enabling the user to understand where potential issues may lie.
 
-\subsubsection{Test Validation: 100/100 and 0/100}
+\subsubsection{Validation of Health Score via Extremes}
 
-To validate the health score, I designed two test pairs, one that scored 100/100 and another that scored 0/100.
+To validate the correctness of the health score, I designed two test cases to confirm that the scoring system properly assigns both its maximum and minimum values under ideal and worst-case conditions.
 
 \paragraph{Perfect Score (100/100):}
 \begin{itemize}
     \item \textbf{Erased Dataset:} 1000 rows and 100 columns with 200 values randomly erased.
-    \item \textbf{Cleaned Dataset:} Identical to Erased but with all values restored.
+    \item \textbf{Cleaned Dataset:} Identical to the erased dataset but with all missing values correctly restored.
 \end{itemize}
 
 \textbf{Score Breakdown:}
@@ -432,7 +468,7 @@ To validate the health score, I designed two test pairs, one that scored 100/100
     \item Constraint Adherence: 40/40 (all thresholds met)
     \item Missing Value Reduction: 30/30 (200 \textrightarrow 0)
     \item Data Retention: 20/20 (100\% rows/columns retained)
-    \item Important Columns Bonus: 10/10 (all important columns intact and complete)
+    \item Important Columns Bonus: 10/10 (all important columns preserved and complete)
 \end{itemize}
 
 \textbf{Total Score:} 100/100
@@ -512,6 +548,7 @@ The algorithms were developed incrementally, which made it easier to manage grow
 
 \subsection{Description of the Algorithms}
 \subsubsection{Algorithm v0.0}
+This algorithm removes rows with the most missing values, penalizing missing data in important columns by applying a weight. It continues deleting rows until either a minimum number or percentage of rows remain or no missing values are left.\\
 \textbf{Input}
 \begin{itemize}
     \item \textbf{Dataset:} A .csv file (by default \texttt{output\_erased\_dataset.csv}) that contains the dataset.
@@ -567,6 +604,7 @@ The algorithms were developed incrementally, which made it easier to manage grow
 \end{itemize}
 
 \subsubsection{Algorithm v0.1}
+Starting from v0.0, this version takes into account the total number of missing values allowed in the dataset, stopping the removal process once the dataset meets specified thresholds on row count, percentage, or overall missing values.\\
 \textbf{Input}
 \begin{itemize}
     \item \textbf{Dataset:} A .csv file (by default \texttt{output\_erased\_dataset.csv}) that contains the dataset.
@@ -631,6 +669,8 @@ The algorithms were developed incrementally, which made it easier to manage grow
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsubsection{Algorithm v0.2}
+v0.2 takes a whole new approach, it applies a percentile cutoff on weighted missing values, filtering out rows above a calculated threshold to maintain a dataset with fewer missing values based on the distribution.
+
 \textbf{Input}
 \begin{itemize}
     \item \textbf{Dataset:} A .csv file (by default \texttt{output\_erased\_dataset.csv}) that contains the dataset.
@@ -674,6 +714,8 @@ The algorithms were developed incrementally, which made it easier to manage grow
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsubsection{Algorithm v0.3}
+This algorithm cleans by ranking rows based on a weighted combination of missing values and data quality, then uses binary search to find the optimal subset that satisfies user-defined constraints on minimum rows, maximum missing values, and minimum percentage retention.
+
 \textbf{Input}
 \begin{itemize}
     \item \textbf{Dataset:} A .csv file (by default \texttt{output\_erased\_dataset.csv}) that contains the dataset.
@@ -729,6 +771,8 @@ The algorithms were developed incrementally, which made it easier to manage grow
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsubsection{Algorithm v0.4}
+v0.4 introduces a multi-phase heuristic: it first removes columns with many missing values, then targets “zones” of rows with high missingness based on statistical deviations, and finally performs row removal until constrains are meet.
+
 \textbf{Input}
 \begin{itemize}
     \item \textbf{Dataset:} A .csv file (by default \texttt{output\_erased\_dataset.csv}) that contains the dataset.
@@ -805,6 +849,8 @@ The algorithms were developed incrementally, which made it easier to manage grow
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsubsection{Algorithm v0.5}
+Starting from v0.4, v0.5 continues with column and row removal, it uses standard deviations to handle missing data concentrations.
+
 \textbf{Input}
 \begin{itemize}
     \item \textbf{Dataset:} A .csv file (by default \texttt{output\_erased\_dataset.csv}) that contains the dataset.
@@ -870,6 +916,8 @@ The algorithms were developed incrementally, which made it easier to manage grow
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsubsection{Branch and Bound}
+This method exhaustively searches combinations of rows and columns to find an optimal subset minimizing information loss, trading computational efficiency for potentially better cleaning results.
+
 \textbf{Input}
 \begin{itemize}
     \item \textbf{Dataset:} A .csv file (by default \texttt{output\_erased\_dataset.csv}) that contains the dataset.
@@ -1063,11 +1111,12 @@ During the development of the project, a variety of tools and technologies were 
 \newpage
 \section{Experimentation and Results}
 
-\hl{Estic refent les imatges per que tinguin la mateixa estetica que les anteriors}
 \subsection{Experimental Setup}
-To evaluate the effectiveness of the algorithms developed, a synthetic environment was created to simulate different scenarios of missing data. Each experiment includes the generation of the original dataset, the introduction of missing data following different distribution patterns, the application of all the algorithms to obtain various results, and their evaluation using quantitative metrics. \\
+To evaluate the effectiveness of the developed algorithms, a synthetic environment was created to simulate various missing data scenarios. This approach was motivated by two main reasons. First, synthetic datasets offer full control over key aspects such as size, distribution, and the exact percentage and pattern of missing values. Second, in real-world datasets, the nature and distribution of missing data are often unknown, making it difficult to objectively compare the performance of imputation or deletion methods.
 
-The experiments were executed with the help of a Bash script, which performs six steps. All the results from each execution are saved in a directory called \texttt{/logs}, including execution times, heatmaps, and all the generated \texttt{.csv} files. This setup supports the reproducibility of the experiments and facilitates drawing conclusions.
+Each experiment involves generating an original dataset, introducing missing data according to specific patterns, applying all algorithms to produce results, and evaluating these results using quantitative metrics.
+
+The experiments were automated using a Bash script that executes six sequential steps. All outputs from each run are saved in a directory named \texttt{/logs}, including execution times, heatmaps, and the generated \texttt{.csv} files. This setup ensures experiment reproducibility and supports drawing reliable conclusions.
 
 \subsubsection{Generation of Complete Datasets}
 All the experiments are based on synthetic datasets generated from scratch. Each dataset has a dimension of $10^5$ rows and $10^4$ columns and includes both numerical and categorical variables generated randomly. These datasets simulate real-world datasets with high dimensionality and data diversity.
@@ -1076,8 +1125,7 @@ All the experiments are based on synthetic datasets generated from scratch. Each
 To evaluate the algorithms' capacity to preserve critical variables, the first 100 columns (col\_1 to col\_100) are designated as important. These columns are assigned greater weight in the evaluation: if they are eliminated or retain many missing values, the algorithm receives a high penalty.
 
 \subsubsection{Simulation of Missing Values}
-For this experiment, we used nine test cases that evenly cover all three missing data distributions: MCAR, MAR, and MNAR. Each pattern was applied using the scripts \texttt{erase\_generator\_MCAR\_GPU.py}, \texttt{erase\_generator\_MAR\_GPU.py}, and \texttt{erase\_generator\_MNAR\_GPU.py}. The use of GPU implementations helped maintain high efficiency even with large-scale data. Each case includes specific parameters such as the number of affected columns, percentage of missing data, etc. Each case will be thoroughly explained in the next section.
-
+For this experiment, we used nine test cases that evenly cover all three missing data distributions: MCAR, MAR, and MNAR. Each pattern was applied using custom GPU-based Python scripts\footnote{MCAR: \texttt{erase\_generator\_MCAR\_GPU.py}; MAR: \texttt{erase\_generator\_MAR\_GPU.py}; MNAR: \texttt{erase\_generator\_MNAR\_GPU.py}.}. The use of GPU implementations helped maintain high efficiency even with large-scale data. Each case includes specific parameters such as the number of affected columns, percentage of missing data, etc. Each case will be thoroughly explained in the next section.
 \subsubsection{Algorithm Application}
 Once the datasets were generated, each of the tested algorithms was applied:
 \begin{itemize}
@@ -1223,22 +1271,6 @@ The highest-performing algorithm is v0.4, with a health score of 83.6. The most 
 
 \textbf{Heatmaps}\\
 We begin by examining the input dataset to ensure that the missingness pattern corresponds to a uniform MCAR distribution, as intended.
-
-\hl{No sé quina opció és millor, per una banda, a la primera podem veure millor el patró de prop. Amb l'altre obtenim una visió més global, que crec que és més adient per comparar després}
-
-\begin{figure}[H]
-    \centering
-    \begin{subfigure}[t]{0.48\linewidth}
-        \centering
-        \includegraphics[height=5cm, trim=0 600 700 0, clip]{case1_heatmap_erased.png}
-    \end{subfigure}
-    \hspace{-0.8cm} % reduce this if needed
-    \begin{subfigure}[t]{0.05\linewidth}
-        \centering
-        \includegraphics[height=4.8cm]{legend.png}
-    \end{subfigure}
-    \caption{Case 1 input dataset}
-\end{figure}
 
 \begin{figure}[H]
     \centering
@@ -1416,6 +1448,7 @@ Score & 67.1 & 60.0 & 64.5 & 55.0 & 60.0 & 60.0 & 60.0 & \textbf{60.94} \\
 
 \textbf{Observations}\\
 v0.0 is again the best algorithm with a score of 67.1, thanks to high Constraint Adherence (40/40) and Data Retention (20/20). v0.3 performs significantly worse (55.0), particularly in Missing Value Reduction (5.5/30) and Constraint Adherence (32.0/40). The gap is 12.1 points, again showing lower variance.  
+
 \textbf{Heatmaps}\\
 The input dataset displays a characteristic MNAR pattern with missing values concentrated in specific columns.
 
@@ -1807,7 +1840,7 @@ Despite the promising results obtained during experimentation, this work present
 \section{Conclusions and Future Work}
 This project has demonstrated that it is possible to design and implement efficient strategies for handling missing values in high-dimensional datasets.
 
-In particular, the following conclusions were drawn:
+In particular, the following conclusions can be drawn:
 \begin{itemize}
     \item Simple methods like \texttt{v0.0} perform competitively in MNAR scenarios. However, in MCAR, more sophisticated algorithms such as \texttt{v0.4}, \texttt{v0.5} achieve better performance.
     \item 
@@ -1844,8 +1877,6 @@ This project has successfully fulfilled its initial objectives, both theoretical
 \subsection{Future Improvements}
 While the project's main objectives were achieved, several areas remain open for future development:
 \begin{itemize}
-    \item \textbf{Scientific Publication:} Formalize and publish the findings in a peer-reviewed journal to contribute to the broader scientific community.
-    
     \item \textbf{Multi-objective Optimization:} Extend the algorithms to support simultaneous optimization of multiple criteria (e.g., data retention vs. completeness).
     
     \item \textbf{Multidimensional Evaluation:} Incorporate additional validation metrics, including those from supervised learning and domain-specific criteria, to enable richer assessments of algorithm performance.
@@ -1853,26 +1884,420 @@ While the project's main objectives were achieved, several areas remain open for
 
 \newpage
 \addcontentsline{toc}{section}{Bibliography}
-% This command includes all references from your .bib file
 \nocite{*}
-\bibliographystyle{unsrt}
-\bibliography{references}  % Use references.bib file
-
+\printbibliography[title=Bibliography]
 \newpage
 \appendix
 \section{Example Code Snippets}
-\lstinputlisting[language=Python, caption=MAR Missingness Generator with GPU Support]{erase_generator_MAR_GPU.py}
-\lstinputlisting[language=Python, caption=MNAR Missingness Generator with GPU Support]{erase_generator_MNAR_GPU.py}
-\lstinputlisting[language=Python, caption=MCAR Missingness Generator with GPU Support]{erase_generator_MCAR_GPU.py}
-\lstinputlisting[language=Python, caption=Algorithm v0.0]{algorithm_v0.0.py}
-\lstinputlisting[language=Python, caption=Algorithm v0.1]{algorithm_v0.1.py}
-\lstinputlisting[language=Python, caption=Algorithm v0.2]{algorithm_v0.2.py}
-\lstinputlisting[language=Python, caption=Algorithm v0.3]{algorithm_v0.3.py}
-\lstinputlisting[language=Python, caption=Algorithm v0.4]{algorithm_v0.4.py}
-\lstinputlisting[language=Python, caption=Algorithm v0.5]{algorithm_v0.5.py}
-\lstinputlisting[language=Python, caption=Branch and Bond]{branch_and_bound.py}
-\lstinputlisting[language=Python, caption=Scoring Metrics]{final_analysis.py}
-\section{Extended Tables and Graphs}
+All the code used in this project is available on my Github repository: \url{https://github.com/ariadnagarcialorente/TFG}. It includes the algorithms, scripts to run experiments, results from thee experiments, documentation, and a user interface. The repository is organized to support both technical exploration and practical use.
+\newpage
+\section{Extended Tables and Heatmaps}
+\begin{table}[h]
+\centering
+\caption{Algorithm Performance by Case (Re-executed Experiment)}
+\label{tab:rescores}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\textbf{Case} & \textbf{v0.0} & \textbf{v0.1} & \textbf{v0.2} & \textbf{v0.3} & \textbf{v0.4} & \textbf{v0.5} & \textbf{BnB} & \textbf{Avg per Case} \\
+\hline
+1 & 64.4 & 62.4 & 59.9 & 59.3 & 83.6 & 83.3 & 60.0 & 67.97 \\
+2 & 54.9 & 53.6 & 50.5 & 63.1 & 85.1 & 85.1 & 52.0 & 56.04 \\
+3 & 69.6 & 60.0 & 61.7 & 52.2 & 60.0 & 60.0 & 60.0 & 60.50 \\
+4 & 64.9 & 62.7 & 64.4 & 52.6 & 60.7 & 60.7 & 70.0 & 62.29 \\
+5 & 67.1 & 60.0 & 64.5 & 55.0 & 60.0 & 60.0 & 60.0 & 60.94 \\
+6 & 64.2 & 62.3 & 59.4 & 55.0 & 60.3 & 60.3 & 70.0 & 61.65 \\
+7 & 55.5 & 53.9 & 50.2 & 62.0 & 84.8 & 84.8 & 52.0 & 63.33 \\
+8 & 65.4 & 62.9 & 60.0 & 57.5 & 60.9 & 60.9 & 70.0 & 62.51 \\
+9 & 65.2 & 62.8 & 60.6 & 58.4 & 60.8 & 60.8 & 70.0 & 62.67 \\
+\hline
+\textbf{Avg per Algo} & 63.48 & 60.06 & 60.14 & 57.24 & 68.47 & 67.22 & 60.44 & \\
+\hline
+\end{tabular}
+\caption*{Results Table}
+\end{table}
+
+Here we have all the heatmaps extracted from the experimentation. 
+\textbf{Case 1:}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{case1_heatmap_erased.png}
+    \caption{Case 1 Input Dataset}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case1_v0.0_heatmap_cleaned.png}
+    \caption*{Case 1 v0.0}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case1_v0.1_heatmap_cleaned.png}
+    \caption*{Case 1 v0.1}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case1_v0.2_heatmap_cleaned.png}
+    \caption*{Case 1 v0.2}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case1_v0.3_heatmap_cleaned.png}
+    \caption*{Case 1 v0.3}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case1_v0.4_heatmap_cleaned.png}
+    \caption*{Case 1 v0.4}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case1_v0.5_heatmap_cleaned.png}
+    \caption*{Case 1 v0.5}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case1_bnb_heatmap_cleaned.png}
+    \caption*{Case 1 BnB}
+\end{figure}
+
+\textbf{Case 2:}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{case2_heatmap_erased.png}
+    \caption*{Case 2 Input Dataset}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case2_v0.0_heatmap_cleaned.png}
+    \caption*{Case 2 v0.0}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case2_v0.1_heatmap_cleaned.png}
+    \caption*{Case 2 v0.1}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case2_v0.2_heatmap_cleaned.png}
+    \caption*{Case 2 v0.2}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case2_v0.3_heatmap_cleaned.png}
+    \caption*{Case 2 v0.3}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case2_v0.4_heatmap_cleaned.png}
+    \caption*{Case 2 v0.4}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case2_v0.5_heatmap_cleaned.png}
+    \caption*{Case 2 v0.5}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case2_bnb_heatmap_cleaned.png}
+    \caption*{Case 2 BnB}
+\end{figure}
+
+\textbf{Case 3:}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{case3_heatmap_erased.png}
+    \caption*{Case 3 Input Dataset}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case3_v0.0_heatmap_cleaned.png}
+    \caption*{Case 3 v0.0}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case3_v0.1_heatmap_cleaned.png}
+    \caption*{Case 3 v0.1}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case3_v0.2_heatmap_cleaned.png}
+    \caption*{Case 3 v0.2}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case3_v0.3_heatmap_cleaned.png}
+    \caption*{Case 3 v0.3}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case3_v0.4_heatmap_cleaned.png}
+    \caption*{Case 3 v0.4}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case3_v0.5_heatmap_cleaned.png}
+    \caption*{Case 3 v0.5}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case3_bnb_heatmap_cleaned.png}
+    \caption*{Case 3 BnB}
+\end{figure}
+
+\textbf{Case 4:}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{case4_heatmap_erased.png}
+    \caption*{Case 4 Input Dataset}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case4_v0.0_heatmap_cleaned.png}
+    \caption*{Case 4 v0.0}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case4_v0.1_heatmap_cleaned.png}
+    \caption*{Case 4 v0.1}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case4_v0.2_heatmap_cleaned.png}
+    \caption*{Case 4 v0.2}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case4_v0.3_heatmap_cleaned.png}
+    \caption*{Case 4 v0.3}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case4_v0.4_heatmap_cleaned.png}
+    \caption*{Case 4 v0.4}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case4_v0.5_heatmap_cleaned.png}
+    \caption*{Case 4 v0.5}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case4_bnb_heatmap_cleaned.png}
+    \caption*{Case 4 BnB}
+\end{figure}
+
+\textbf{Case 5:}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{case5_heatmap_erased.png}
+    \caption*{Case 5 Input Dataset}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case5_v0.0_heatmap_cleaned.png}
+    \caption*{Case 5 v0.0}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case5_v0.1_heatmap_cleaned.png}
+    \caption*{Case 5 v0.1}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case5_v0.2_heatmap_cleaned.png}
+    \caption*{Case 5 v0.2}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case5_v0.3_heatmap_cleaned.png}
+    \caption*{Case 5 v0.3}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case5_v0.4_heatmap_cleaned.png}
+    \caption*{Case 5 v0.4}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case5_v0.5_heatmap_cleaned.png}
+    \caption*{Case 5 v0.5}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case5_bnb_heatmap_cleaned.png}
+    \caption*{Case 5 BnB}
+\end{figure}
+
+\textbf{Case 6:}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{case6_heatmap_erased.png}
+    \caption*{Case 6 Input Dataset}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case6_v0.0_heatmap_cleaned.png}
+    \caption*{Case 6 v0.0}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case6_v0.1_heatmap_cleaned.png}
+    \caption*{Case 6 v0.1}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case6_v0.2_heatmap_cleaned.png}
+    \caption*{Case 6 v0.2}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case6_v0.3_heatmap_cleaned.png}
+    \caption*{Case 6 v0.3}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case6_v0.4_heatmap_cleaned.png}
+    \caption*{Case 6 v0.4}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case6_v0.5_heatmap_cleaned.png}
+    \caption*{Case 6 v0.5}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case6_bnb_heatmap_cleaned.png}
+    \caption*{Case 6 BnB}
+\end{figure}
+
+\textbf{Case 7:}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{case8_heatmap_erased.png}
+    \caption*{Case 7 Input Dataset}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case8_v0.0_heatmap_cleaned.png}
+    \caption*{Case 7 v0.0}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case8_v0.1_heatmap_cleaned.png}
+    \caption*{Case 7 v0.1}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case8_v0.2_heatmap_cleaned.png}
+    \caption*{Case 7 v0.2}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case8_v0.3_heatmap_cleaned.png}
+    \caption*{Case 7 v0.3}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case8_v0.4_heatmap_cleaned.png}
+    \caption*{Case 7 v0.4}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case8_v0.5_heatmap_cleaned.png}
+    \caption*{Case 7 v0.5}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case8_bnb_heatmap_cleaned.png}
+    \caption*{Case 7 BnB}
+\end{figure}
+
+\textbf{Case 8:}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{case9_heatmap_erased.png}
+    \caption*{Case 8 Input Dataset}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case9_v0.0_heatmap_cleaned.png}
+    \caption*{Case 8 v0.0}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case9_v0.1_heatmap_cleaned.png}
+    \caption*{Case 8 v0.1}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case9_v0.2_heatmap_cleaned.png}
+    \caption*{Case 8 v0.2}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case9_v0.3_heatmap_cleaned.png}
+    \caption*{Case 8 v0.3}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case9_v0.4_heatmap_cleaned.png}
+    \caption*{Case 8 v0.4}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case9_v0.5_heatmap_cleaned.png}
+    \caption*{Case 8 v0.5}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case9_bnb_heatmap_cleaned.png}
+    \caption*{Case 8 BnB}
+\end{figure}
+
+\textbf{Case 9:}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{case10_heatmap_erased.png}
+    \caption*{Case 9 Input Dataset}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case10_v0.0_heatmap_cleaned.png}
+    \caption*{Case 9 v0.0}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case10_v0.1_heatmap_cleaned.png}
+    \caption*{Case 9 v0.1}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case10_v0.2_heatmap_cleaned.png}
+    \caption*{Case 9 v0.2}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case10_v0.3_heatmap_cleaned.png}
+    \caption*{Case 9 v0.3}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case10_v0.4_heatmap_cleaned.png}
+    \caption*{Case 9 v0.4}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case10_v0.5_heatmap_cleaned.png}
+    \caption*{Case 9 v0.5}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=\linewidth]{case10_bnb_heatmap_cleaned.png}
+    \caption*{Case 9 BnB}
+\end{figure}
+
+
+
+\newpage
 \section{User Guide}
 \lstinputlisting[caption=Project README]{README.md}
 \lstinputlisting[caption=Project Dependencies]{requirements.txt}

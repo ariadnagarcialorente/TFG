@@ -1,10 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.6.21)  22 JUN 2025 11:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.6.21)  23 JUN 2025 03:32
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/ariadna/Documentos/TFG/docs/Latex/main.tex
-(/home/ariadna/Documentos/TFG/docs/Latex/main.tex
+**main.tex
+(./main.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -23,38 +22,48 @@ File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
-) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
-) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks19
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
- (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen141
 \Gin@req@width=\dimen142
-) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count195
 \float@exts=\toks20
 \float@box=\box51
 \@float@everytoks=\toks21
 \@floatcapt=\box52
-) (/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has section divisions on input line 51.
 \cftparskip=\skip50
@@ -90,13 +99,16 @@ Package tocloft Info: The document has section divisions on input line 51.
 \cftbeforetabskip=\skip78
 \cfttabindent=\skip79
 \cfttabnumwidth=\skip80
-) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
- (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
- (/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
 Package xcolor Info: Model `RGB' extended on input line 1366.
@@ -106,9 +118,11 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
-) (/usr/share/texlive/texmf-dist/tex/generic/soul/soul.sty
+)
+(/usr/share/texlive/texmf-dist/tex/generic/soul/soul.sty
 Package: soul 2023-06-14 v3.1 Permit use of UTF-8 characters in soul (HO)
- (/usr/share/texlive/texmf-dist/tex/generic/soul/soul-ori.sty
+
+(/usr/share/texlive/texmf-dist/tex/generic/soul/soul-ori.sty
 Package: soul-ori 2023-06-14 v3.1 letterspacing/underlining (mf)
 \SOUL@word=\toks22
 \SOUL@lasttoken=\toks23
@@ -130,57 +144,77 @@ Package: soul-ori 2023-06-14 v3.1 letterspacing/underlining (mf)
 \SOUL@ttwidth=\dimen149
 \SOUL@uldp=\dimen150
 \SOUL@ulht=\dimen151
-) (/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+)
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
- (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
-))) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
- (/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-) (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
- (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-) (/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-)) (/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+))
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
- (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
- (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count268
-) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count269
 )
 \@linkdim=\dimen152
 \Hy@linkcounter=\count270
 \Hy@pagecounter=\count271
- (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count272
- (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -193,16 +227,20 @@ Package hyperref Info: Backreferencing OFF on input line 4199.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4446.
 \c@Hy@tempcnt=\count273
- (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4784.
 \XeTeXLinkMargin=\dimen153
- (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
 ))
 \Fld@menulength=\count274
 \Field@Width=\dimen154
@@ -214,7 +252,8 @@ Package hyperref Info: backreferencing OFF on input line 6078.
 Package hyperref Info: Link coloring OFF on input line 6083.
 Package hyperref Info: Link coloring with OCG OFF on input line 6088.
 Package hyperref Info: PDF/A mode OFF on input line 6093.
- (/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
@@ -223,25 +262,33 @@ package with kernel methods
 \c@Hfootnote=\count277
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2024-01-20 v7.01h Hyperref driver for pdfTeX
- (/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
 with kernel methods
 )
 \Fld@listcount=\count278
 \c@bookmark@seq@number=\count279
- (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
- (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
 )
 \Hy@SectionHShift=\skip82
-) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks28
 \symAMSa=\mathgroup4
@@ -249,26 +296,33 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
+))
+(/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
- (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
-File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
+File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
+)
 \BKM@id=\count280
-)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2023/05/13 v2.17o AMS math features
 \@mathmargin=\skip83
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
- (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks29
 \ex@=\dimen156
-)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen157
-) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count281
@@ -318,77 +372,342 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \mathdisplay@stack=\toks33
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-) (/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
+
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count293
+
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+\c@tabx@nest=\count294
+\c@listtotal=\count295
+\c@listcount=\count296
+\c@liststart=\count297
+\c@liststop=\count298
+\c@citecount=\count299
+\c@citetotal=\count300
+\c@multicitecount=\count301
+\c@multicitetotal=\count302
+\c@instcount=\count303
+\c@maxnames=\count304
+\c@minnames=\count305
+\c@maxitems=\count306
+\c@minitems=\count307
+\c@citecounter=\count308
+\c@maxcitecounter=\count309
+\c@savedcitecounter=\count310
+\c@uniquelist=\count311
+\c@uniquename=\count312
+\c@refsection=\count313
+\c@refsegment=\count314
+\c@maxextratitle=\count315
+\c@maxextratitleyear=\count316
+\c@maxextraname=\count317
+\c@maxextradate=\count318
+\c@maxextraalpha=\count319
+\c@abbrvpenalty=\count320
+\c@highnamepenalty=\count321
+\c@lownamepenalty=\count322
+\c@maxparens=\count323
+\c@parenlevel=\count324
+\blx@tempcnta=\count325
+\blx@tempcntb=\count326
+\blx@tempcntc=\count327
+\c@blx@maxsection=\count328
+\blx@maxsegment@0=\count329
+\blx@notetype=\count330
+\blx@parenlevel@text=\count331
+\blx@parenlevel@foot=\count332
+\blx@sectionciteorder@0=\count333
+\blx@sectionciteorderinternal@0=\count334
+\blx@entrysetcounter=\count335
+\blx@biblioinstance=\count336
+\labelnumberwidth=\skip86
+\labelalphawidth=\skip87
+\biblabelsep=\skip88
+\bibitemsep=\skip89
+\bibnamesep=\skip90
+\bibinitsep=\skip91
+\bibparsep=\skip92
+\bibhang=\skip93
+\blx@bcfin=\read2
+\blx@bcfout=\write3
+\blx@langwohyphens=\language89
+\c@mincomprange=\count337
+\c@maxcomprange=\count338
+\c@mincompwidth=\count339
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count340
+\c@savedafterword=\count341
+\c@annotator=\count342
+\c@savedannotator=\count343
+\c@author=\count344
+\c@savedauthor=\count345
+\c@bookauthor=\count346
+\c@savedbookauthor=\count347
+\c@commentator=\count348
+\c@savedcommentator=\count349
+\c@editor=\count350
+\c@savededitor=\count351
+\c@editora=\count352
+\c@savededitora=\count353
+\c@editorb=\count354
+\c@savededitorb=\count355
+\c@editorc=\count356
+\c@savededitorc=\count357
+\c@foreword=\count358
+\c@savedforeword=\count359
+\c@holder=\count360
+\c@savedholder=\count361
+\c@introduction=\count362
+\c@savedintroduction=\count363
+\c@namea=\count364
+\c@savednamea=\count365
+\c@nameb=\count366
+\c@savednameb=\count367
+\c@namec=\count368
+\c@savednamec=\count369
+\c@translator=\count370
+\c@savedtranslator=\count371
+\c@shortauthor=\count372
+\c@savedshortauthor=\count373
+\c@shorteditor=\count374
+\c@savedshorteditor=\count375
+\c@labelname=\count376
+\c@savedlabelname=\count377
+\c@institution=\count378
+\c@savedinstitution=\count379
+\c@lista=\count380
+\c@savedlista=\count381
+\c@listb=\count382
+\c@savedlistb=\count383
+\c@listc=\count384
+\c@savedlistc=\count385
+\c@listd=\count386
+\c@savedlistd=\count387
+\c@liste=\count388
+\c@savedliste=\count389
+\c@listf=\count390
+\c@savedlistf=\count391
+\c@location=\count392
+\c@savedlocation=\count393
+\c@organization=\count394
+\c@savedorganization=\count395
+\c@origlocation=\count396
+\c@savedoriglocation=\count397
+\c@origpublisher=\count398
+\c@savedorigpublisher=\count399
+\c@publisher=\count400
+\c@savedpublisher=\count401
+\c@language=\count402
+\c@savedlanguage=\count403
+\c@origlanguage=\count404
+\c@savedoriglanguage=\count405
+\c@pageref=\count406
+\c@savedpageref=\count407
+\shorthandwidth=\skip94
+\shortjournalwidth=\skip95
+\shortserieswidth=\skip96
+\shorttitlewidth=\skip97
+\shortauthorwidth=\skip98
+\shorteditorwidth=\skip99
+\locallabelnumberwidth=\skip100
+\locallabelalphawidth=\skip101
+\localshorthandwidth=\skip102
+\localshortjournalwidth=\skip103
+\localshortserieswidth=\skip104
+\localshorttitlewidth=\skip105
+\localshortauthorwidth=\skip106
+\localshorteditorwidth=\skip107
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+\c@textcitecount=\count408
+\c@textcitetotal=\count409
+\c@textcitemaxnames=\count410
+\c@biburlbigbreakpenalty=\count411
+\c@biburlbreakpenalty=\count412
+\c@biburlnumpenalty=\count413
+\c@biburlucpenalty=\count414
+\c@biburllcpenalty=\count415
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count416
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count417
+\c@bbx:relatedtotal=\count418
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-01-22 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count419
+\l__pdf_internal_box=\box55
+))
+Package biblatex Info: ... and expl3
+(biblatex)             2024-01-22 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2023-10-10 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
+))
+(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
- (/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
-Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
- (/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-)) (/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithm.sty
-Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
- (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
-)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
 \@float@every@algorithm=\toks34
-\c@algorithm=\count293
-) (/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+\c@algorithm=\count420
+)
+(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
 Package: algpseudocode 
- (/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+
+(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count294
-\c@ALG@rem=\count295
-\c@ALG@nested=\count296
-\ALG@tlm=\skip86
-\ALG@thistlm=\skip87
-\c@ALG@Lnr=\count297
-\c@ALG@blocknr=\count298
-\c@ALG@storecount=\count299
-\c@ALG@tmpcounter=\count300
-\ALG@tmplength=\skip88
+\c@ALG@line=\count421
+\c@ALG@rem=\count422
+\c@ALG@nested=\count423
+\ALG@tlm=\skip108
+\ALG@thistlm=\skip109
+\c@ALG@Lnr=\count424
+\c@ALG@blocknr=\count425
+\c@ALG@storecount=\count426
+\c@ALG@tmpcounter=\count427
+\ALG@tmplength=\skip110
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count301
-\lst@gtempboxa=\box55
+\lst@mode=\count428
+\lst@gtempboxa=\box56
 \lst@token=\toks35
-\lst@length=\count302
+\lst@length=\count429
 \lst@currlwidth=\dimen165
-\lst@column=\count303
-\lst@pos=\count304
+\lst@column=\count430
+\lst@pos=\count431
 \lst@lostspace=\dimen166
 \lst@width=\dimen167
-\lst@newlines=\count305
-\lst@lineno=\count306
+\lst@newlines=\count432
+\lst@lineno=\count433
 \lst@maxwidth=\dimen168
- (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-\c@lstnumber=\count307
-\lst@skipnumbers=\count308
-\lst@framebox=\box56
-) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+\c@lstnumber=\count434
+\lst@skipnumbers=\count435
+\lst@framebox=\box57
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2023/02/27 1.9 listings configuration
 ))
 Package: listings 2023/02/27 1.9 (Carsten Heinz)
- (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks36
 \pgfutil@tempdima=\dimen169
 \pgfutil@tempdimb=\dimen170
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box57
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box58
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
 Package: pgf 2023-01-15 v3.1.10 (3.1.10)
- (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
- (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks37
 \pgfkeys@temptoks=\toks38
- (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered
+.code.tex
 \pgfkeys@tmptoks=\toks39
 ))
 \pgf@x=\dimen171
@@ -401,42 +720,74 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 \pgf@yc=\dimen178
 \pgf@xd=\dimen179
 \pgf@yd=\dimen180
-\w@pgf@writea=\write3
-\r@pgf@reada=\read2
-\c@pgf@counta=\count309
-\c@pgf@countb=\count310
-\c@pgf@countc=\count311
-\c@pgf@countd=\count312
+\w@pgf@writea=\write4
+\r@pgf@reada=\read3
+\c@pgf@counta=\count436
+\c@pgf@countb=\count437
+\c@pgf@countc=\count438
+\c@pgf@countd=\count439
 \t@pgf@toka=\toks40
 \t@pgf@tokb=\toks41
 \t@pgf@tokc=\toks42
-\pgf@sys@id@count=\count313
+\pgf@sys@id@count=\count440
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
 Driver file for pgf: pgfsys-pdftex.def
- (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
- (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
-))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count314
-\pgfsyssoftpath@bigbuffer@items=\count315
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+\pgfsyssoftpath@smallbuffer@items=\count441
+\pgfsyssoftpath@bigbuffer@items=\count442
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
- (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen181
-\pgfmath@count=\count316
-\pgfmath@box=\box58
+\pgfmath@count=\count443
+\pgfmath@box=\box59
 \pgfmath@toks=\toks43
 \pgfmath@stack@operand=\toks44
 \pgfmath@stack@operation=\toks45
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count317
-)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count444
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@picminx=\dimen182
 \pgf@picmaxx=\dimen183
@@ -452,77 +803,118 @@ File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@yy=\dimen193
 \pgf@zx=\dimen194
 \pgf@zy=\dimen195
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@path@lastx=\dimen196
 \pgf@path@lasty=\dimen197
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@shorten@end@additional=\dimen198
 \pgf@shorten@start@additional=\dimen199
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfpic=\box59
-\pgf@hbox=\box60
-\pgf@layerbox@main=\box61
-\pgf@picture@serial@count=\count318
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+\pgfpic=\box60
+\pgf@hbox=\box61
+\pgf@layerbox@main=\box62
+\pgf@picture@serial@count=\count445
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgflinewidth=\dimen256
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@pt@x=\dimen257
 \pgf@pt@y=\dimen258
 \pgf@pt@temp=\dimen259
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
 File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
 File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfarrowsep=\dimen260
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen261
-\pgf@sys@shading@range@num=\count319
-\pgf@shadingcount=\count320
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+\pgf@sys@shading@range@num=\count446
+\pgf@shadingcount=\count447
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfexternal@startupbox=\box62
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+\pgfexternal@startupbox=\box63
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
 File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
 File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
 File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
 File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box63
+\pgfnodeparttextbox=\box64
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
 \pgf@nodesepstart=\dimen262
 \pgf@nodesepend=\dimen263
-) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
-)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@iter=\dimen264
 \pgffor@skip=\dimen265
 \pgffor@stack=\toks46
 \pgffor@toks=\toks47
-)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
- (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count321
+\pgf@plot@mark@count=\count448
 \pgfplotmarksize=\dimen266
 )
 \tikz@lastx=\dimen267
@@ -533,40 +925,54 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@lastmovetoy=\dimen272
 \tikzleveldistance=\dimen273
 \tikzsiblingdistance=\dimen274
-\tikz@figbox=\box64
-\tikz@figbox@bg=\box65
-\tikz@tempbox=\box66
-\tikz@tempbox@bg=\box67
-\tikztreelevel=\count322
-\tikznumberofchildren=\count323
-\tikznumberofcurrentchild=\count324
-\tikz@fig@count=\count325
- (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+\tikz@figbox=\box65
+\tikz@figbox@bg=\box66
+\tikz@tempbox=\box67
+\tikz@tempbox@bg=\box68
+\tikztreelevel=\count449
+\tikznumberofchildren=\count450
+\tikznumberofcurrentchild=\count451
+\tikz@fig@count=\count452
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count326
-\pgfmatrixcurrentcolumn=\count327
-\pgf@matrix@numberofcolumns=\count328
+\pgfmatrixcurrentrow=\count453
+\pgfmatrixcurrentcolumn=\count454
+\pgf@matrix@numberofcolumns=\count455
 )
-\tikz@expandcount=\count329
- (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+\tikz@expandcount=\count456
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.geometric.code.tex
 File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.code.tex
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.geometric.code.tex
 File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.
+code.tex
 File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfarrowinset=\dimen275
 \pgfarrowlength=\dimen276
 \pgfarrowwidth=\dimen277
 \pgfarrowlinewidth=\dimen278
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
- (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
- (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@tempdima=\dimen279
 \captionmargin=\dimen280
@@ -578,26 +984,29 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen286
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count330
-\c@continuedfloat=\count331
+\c@caption@flags=\count457
+\c@continuedfloat=\count458
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 )
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count332
+\c@subfigure=\count459
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count333
-) (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+\c@subtable=\count460
+)
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
-) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count334
-\Gm@cntv=\count335
-\c@Gm@tempcnt=\count336
+\Gm@cnth=\count461
+\Gm@cntv=\count462
+\c@Gm@tempcnt=\count463
 \Gm@bindingoffset=\dimen287
 \Gm@wd@mp=\dimen288
 \Gm@odd@mp=\dimen289
@@ -607,22 +1016,25 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen293
 \Gm@layoutvoffset=\dimen294
 \Gm@dimlist=\toks48
-) (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
-\f@nch@headwidth=\skip89
-\f@nch@O@elh=\skip90
-\f@nch@O@erh=\skip91
-\f@nch@O@olh=\skip92
-\f@nch@O@orh=\skip93
-\f@nch@O@elf=\skip94
-\f@nch@O@erf=\skip95
-\f@nch@O@olf=\skip96
-\f@nch@O@orf=\skip97
-) (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+
+\f@nch@headwidth=\skip111
+\f@nch@O@elh=\skip112
+\f@nch@O@erh=\skip113
+\f@nch@O@olh=\skip114
+\f@nch@O@orh=\skip115
+\f@nch@O@elf=\skip116
+\f@nch@O@erf=\skip117
+\f@nch@O@olf=\skip118
+\f@nch@O@orf=\skip119
+)
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2023/10/27 v2.16 Sectioning titles
-\ttl@box=\box68
-\beforetitleunit=\skip98
-\aftertitleunit=\skip99
+\ttl@box=\box69
+\beforetitleunit=\skip120
+\aftertitleunit=\skip121
 \ttl@plus=\dimen295
 \ttl@minus=\dimen296
 \ttl@toksa=\toks49
@@ -630,53 +1042,84 @@ Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \titlewidthlast=\dimen298
 \titlewidthfirst=\dimen299
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 58.
- (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count337
-\l__pdf_internal_box=\box69
-) (./main.aux)
+Package hyperref Info: Option `colorlinks' set `true' on input line 82.
+\@quotelevel=\count464
+\@quotereset=\count465
+ (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
- (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count338
+\scratchcounter=\count466
 \scratchdimen=\dimen300
 \scratchbox=\box70
-\nofMPsegments=\count339
-\nofMParguments=\count340
+\nofMPsegments=\count467
+\nofMParguments=\count468
 \everyMPshowfont=\toks50
-\MPscratchCnt=\count341
+\MPscratchCnt=\count469
 \MPscratchDim=\dimen301
-\MPnumerator=\count342
-\makeMPintoPDFobject=\count343
+\MPnumerator=\count470
+\makeMPintoPDFobject=\count471
 \everyMPtoPDFconversion=\toks51
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
 ))
-Package hyperref Info: Link coloring ON on input line 81.
-\c@lstlisting=\count344
+Package hyperref Info: Link coloring ON on input line 105.
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+ (./main.bbl
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with '31':
+(biblatex)                - book entry '31' (references.bib): Invalid format '2
+025-6-05' of date field 'urldate' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with '32':
+(biblatex)                - book entry '32' (references.bib): Invalid format '2
+025-6-05' of date field 'urldate' - ignoring.
+
+)
+Package biblatex Info: Reference section=0 on input line 105.
+Package biblatex Info: Reference segment=0 on input line 105.
+\c@lstlisting=\count472
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
@@ -714,84 +1157,73 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-No file main.toc.
-\tf@toc=\write4
-\openout4 = `main.toc'.
+(./main.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
 
-[1
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
-No file main.lof.
-\tf@lof=\write5
-\openout5 = `main.lof'.
-
-No file main.lot.
-\tf@lot=\write6
-\openout6 = `main.lot'.
-
-[2]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/
+dvips/cm-super/cm-super-t1.enc}]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[3]
+[2])
+\tf@toc=\write5
+\openout5 = `main.toc'.
+
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[4]
+[3] (./main.lof)
+\tf@lof=\write6
+\openout6 = `main.lof'.
+
+ (./main.lot [4])
+\tf@lot=\write7
+\openout7 = `main.lot'.
+
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
-
- []
-
-
-LaTeX Warning: Citation `1' on page 6 undefined on input line 110.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 117--118
-
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [6]
 
-LaTeX Warning: Citation `1' on page 7 undefined on input line 121.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
-
- []
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [7]
@@ -800,128 +1232,155 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[8{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
+
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [9]
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
-LaTeX Warning: Citation `4' on page 10 undefined on input line 160.
+ []
 
 
-LaTeX Warning: Citation `24' on page 10 undefined on input line 164.
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 168.
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 168.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[10]
-<MCAR_heatmap.png, id=73, 514.0806pt x 406.1574pt>
+[10{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[11]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[12]
+<MCAR_heatmap.png, id=332, 514.0806pt x 406.1574pt>
 File: MCAR_heatmap.png Graphic file (type png)
 <use MCAR_heatmap.png>
-Package pdftex.def Info: MCAR_heatmap.png  used on input line 185.
+Package pdftex.def Info: MCAR_heatmap.png  used on input line 211.
 (pdftex.def)             Requested size: 227.62206pt x 179.83154pt.
-
-
-LaTeX Warning: Citation `34' on page 11 undefined on input line 189.
-
-
-LaTeX Warning: Citation `24' on page 11 undefined on input line 193.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[11 <./MCAR_heatmap.png>]
-<MAR_heatmap.png, id=82, 514.0806pt x 406.1574pt>
+[13]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[14 <./MCAR_heatmap.png>]
+<MAR_heatmap.png, id=354, 514.0806pt x 406.1574pt>
 File: MAR_heatmap.png Graphic file (type png)
 <use MAR_heatmap.png>
-Package pdftex.def Info: MAR_heatmap.png  used on input line 212.
+Package pdftex.def Info: MAR_heatmap.png  used on input line 239.
 (pdftex.def)             Requested size: 227.62206pt x 179.83154pt.
-
-
-LaTeX Warning: Citation `24' on page 12 undefined on input line 220.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[12 <./MAR_heatmap.png>]
-<MNAR_heatmap.png, id=90, 514.0806pt x 406.1574pt>
+[15 <./MAR_heatmap.png>]
+<MNAR_heatmap.png, id=363, 514.0806pt x 406.1574pt>
 File: MNAR_heatmap.png Graphic file (type png)
 <use MNAR_heatmap.png>
-Package pdftex.def Info: MNAR_heatmap.png  used on input line 239.
+Package pdftex.def Info: MNAR_heatmap.png  used on input line 267.
 (pdftex.def)             Requested size: 227.62206pt x 179.83154pt.
 
 
-LaTeX Warning: Citation `3' on page 13 undefined on input line 253.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[13 <./MNAR_heatmap.png>]
-<original_dataset.png, id=100, 568.0422pt x 284.0211pt>
+[16 <./MNAR_heatmap.png>]
+<original_dataset.png, id=371, 568.0422pt x 284.0211pt>
 File: original_dataset.png Graphic file (type png)
 <use original_dataset.png>
-Package pdftex.def Info: original_dataset.png  used on input line 258.
+Package pdftex.def Info: original_dataset.png  used on input line 289.
 (pdftex.def)             Requested size: 218.51521pt x 109.25528pt.
-<listwise_deletion.png, id=101, 568.0422pt x 284.0211pt>
+<listwise_deletion.png, id=372, 568.0422pt x 284.0211pt>
 File: listwise_deletion.png Graphic file (type png)
 <use listwise_deletion.png>
-Package pdftex.def Info: listwise_deletion.png  used on input line 263.
+Package pdftex.def Info: listwise_deletion.png  used on input line 294.
 (pdftex.def)             Requested size: 218.51521pt x 109.25528pt.
-
-
-LaTeX Warning: Citation `3' on page 14 undefined on input line 274.
-
 File: original_dataset.png Graphic file (type png)
 <use original_dataset.png>
-Package pdftex.def Info: original_dataset.png  used on input line 279.
+Package pdftex.def Info: original_dataset.png  used on input line 311.
 (pdftex.def)             Requested size: 218.51521pt x 109.25528pt.
-<pairwise_deletion_(a_vs_b).png, id=102, 567.3195pt x 284.0211pt>
+<pairwise_deletion_(a_vs_b).png, id=375, 567.3195pt x 284.0211pt>
 File: pairwise_deletion_(a_vs_b).png Graphic file (type png)
 <use pairwise_deletion_(a_vs_b).png>
-Package pdftex.def Info: pairwise_deletion_(a_vs_b).png  used on input line 284.
+Package pdftex.def Info: pairwise_deletion_(a_vs_b).png  used on input line 316
+.
 (pdftex.def)             Requested size: 218.51521pt x 109.39395pt.
 
-LaTeX Warning: Citation `33' on page 14 undefined on input line 292.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[14 <./original_dataset.png> <./listwise_deletion.png> <./pairwise_deletion_(a_vs_b).png>]
-Underfull \hbox (badness 10000) in paragraph at lines 327--328
+[17 <./original_dataset.png> <./listwise_deletion.png> <./pairwise_deletion_(a_
+vs_b).png>]
+Underfull \hbox (badness 10000) in paragraph at lines 360--361
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--363
 
  []
 
@@ -930,22 +1389,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 329--330
-
- []
-
+[18]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[16]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 359.
+[19]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
+95.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
@@ -954,27 +1412,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 386--387
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 422--423
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 396--397
+Underfull \hbox (badness 10000) in paragraph at lines 432--433
 
  []
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[18]
-Overfull \hbox (12.96637pt too wide) detected at line 406
+Overfull \hbox (12.96637pt too wide) detected at line 442
 [] \OT1/cmr/m/n/12 = []
  []
 
@@ -983,28 +1435,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[19]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[20]
-
-LaTeX Warning: Citation `24' on page 21 undefined on input line 465.
-
-
-LaTeX Warning: Citation `24' on page 21 undefined on input line 476.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [21]
@@ -1013,19 +1444,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [22]
-Overfull \hbox (7.30573pt too wide) in paragraph at lines 523--524
-[]\T1/cmtt/m/n/12 Important_weight: \T1/cmr/m/n/12 Weight used to pe-nal-ize miss-ing val-ues in \T1/cmtt/m/n/12 Important_cols\T1/cmr/m/n/12 . 
- []
-
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 531.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [23]
@@ -1034,95 +1462,91 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [24]
-Overfull \hbox (7.30573pt too wide) in paragraph at lines 579--580
-[]\T1/cmtt/m/n/12 Important_weight: \T1/cmr/m/n/12 Weight used to pe-nal-ize miss-ing val-ues in \T1/cmtt/m/n/12 Important_cols\T1/cmr/m/n/12 . 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 595--596
-[] $\OML/cmm/m/it/12 weighted[]na \OMS/cmsy/m/n/12  $ \T1/cmr/m/n/12 (\T1/cmr/m/sc/12 CountNA\T1/cmr/m/n/12 (important_cols) $\OMS/cmsy/m/n/12 ^^B$ \T1/cmr/m/n/12 weight) $\OT1/cmr/m/n/12 +$
- []
-
-
-Underfull \hbox (badness 5064) in paragraph at lines 606--607
-[] \T1/cmr/bx/n/12 if $\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 total[]na \OMS/cmsy/m/n/12 ^^T \OML/cmm/m/it/12 max[]na\OT1/cmr/m/n/12 )$ \T1/cmr/bx/n/12 or $\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 current[]rows \OMS/cmsy/m/n/12 ^^T \OML/cmm/m/it/12 min[]rows\OT1/cmr/m/n/12 )$ \T1/cmr/bx/n/12 or
- []
-
-
-Overfull \hbox (18.90114pt too wide) in paragraph at lines 621--622
-[]\T1/cmr/bx/n/12 Missing val-ues cal-cu-la-tion: $\OML/cmm/m/it/12 O\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 n \OMS/cmsy/m/n/12 ^^A \OML/cmm/m/it/12 m\OT1/cmr/m/n/12 )$ \T1/cmr/m/n/12 for com-put-ing both \T1/cmtt/m/n/12 na_total \T1/cmr/m/n/12 and \T1/cmtt/m/n/12 na_weighted\T1/cmr/m/n/12 . 
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [25]
-Overfull \hbox (7.30573pt too wide) in paragraph at lines 641--642
-[]\T1/cmtt/m/n/12 Important_weight: \T1/cmr/m/n/12 Weight used to pe-nal-ize miss-ing val-ues in \T1/cmtt/m/n/12 Important_cols\T1/cmr/m/n/12 . 
+Overfull \hbox (7.30573pt too wide) in paragraph at lines 560--561
+[]\T1/cmtt/m/n/12 Important_weight: \T1/cmr/m/n/12 Weight used to pe-nal-ize mi
+ss-ing val-ues in \T1/cmtt/m/n/12 Important_cols\T1/cmr/m/n/12 . 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 655--656
-[] \T1/cmr/m/n/12 weighted_na $\OMS/cmsy/m/n/12  $ \T1/cmr/m/n/12 (\T1/cmr/m/sc/12 CountNA\T1/cmr/m/n/12 (important_cols) $\OMS/cmsy/m/n/12 ^^B$ \T1/cmr/m/n/12 weight) $\OT1/cmr/m/n/12 +$
- []
-
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 568.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [26]
-Overfull \hbox (7.30573pt too wide) in paragraph at lines 687--688
-[]\T1/cmtt/m/n/12 Important_weight: \T1/cmr/m/n/12 Weight used to pe-nal-ize miss-ing val-ues in \T1/cmtt/m/n/12 Important_cols\T1/cmr/m/n/12 . 
- []
-
-
-Underfull \hbox (badness 1259) in paragraph at lines 697--698
-[]\T1/cmr/bx/n/12 func-tion \T1/cmr/m/sc/12 v0.3\T1/cmr/m/n/12 (data, per-centile, min_rows, max_na, min_percentage, im-por-
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [27]
+Overfull \hbox (7.30573pt too wide) in paragraph at lines 617--618
+[]\T1/cmtt/m/n/12 Important_weight: \T1/cmr/m/n/12 Weight used to pe-nal-ize mi
+ss-ing val-ues in \T1/cmtt/m/n/12 Important_cols\T1/cmr/m/n/12 . 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 633--634
+[] $\OML/cmm/m/it/12 weighted[]na \OMS/cmsy/m/n/12  $ \T1/cmr/m/n/12 (\T1/cmr/m
+/sc/12 CountNA\T1/cmr/m/n/12 (important_cols) $\OMS/cmsy/m/n/12 ^^B$ \T1/cmr/m/
+n/12 weight) $\OT1/cmr/m/n/12 +$
+ []
+
+
+Underfull \hbox (badness 5064) in paragraph at lines 644--645
+[] \T1/cmr/bx/n/12 if $\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 total[]na \OMS/cmsy/m/
+n/12 ^^T \OML/cmm/m/it/12 max[]na\OT1/cmr/m/n/12 )$ \T1/cmr/bx/n/12 or $\OT1/cm
+r/m/n/12 (\OML/cmm/m/it/12 current[]rows \OMS/cmsy/m/n/12 ^^T \OML/cmm/m/it/12 
+min[]rows\OT1/cmr/m/n/12 )$ \T1/cmr/bx/n/12 or
+ []
+
+
+Overfull \hbox (18.90114pt too wide) in paragraph at lines 659--660
+[]\T1/cmr/bx/n/12 Missing val-ues cal-cu-la-tion: $\OML/cmm/m/it/12 O\OT1/cmr/m
+/n/12 (\OML/cmm/m/it/12 n \OMS/cmsy/m/n/12 ^^A \OML/cmm/m/it/12 m\OT1/cmr/m/n/1
+2 )$ \T1/cmr/m/n/12 for com-put-ing both \T1/cmtt/m/n/12 na_total \T1/cmr/m/n/1
+2 and \T1/cmtt/m/n/12 na_weighted\T1/cmr/m/n/12 . 
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [28]
-Overfull \hbox (7.30573pt too wide) in paragraph at lines 741--742
-[]\T1/cmtt/m/n/12 Important_weight: \T1/cmr/m/n/12 Weight used to pe-nal-ize miss-ing val-ues in \T1/cmtt/m/n/12 Important_cols\T1/cmr/m/n/12 . 
+Overfull \hbox (7.30573pt too wide) in paragraph at lines 681--682
+[]\T1/cmtt/m/n/12 Important_weight: \T1/cmr/m/n/12 Weight used to pe-nal-ize mi
+ss-ing val-ues in \T1/cmtt/m/n/12 Important_cols\T1/cmr/m/n/12 . 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 768--769
-[] \T1/cmr/m/n/12 high_zone $\OMS/cmsy/m/n/12  $ \T1/cmr/m/n/12 {rows $\OMS/cmsy/m/n/12 j$ \T1/cmr/m/n/12 na_row $\OML/cmm/m/it/12 >$ \T1/cmr/m/n/12 mean_na_rows $\OT1/cmr/m/n/12 +$ \T1/cmr/m/n/12 std_dev $\OMS/cmsy/m/n/12 ^^B$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 770--771
-[] \T1/cmr/m/sc/12 Re-moveRow-sUn-til-Con-straints\T1/cmr/m/n/12 (high_zone, min_rows_req, max_na,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 775--776
-[] \T1/cmr/m/sc/12 Re-moveRow-sUn-til-Con-straints\T1/cmr/m/n/12 (all_rows, min_rows_req, max_na,
+Underfull \hbox (badness 10000) in paragraph at lines 695--696
+[] \T1/cmr/m/n/12 weighted_na $\OMS/cmsy/m/n/12  $ \T1/cmr/m/n/12 (\T1/cmr/m/sc
+/12 CountNA\T1/cmr/m/n/12 (important_cols) $\OMS/cmsy/m/n/12 ^^B$ \T1/cmr/m/n/1
+2 weight) $\OT1/cmr/m/n/12 +$
  []
 
 
@@ -1130,11 +1554,28 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [29]
-Overfull \hbox (7.30573pt too wide) in paragraph at lines 817--818
-[]\T1/cmtt/m/n/12 Important_weight: \T1/cmr/m/n/12 Weight used to pe-nal-ize miss-ing val-ues in \T1/cmtt/m/n/12 Important_cols\T1/cmr/m/n/12 . 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[30]
+Overfull \hbox (7.30573pt too wide) in paragraph at lines 729--730
+[]\T1/cmtt/m/n/12 Important_weight: \T1/cmr/m/n/12 Weight used to pe-nal-ize mi
+ss-ing val-ues in \T1/cmtt/m/n/12 Important_cols\T1/cmr/m/n/12 . 
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 739--740
+[]\T1/cmr/bx/n/12 func-tion \T1/cmr/m/sc/12 v0.3\T1/cmr/m/n/12 (data, per-centi
+le, min_rows, max_na, min_percentage, im-por-
  []
 
 
@@ -1142,70 +1583,116 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[30]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [31]
+Overfull \hbox (7.30573pt too wide) in paragraph at lines 785--786
+[]\T1/cmtt/m/n/12 Important_weight: \T1/cmr/m/n/12 Weight used to pe-nal-ize mi
+ss-ing val-ues in \T1/cmtt/m/n/12 Important_cols\T1/cmr/m/n/12 . 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 812--813
+[] \T1/cmr/m/n/12 high_zone $\OMS/cmsy/m/n/12  $ \T1/cmr/m/n/12 {rows $\OMS/cms
+y/m/n/12 j$ \T1/cmr/m/n/12 na_row $\OML/cmm/m/it/12 >$ \T1/cmr/m/n/12 mean_na_r
+ows $\OT1/cmr/m/n/12 +$ \T1/cmr/m/n/12 std_dev $\OMS/cmsy/m/n/12 ^^B$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 814--815
+[] \T1/cmr/m/sc/12 Re-moveRow-sUn-til-Con-straints\T1/cmr/m/n/12 (high_zone, mi
+n_rows_req, max_na,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 819--820
+[] \T1/cmr/m/sc/12 Re-moveRow-sUn-til-Con-straints\T1/cmr/m/n/12 (all_rows, min
+_rows_req, max_na,
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [32]
 
-LaTeX Warning: Citation `34' on page 33 undefined on input line 930.
-
-
-LaTeX Warning: Citation `34' on page 33 undefined on input line 933.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [33]
+Overfull \hbox (7.30573pt too wide) in paragraph at lines 863--864
+[]\T1/cmtt/m/n/12 Important_weight: \T1/cmr/m/n/12 Weight used to pe-nal-ize mi
+ss-ing val-ues in \T1/cmtt/m/n/12 Important_cols\T1/cmr/m/n/12 . 
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [34]
-<Welcome.png, id=239, 804.00375pt x 490.83376pt>
-File: Welcome.png Graphic file (type png)
-<use Welcome.png>
-Package pdftex.def Info: Welcome.png  used on input line 1001.
-(pdftex.def)             Requested size: 227.62206pt x 138.96037pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [35]
-<Data_input.png, id=246, 804.00375pt x 490.83376pt>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[36]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[37]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[38]
+<Welcome.png, id=495, 804.00375pt x 490.83376pt>
+File: Welcome.png Graphic file (type png)
+<use Welcome.png>
+Package pdftex.def Info: Welcome.png  used on input line 1049.
+(pdftex.def)             Requested size: 227.62206pt x 138.96037pt.
+<Data_input.png, id=496, 804.00375pt x 490.83376pt>
 File: Data_input.png Graphic file (type png)
 <use Data_input.png>
-Package pdftex.def Info: Data_input.png  used on input line 1014.
+Package pdftex.def Info: Data_input.png  used on input line 1062.
 (pdftex.def)             Requested size: 227.62206pt x 138.96037pt.
-<MCAR_MNAR_MAR.png, id=247, 804.00375pt x 490.83376pt>
+<MCAR_MNAR_MAR.png, id=497, 804.00375pt x 490.83376pt>
 File: MCAR_MNAR_MAR.png Graphic file (type png)
 <use MCAR_MNAR_MAR.png>
-Package pdftex.def Info: MCAR_MNAR_MAR.png  used on input line 1023.
+Package pdftex.def Info: MCAR_MNAR_MAR.png  used on input line 1071.
 (pdftex.def)             Requested size: 227.62206pt x 138.96037pt.
 
 
@@ -1213,18 +1700,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[36 <./Welcome.png> <./Data_input.png>]
-<ALG_INP.png, id=256, 999.735pt x 818.05624pt>
+[39 <./Welcome.png> <./Data_input.png>]
+<ALG_INP.png, id=504, 999.735pt x 818.05624pt>
 File: ALG_INP.png Graphic file (type png)
 <use ALG_INP.png>
-Package pdftex.def Info: ALG_INP.png  used on input line 1032.
+Package pdftex.def Info: ALG_INP.png  used on input line 1080.
 (pdftex.def)             Requested size: 227.62206pt x 186.25163pt.
-<Results.png, id=257, 999.735pt x 690.58pt>
+<Results.png, id=505, 999.735pt x 690.58pt>
 File: Results.png Graphic file (type png)
 <use Results.png>
-Package pdftex.def Info: Results.png  used on input line 1041.
+Package pdftex.def Info: Results.png  used on input line 1089.
 (pdftex.def)             Requested size: 227.62206pt x 157.22836pt.
 
 
@@ -1232,55 +1720,30 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[37 <./MCAR_MNAR_MAR.png> <./ALG_INP.png>]
+[40 <./MCAR_MNAR_MAR.png> <./ALG_INP.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[38 <./Results.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1069
-
+[41 <./Results.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1128--1128
+[][]\T1/cmr/m/n/10 MCAR: \T1/cmtt/m/n/10 erase_generator_MCAR_GPU.py\T1/cmr/m/n
+/10 ; MAR: \T1/cmtt/m/n/10 erase_generator_MAR_GPU.py\T1/cmr/m/n/10 ; MNAR:
  []
 
 
-Overfull \hbox (75.70401pt too wide) in paragraph at lines 1079--1080
-\T1/cmtt/m/n/12 erase_generator_MCAR_GPU.py\T1/cmr/m/n/12 , \T1/cmtt/m/n/12 erase_generator_MAR_GPU.py\T1/cmr/m/n/12 , and \T1/cmtt/m/n/12 erase_generator_MNAR_GPU.py\T1/cmr/m/n/12 .
- []
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[39]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[40]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[41]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [42]
@@ -1289,6 +1752,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [43]
@@ -1297,22 +1761,32 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [44]
-<case1_heatmap_erased.png, id=320, 1309.5324pt x 1073.9322pt>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[45]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[46]
+<case1_heatmap_erased.png, id=542, 1309.5324pt x 1073.9322pt>
 File: case1_heatmap_erased.png Graphic file (type png)
 <use case1_heatmap_erased.png>
-Package pdftex.def Info: case1_heatmap_erased.png  used on input line 1233.
-(pdftex.def)             Requested size: 183.04547pt x 142.26378pt.
-<legend.png, id=322, 136.51pt x 835.12pt>
-File: legend.png Graphic file (type png)
-<use legend.png>
-Package pdftex.def Info: legend.png  used on input line 1238.
-(pdftex.def)             Requested size: 22.32321pt x 136.5733pt.
-File: case1_heatmap_erased.png Graphic file (type png)
-<use case1_heatmap_erased.png>
-Package pdftex.def Info: case1_heatmap_erased.png  used on input line 1245.
+Package pdftex.def Info: case1_heatmap_erased.png  used on input line 1277.
 (pdftex.def)             Requested size: 227.62206pt x 186.66277pt.
 
 
@@ -1320,18 +1794,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[45 <./legend.png> <./case1_heatmap_erased.png>]
-<case1_v0.4_heatmap_cleaned.png, id=332, 1309.5324pt x 1073.9322pt>
+[47]
+<case1_v0.4_heatmap_cleaned.png, id=547, 1309.5324pt x 1073.9322pt>
 File: case1_v0.4_heatmap_cleaned.png Graphic file (type png)
 <use case1_v0.4_heatmap_cleaned.png>
-Package pdftex.def Info: case1_v0.4_heatmap_cleaned.png  used on input line 1254.
+Package pdftex.def Info: case1_v0.4_heatmap_cleaned.png  used on input line 128
+6.
 (pdftex.def)             Requested size: 204.85846pt x 167.99814pt.
-<case1_v0.3_heatmap_cleaned.png, id=333, 1309.5324pt x 1073.9322pt>
+<case1_v0.3_heatmap_cleaned.png, id=548, 1309.5324pt x 1073.9322pt>
 File: case1_v0.3_heatmap_cleaned.png Graphic file (type png)
 <use case1_v0.3_heatmap_cleaned.png>
-Package pdftex.def Info: case1_v0.3_heatmap_cleaned.png  used on input line 1259.
+Package pdftex.def Info: case1_v0.3_heatmap_cleaned.png  used on input line 129
+1.
 (pdftex.def)             Requested size: 204.85846pt x 167.99814pt.
 
 
@@ -1339,23 +1816,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[46 <./case1_v0.4_heatmap_cleaned.png> <./case1_v0.3_heatmap_cleaned.png>]
-<case2_heatmap_erased.png, id=343, 1309.5324pt x 1073.9322pt>
+[48 <./case1_heatmap_erased.png> <./case1_v0.4_heatmap_cleaned.png> <./case1_v0
+.3_heatmap_cleaned.png>]
+<case2_heatmap_erased.png, id=556, 1309.5324pt x 1073.9322pt>
 File: case2_heatmap_erased.png Graphic file (type png)
 <use case2_heatmap_erased.png>
-Package pdftex.def Info: case2_heatmap_erased.png  used on input line 1290.
+Package pdftex.def Info: case2_heatmap_erased.png  used on input line 1322.
 (pdftex.def)             Requested size: 227.62206pt x 186.66277pt.
-<case2_v0.4_heatmap_cleaned.png, id=344, 1309.5324pt x 1073.9322pt>
+<case2_v0.4_heatmap_cleaned.png, id=557, 1309.5324pt x 1073.9322pt>
 File: case2_v0.4_heatmap_cleaned.png Graphic file (type png)
 <use case2_v0.4_heatmap_cleaned.png>
-Package pdftex.def Info: case2_v0.4_heatmap_cleaned.png  used on input line 1299.
+Package pdftex.def Info: case2_v0.4_heatmap_cleaned.png  used on input line 133
+1.
 (pdftex.def)             Requested size: 204.85846pt x 167.99814pt.
-<case2_v0.2_heatmap_cleaned.png, id=345, 1309.5324pt x 1073.9322pt>
+<case2_v0.2_heatmap_cleaned.png, id=558, 1309.5324pt x 1073.9322pt>
 File: case2_v0.2_heatmap_cleaned.png Graphic file (type png)
 <use case2_v0.2_heatmap_cleaned.png>
-Package pdftex.def Info: case2_v0.2_heatmap_cleaned.png  used on input line 1304.
+Package pdftex.def Info: case2_v0.2_heatmap_cleaned.png  used on input line 133
+6.
 (pdftex.def)             Requested size: 204.85846pt x 167.99814pt.
 
 
@@ -1363,13 +1844,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[47 <./case2_heatmap_erased.png>]
-<case3_heatmap_erased.png, id=353, 1309.5324pt x 1073.9322pt>
+[49 <./case2_heatmap_erased.png>]
+<case3_heatmap_erased.png, id=565, 1309.5324pt x 1073.9322pt>
 File: case3_heatmap_erased.png Graphic file (type png)
 <use case3_heatmap_erased.png>
-Package pdftex.def Info: case3_heatmap_erased.png  used on input line 1335.
+Package pdftex.def Info: case3_heatmap_erased.png  used on input line 1367.
 (pdftex.def)             Requested size: 227.62206pt x 186.66277pt.
 
 
@@ -1377,18 +1859,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[48 <./case2_v0.4_heatmap_cleaned.png> <./case2_v0.2_heatmap_cleaned.png>]
-<case3_v0.0_heatmap_cleaned.png, id=363, 1309.5324pt x 1073.9322pt>
+[50 <./case2_v0.4_heatmap_cleaned.png> <./case2_v0.2_heatmap_cleaned.png>]
+<case3_v0.0_heatmap_cleaned.png, id=572, 1309.5324pt x 1073.9322pt>
 File: case3_v0.0_heatmap_cleaned.png Graphic file (type png)
 <use case3_v0.0_heatmap_cleaned.png>
-Package pdftex.def Info: case3_v0.0_heatmap_cleaned.png  used on input line 1344.
+Package pdftex.def Info: case3_v0.0_heatmap_cleaned.png  used on input line 137
+6.
 (pdftex.def)             Requested size: 204.85846pt x 167.99814pt.
-<case3_v0.3_heatmap_cleaned.png, id=364, 1309.5324pt x 1073.9322pt>
+<case3_v0.3_heatmap_cleaned.png, id=573, 1309.5324pt x 1073.9322pt>
 File: case3_v0.3_heatmap_cleaned.png Graphic file (type png)
 <use case3_v0.3_heatmap_cleaned.png>
-Package pdftex.def Info: case3_v0.3_heatmap_cleaned.png  used on input line 1349.
+Package pdftex.def Info: case3_v0.3_heatmap_cleaned.png  used on input line 138
+1.
 (pdftex.def)             Requested size: 204.85846pt x 167.99814pt.
 
 
@@ -1396,23 +1881,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[49 <./case3_heatmap_erased.png> <./case3_v0.0_heatmap_cleaned.png> <./case3_v0.3_heatmap_cleaned.png>]
-<case4_heatmap_erased.png, id=377, 1309.5324pt x 1073.9322pt>
+[51 <./case3_heatmap_erased.png> <./case3_v0.0_heatmap_cleaned.png> <./case3_v0
+.3_heatmap_cleaned.png>]
+<case4_heatmap_erased.png, id=582, 1309.5324pt x 1073.9322pt>
 File: case4_heatmap_erased.png Graphic file (type png)
 <use case4_heatmap_erased.png>
-Package pdftex.def Info: case4_heatmap_erased.png  used on input line 1380.
+Package pdftex.def Info: case4_heatmap_erased.png  used on input line 1412.
 (pdftex.def)             Requested size: 227.62206pt x 186.66277pt.
-<case4_bnb_heatmap_cleaned.png, id=378, 1309.5324pt x 1073.9322pt>
+<case4_bnb_heatmap_cleaned.png, id=583, 1309.5324pt x 1073.9322pt>
 File: case4_bnb_heatmap_cleaned.png Graphic file (type png)
 <use case4_bnb_heatmap_cleaned.png>
-Package pdftex.def Info: case4_bnb_heatmap_cleaned.png  used on input line 1389.
+Package pdftex.def Info: case4_bnb_heatmap_cleaned.png  used on input line 1421
+.
 (pdftex.def)             Requested size: 204.85846pt x 167.99814pt.
-<case4_v0.3_heatmap_cleaned.png, id=379, 1309.5324pt x 1073.9322pt>
+<case4_v0.3_heatmap_cleaned.png, id=584, 1309.5324pt x 1073.9322pt>
 File: case4_v0.3_heatmap_cleaned.png Graphic file (type png)
 <use case4_v0.3_heatmap_cleaned.png>
-Package pdftex.def Info: case4_v0.3_heatmap_cleaned.png  used on input line 1394.
+Package pdftex.def Info: case4_v0.3_heatmap_cleaned.png  used on input line 142
+6.
 (pdftex.def)             Requested size: 204.85846pt x 167.99814pt.
 
 
@@ -1420,32 +1909,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[50 <./case4_heatmap_erased.png>]
-<case5_heatmap_erased.png, id=386, 1309.5324pt x 1073.9322pt>
+[52 <./case4_heatmap_erased.png> <./case4_bnb_heatmap_cleaned.png> <./case4_v0.
+3_heatmap_cleaned.png>]
+<case5_heatmap_erased.png, id=592, 1309.5324pt x 1073.9322pt>
 File: case5_heatmap_erased.png Graphic file (type png)
 <use case5_heatmap_erased.png>
-Package pdftex.def Info: case5_heatmap_erased.png  used on input line 1424.
+Package pdftex.def Info: case5_heatmap_erased.png  used on input line 1457.
 (pdftex.def)             Requested size: 227.62206pt x 186.66277pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[51 <./case4_bnb_heatmap_cleaned.png> <./case4_v0.3_heatmap_cleaned.png>]
-<case5_v0.0_heatmap_cleaned.png, id=396, 1309.5324pt x 1073.9322pt>
+<case5_v0.0_heatmap_cleaned.png, id=593, 1309.5324pt x 1073.9322pt>
 File: case5_v0.0_heatmap_cleaned.png Graphic file (type png)
 <use case5_v0.0_heatmap_cleaned.png>
-Package pdftex.def Info: case5_v0.0_heatmap_cleaned.png  used on input line 1433.
+Package pdftex.def Info: case5_v0.0_heatmap_cleaned.png  used on input line 146
+6.
 (pdftex.def)             Requested size: 204.85846pt x 167.99814pt.
-<case5_v0.3_heatmap_cleaned.png, id=397, 1309.5324pt x 1073.9322pt>
+<case5_v0.3_heatmap_cleaned.png, id=594, 1309.5324pt x 1073.9322pt>
 File: case5_v0.3_heatmap_cleaned.png Graphic file (type png)
 <use case5_v0.3_heatmap_cleaned.png>
-Package pdftex.def Info: case5_v0.3_heatmap_cleaned.png  used on input line 1438.
+Package pdftex.def Info: case5_v0.3_heatmap_cleaned.png  used on input line 147
+1.
 (pdftex.def)             Requested size: 204.85846pt x 167.99814pt.
 
 
@@ -1453,23 +1937,36 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[52 <./case5_heatmap_erased.png> <./case5_v0.0_heatmap_cleaned.png> <./case5_v0.3_heatmap_cleaned.png>]
-<case6_heatmap_erased.png, id=409, 1309.5324pt x 1073.9322pt>
+[53 <./case5_heatmap_erased.png>]
+<case6_heatmap_erased.png, id=600, 1309.5324pt x 1073.9322pt>
 File: case6_heatmap_erased.png Graphic file (type png)
 <use case6_heatmap_erased.png>
-Package pdftex.def Info: case6_heatmap_erased.png  used on input line 1469.
+Package pdftex.def Info: case6_heatmap_erased.png  used on input line 1502.
 (pdftex.def)             Requested size: 227.62206pt x 186.66277pt.
-<case6_bnb_heatmap_cleaned.png, id=410, 1309.5324pt x 1073.9322pt>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[54 <./case5_v0.0_heatmap_cleaned.png> <./case5_v0.3_heatmap_cleaned.png>]
+<case6_bnb_heatmap_cleaned.png, id=607, 1309.5324pt x 1073.9322pt>
 File: case6_bnb_heatmap_cleaned.png Graphic file (type png)
 <use case6_bnb_heatmap_cleaned.png>
-Package pdftex.def Info: case6_bnb_heatmap_cleaned.png  used on input line 1478.
+Package pdftex.def Info: case6_bnb_heatmap_cleaned.png  used on input line 1511
+.
 (pdftex.def)             Requested size: 204.85846pt x 167.99814pt.
-<case6_v0.3_heatmap_cleaned.png, id=411, 1309.5324pt x 1073.9322pt>
+<case6_v0.3_heatmap_cleaned.png, id=608, 1309.5324pt x 1073.9322pt>
 File: case6_v0.3_heatmap_cleaned.png Graphic file (type png)
 <use case6_v0.3_heatmap_cleaned.png>
-Package pdftex.def Info: case6_v0.3_heatmap_cleaned.png  used on input line 1483.
+Package pdftex.def Info: case6_v0.3_heatmap_cleaned.png  used on input line 151
+6.
 (pdftex.def)             Requested size: 204.85846pt x 167.99814pt.
 
 
@@ -1477,23 +1974,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[53 <./case6_heatmap_erased.png> <./case6_bnb_heatmap_cleaned.png> <./case6_v0.3_heatmap_cleaned.png>]
-<case8_heatmap_erased.png, id=422, 1309.5324pt x 1073.9322pt>
+[55 <./case6_heatmap_erased.png> <./case6_bnb_heatmap_cleaned.png> <./case6_v0.
+3_heatmap_cleaned.png>]
+<case8_heatmap_erased.png, id=617, 1309.5324pt x 1073.9322pt>
 File: case8_heatmap_erased.png Graphic file (type png)
 <use case8_heatmap_erased.png>
-Package pdftex.def Info: case8_heatmap_erased.png  used on input line 1514.
+Package pdftex.def Info: case8_heatmap_erased.png  used on input line 1547.
 (pdftex.def)             Requested size: 227.62206pt x 186.66277pt.
-<case8_v0.4_heatmap_cleaned.png, id=423, 1309.5324pt x 1073.9322pt>
+<case8_v0.4_heatmap_cleaned.png, id=618, 1309.5324pt x 1073.9322pt>
 File: case8_v0.4_heatmap_cleaned.png Graphic file (type png)
 <use case8_v0.4_heatmap_cleaned.png>
-Package pdftex.def Info: case8_v0.4_heatmap_cleaned.png  used on input line 1523.
+Package pdftex.def Info: case8_v0.4_heatmap_cleaned.png  used on input line 155
+6.
 (pdftex.def)             Requested size: 204.85846pt x 167.99814pt.
-<case8_v0.2_heatmap_cleaned.png, id=424, 1309.5324pt x 1073.9322pt>
+<case8_v0.2_heatmap_cleaned.png, id=619, 1309.5324pt x 1073.9322pt>
 File: case8_v0.2_heatmap_cleaned.png Graphic file (type png)
 <use case8_v0.2_heatmap_cleaned.png>
-Package pdftex.def Info: case8_v0.2_heatmap_cleaned.png  used on input line 1528.
+Package pdftex.def Info: case8_v0.2_heatmap_cleaned.png  used on input line 156
+1.
 (pdftex.def)             Requested size: 204.85846pt x 167.99814pt.
 
 
@@ -1501,32 +2002,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[54 <./case8_heatmap_erased.png>]
-<case9_heatmap_erased.png, id=432, 1309.5324pt x 1073.9322pt>
+[56 <./case8_heatmap_erased.png> <./case8_v0.4_heatmap_cleaned.png> <./case8_v0
+.2_heatmap_cleaned.png>]
+<case9_heatmap_erased.png, id=627, 1309.5324pt x 1073.9322pt>
 File: case9_heatmap_erased.png Graphic file (type png)
 <use case9_heatmap_erased.png>
-Package pdftex.def Info: case9_heatmap_erased.png  used on input line 1559.
+Package pdftex.def Info: case9_heatmap_erased.png  used on input line 1592.
 (pdftex.def)             Requested size: 227.62206pt x 186.66277pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[55 <./case8_v0.4_heatmap_cleaned.png> <./case8_v0.2_heatmap_cleaned.png>]
-<case9_bnb_heatmap_cleaned.png, id=443, 1309.5324pt x 1073.9322pt>
+<case9_bnb_heatmap_cleaned.png, id=628, 1309.5324pt x 1073.9322pt>
 File: case9_bnb_heatmap_cleaned.png Graphic file (type png)
 <use case9_bnb_heatmap_cleaned.png>
-Package pdftex.def Info: case9_bnb_heatmap_cleaned.png  used on input line 1568.
+Package pdftex.def Info: case9_bnb_heatmap_cleaned.png  used on input line 1601
+.
 (pdftex.def)             Requested size: 204.85846pt x 167.99814pt.
-<case9_v0.3_heatmap_cleaned.png, id=444, 1309.5324pt x 1073.9322pt>
+<case9_v0.3_heatmap_cleaned.png, id=629, 1309.5324pt x 1073.9322pt>
 File: case9_v0.3_heatmap_cleaned.png Graphic file (type png)
 <use case9_v0.3_heatmap_cleaned.png>
-Package pdftex.def Info: case9_v0.3_heatmap_cleaned.png  used on input line 1573.
+Package pdftex.def Info: case9_v0.3_heatmap_cleaned.png  used on input line 160
+6.
 (pdftex.def)             Requested size: 204.85846pt x 167.99814pt.
 
 
@@ -1534,23 +2030,36 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[56 <./case9_heatmap_erased.png> <./case9_bnb_heatmap_cleaned.png> <./case9_v0.3_heatmap_cleaned.png>]
-<case10_heatmap_erased.png, id=456, 1309.5324pt x 1073.9322pt>
+[57 <./case9_heatmap_erased.png>]
+<case10_heatmap_erased.png, id=635, 1309.5324pt x 1073.9322pt>
 File: case10_heatmap_erased.png Graphic file (type png)
 <use case10_heatmap_erased.png>
-Package pdftex.def Info: case10_heatmap_erased.png  used on input line 1604.
+Package pdftex.def Info: case10_heatmap_erased.png  used on input line 1637.
 (pdftex.def)             Requested size: 227.62206pt x 186.66277pt.
-<case10_bnb_heatmap_cleaned.png, id=457, 1309.5324pt x 1073.9322pt>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[58 <./case9_bnb_heatmap_cleaned.png> <./case9_v0.3_heatmap_cleaned.png>]
+<case10_bnb_heatmap_cleaned.png, id=642, 1309.5324pt x 1073.9322pt>
 File: case10_bnb_heatmap_cleaned.png Graphic file (type png)
 <use case10_bnb_heatmap_cleaned.png>
-Package pdftex.def Info: case10_bnb_heatmap_cleaned.png  used on input line 1613.
+Package pdftex.def Info: case10_bnb_heatmap_cleaned.png  used on input line 164
+6.
 (pdftex.def)             Requested size: 204.85846pt x 167.99814pt.
-<case10_v0.3_heatmap_cleaned.png, id=458, 1309.5324pt x 1073.9322pt>
+<case10_v0.3_heatmap_cleaned.png, id=643, 1309.5324pt x 1073.9322pt>
 File: case10_v0.3_heatmap_cleaned.png Graphic file (type png)
 <use case10_v0.3_heatmap_cleaned.png>
-Package pdftex.def Info: case10_v0.3_heatmap_cleaned.png  used on input line 1618.
+Package pdftex.def Info: case10_v0.3_heatmap_cleaned.png  used on input line 16
+51.
 (pdftex.def)             Requested size: 204.85846pt x 167.99814pt.
 
 
@@ -1558,85 +2067,82 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[57 <./case10_heatmap_erased.png> <./case10_bnb_heatmap_cleaned.png> <./case10_v0.3_heatmap_cleaned.png>]
+[59 <./case10_heatmap_erased.png> <./case10_bnb_heatmap_cleaned.png> <./case10_
+v0.3_heatmap_cleaned.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[58]
+[60]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[59]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[60
-
-]
-<results_silhouette_og.png, id=484, 722.7pt x 433.62pt>
-File: results_silhouette_og.png Graphic file (type png)
-<use results_silhouette_og.png>
-Package pdftex.def Info: results_silhouette_og.png  used on input line 1729.
-(pdftex.def)             Requested size: 218.51521pt x 131.10594pt.
-<results_silhouette_v3.png, id=485, 722.7pt x 433.62pt>
-File: results_silhouette_v3.png Graphic file (type png)
-<use results_silhouette_v3.png>
-Package pdftex.def Info: results_silhouette_v3.png  used on input line 1734.
-(pdftex.def)             Requested size: 218.51521pt x 131.10594pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [61
 
 ]
-<results_silhouette_v2.png, id=494, 722.7pt x 433.62pt>
+<results_silhouette_og.png, id=660, 722.7pt x 433.62pt>
+File: results_silhouette_og.png Graphic file (type png)
+<use results_silhouette_og.png>
+Package pdftex.def Info: results_silhouette_og.png  used on input line 1762.
+(pdftex.def)             Requested size: 218.51521pt x 131.10594pt.
+<results_silhouette_v3.png, id=661, 722.7pt x 433.62pt>
+File: results_silhouette_v3.png Graphic file (type png)
+<use results_silhouette_v3.png>
+Package pdftex.def Info: results_silhouette_v3.png  used on input line 1767.
+(pdftex.def)             Requested size: 218.51521pt x 131.10594pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[62
+
+]
+<results_silhouette_v2.png, id=666, 722.7pt x 433.62pt>
 File: results_silhouette_v2.png Graphic file (type png)
 <use results_silhouette_v2.png>
-Package pdftex.def Info: results_silhouette_v2.png  used on input line 1743.
+Package pdftex.def Info: results_silhouette_v2.png  used on input line 1776.
 (pdftex.def)             Requested size: 218.51521pt x 131.10594pt.
-<results_silhouette_v0_5.png, id=495, 722.7pt x 433.62pt>
+<results_silhouette_v0_5.png, id=667, 722.7pt x 433.62pt>
 File: results_silhouette_v0_5.png Graphic file (type png)
 <use results_silhouette_v0_5.png>
-Package pdftex.def Info: results_silhouette_v0_5.png  used on input line 1748.
+Package pdftex.def Info: results_silhouette_v0_5.png  used on input line 1781.
 (pdftex.def)             Requested size: 218.51521pt x 131.10594pt.
-<results_Cluster_og.png, id=496, 722.7pt x 433.62pt>
+<results_Cluster_og.png, id=668, 722.7pt x 433.62pt>
 File: results_Cluster_og.png Graphic file (type png)
 <use results_Cluster_og.png>
-Package pdftex.def Info: results_Cluster_og.png  used on input line 1757.
+Package pdftex.def Info: results_Cluster_og.png  used on input line 1790.
 (pdftex.def)             Requested size: 218.51521pt x 131.10594pt.
-<results_Cluster_v3.png, id=497, 722.7pt x 433.62pt>
+<results_Cluster_v3.png, id=669, 722.7pt x 433.62pt>
 File: results_Cluster_v3.png Graphic file (type png)
 <use results_Cluster_v3.png>
-Package pdftex.def Info: results_Cluster_v3.png  used on input line 1762.
+Package pdftex.def Info: results_Cluster_v3.png  used on input line 1795.
 (pdftex.def)             Requested size: 218.51521pt x 131.10594pt.
-<results_Cluster_v2.png, id=498, 722.7pt x 433.62pt>
+<results_Cluster_v2.png, id=670, 722.7pt x 433.62pt>
 File: results_Cluster_v2.png Graphic file (type png)
 <use results_Cluster_v2.png>
-Package pdftex.def Info: results_Cluster_v2.png  used on input line 1771.
+Package pdftex.def Info: results_Cluster_v2.png  used on input line 1804.
 (pdftex.def)             Requested size: 218.51521pt x 131.10594pt.
-<results_Cluster_v0_5.png, id=499, 722.7pt x 433.62pt>
+<results_Cluster_v0_5.png, id=671, 722.7pt x 433.62pt>
 File: results_Cluster_v0_5.png Graphic file (type png)
 <use results_Cluster_v0_5.png>
-Package pdftex.def Info: results_Cluster_v0_5.png  used on input line 1776.
+Package pdftex.def Info: results_Cluster_v0_5.png  used on input line 1809.
 (pdftex.def)             Requested size: 218.51521pt x 131.10594pt.
 
 
@@ -1644,35 +2150,42 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[62 <./results_silhouette_og.png> <./results_silhouette_v3.png> <./results_silhouette_v2.png> <./results_silhouette_v0_5.png> <./results_Cluster_og.png> <./results_Cluster_v3.png>]
+[63 <./results_silhouette_og.png> <./results_silhouette_v3.png> <./results_silh
+ouette_v2.png> <./results_silhouette_v0_5.png> <./results_Cluster_og.png> <./re
+sults_Cluster_v3.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[63 <./results_Cluster_v2.png> <./results_Cluster_v0_5.png>]
+[64 <./results_Cluster_v2.png> <./results_Cluster_v0_5.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[64]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [65]
-Overfull \hbox (5.08508pt too wide) in paragraph at lines 1839--1840
-[]\T1/cmr/m/n/12 Designed and con-ducted a wide range of ex-per-i-ments us-ing high-dimensional datasets.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[66]
+Overfull \hbox (5.08508pt too wide) in paragraph at lines 1872--1873
+[]\T1/cmr/m/n/12 Designed and con-ducted a wide range of ex-per-i-ments us-ing 
+high-dimensional datasets.
  []
 
 
@@ -1680,103 +2193,129 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[66]
+[67]
+Overfull \hbox (0.75003pt too wide) in paragraph at lines 1888--1888
+[][]$\T1/cmtt/m/n/12 https : / / www . researchgate . net / publication / 37622
+5096 _ Impact _ of _ Missing _
+ []
+
+
+Overfull \hbox (7.42352pt too wide) in paragraph at lines 1888--1888
+\T1/cmtt/m/n/12 Methods _ for _ Data _ Preparation / fulltext / 656f1f06a760eb7
+cc7504b1b / Impact -[]
+ []
+
+
+Overfull \hbox (0.75003pt too wide) in paragraph at lines 1888--1888
+[][]$\T1/cmtt/m/n/12 https : / / www . researchgate . net / publication / 37622
+5096 _ Impact _ of _ Missing _
+ []
+
+
+Overfull \hbox (7.42352pt too wide) in paragraph at lines 1888--1888
+\T1/cmtt/m/n/12 Methods _ for _ Data _ Preparation / fulltext / 656f1f06a760eb7
+cc7504b1b / Impact -[]
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[67] (./main.bbl
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [68]
-./main.bbl:110: Missing $ inserted.
-<inserted text> 
-                $
-l.110 \newblock pandas.dataframe.sort_
-                                      values — pandas documentation.
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+Overfull \hbox (8.92352pt too wide) in paragraph at lines 1888--1888
+[][]$\T1/cmtt/m/n/12 https : / / www . statisticssolutions . com / missing -[] 
+data -[] listwise -[] vs -[] pairwise/$[][] 
+ []
 
 
-LaTeX Warning: Command \textemdash invalid in math mode on input line 110.
+Overfull \hbox (12.1866pt too wide) in paragraph at lines 1888--1888
+[][]$\T1/cmtt/m/n/12 https : / / www . statisticssolutions . com / missing -[] 
+data -[] listwise -[] vs -[] pairwise/$[][]\T1/cmr/m/n/12 . 
+ []
 
-./main.bbl:111: Missing $ inserted.
-<inserted text> 
-                $
-l.111 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./main.bbl:111: Missing } inserted.
-<inserted text> 
-                }
-l.111 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./main.bbl:111: Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.111 
-      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[69] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2023/02/27 1.9 listings language file
-)
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 1864.
- (./erase_generator_MAR_GPU.py
-LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 1.
+[69]
+Overfull \hbox (2.29214pt too wide) in paragraph at lines 1888--1888
+[]\T1/cmr/m/n/12 GeeksforGeeks. \T1/cmr/m/it/12 How to ran-domly se-lect el-e-m
+ents of an ar-ray with NumPy in Python? 
+ []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [70]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1888 \printbibliography[title=Bibliography]
+                                             
+? 
+
+LaTeX Warning: Command \textemdash invalid in math mode on input line 1888.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1888 \printbibliography[title=Bibliography]
+                                             
+? 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [71]
+Overfull \hbox (50.13797pt too wide) in paragraph at lines 1888--1888
+[][]$\T1/cmtt/m/n/12 https : / / discovery . upc . edu / discovery / fulldispla
+y ? docid = alma991003417199706711 &
+ []
+
+
+Overfull \hbox (50.13797pt too wide) in paragraph at lines 1888--1888
+[][]$\T1/cmtt/m/n/12 https : / / discovery . upc . edu / discovery / fulldispla
+y ? docid = alma991003417199706711 &
+ []
+
+
+Overfull \hbox (50.13797pt too wide) in paragraph at lines 1888--1888
+[][]$\T1/cmtt/m/n/12 https : / / discovery . upc . edu / discovery / fulldispla
+y ? docid = alma991004181089706711 &
+ []
+
+
+Overfull \hbox (50.13797pt too wide) in paragraph at lines 1888--1888
+[][]$\T1/cmtt/m/n/12 https : / / discovery . upc . edu / discovery / fulldispla
+y ? docid = alma991004181089706711 &
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [72]
@@ -1785,555 +2324,1200 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[73]) (./erase_generator_MNAR_GPU.py
+[73]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [74]
+File: case1_heatmap_erased.png Graphic file (type png)
+<use case1_heatmap_erased.png>
+Package pdftex.def Info: case1_heatmap_erased.png  used on input line 1923.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+<case1_v0.0_heatmap_cleaned.png, id=874, 1309.5324pt x 1073.9322pt>
+File: case1_v0.0_heatmap_cleaned.png Graphic file (type png)
+<use case1_v0.0_heatmap_cleaned.png>
+Package pdftex.def Info: case1_v0.0_heatmap_cleaned.png  used on input line 192
+8.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [75]
+<case1_v0.1_heatmap_cleaned.png, id=880, 1309.5324pt x 1073.9322pt>
+File: case1_v0.1_heatmap_cleaned.png Graphic file (type png)
+<use case1_v0.1_heatmap_cleaned.png>
+Package pdftex.def Info: case1_v0.1_heatmap_cleaned.png  used on input line 193
+3.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[76]
+[76 <./case1_v0.0_heatmap_cleaned.png>]
+<case1_v0.2_heatmap_cleaned.png, id=887, 1309.5324pt x 1073.9322pt>
+File: case1_v0.2_heatmap_cleaned.png Graphic file (type png)
+<use case1_v0.2_heatmap_cleaned.png>
+Package pdftex.def Info: case1_v0.2_heatmap_cleaned.png  used on input line 193
+8.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[77]) (./erase_generator_MCAR_GPU.py
+[77 <./case1_v0.1_heatmap_cleaned.png>]
+File: case1_v0.3_heatmap_cleaned.png Graphic file (type png)
+<use case1_v0.3_heatmap_cleaned.png>
+Package pdftex.def Info: case1_v0.3_heatmap_cleaned.png  used on input line 194
+3.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[78]
-
-./erase_generator_MCAR_GPU.py:33: LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@\lst@EC�).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.33 ...to erase in each selected column (0–100)
-                                                  "
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-./erase_generator_MCAR_GPU.py:33: LaTeX Error: Invalid UTF-8 byte "93.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.33 ...to erase in each selected column (0–100)
-                                                  "
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-./erase_generator_MCAR_GPU.py:51: LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.51 print(f"Dataset shape: {rows} rows × 
-                                           {cols} columns")
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-./erase_generator_MCAR_GPU.py:51: LaTeX Error: Invalid UTF-8 byte "97.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.51 print(f"Dataset shape: {rows} rows × 
-                                           {cols} columns")
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
+[78 <./case1_v0.2_heatmap_cleaned.png>]
+File: case1_v0.4_heatmap_cleaned.png Graphic file (type png)
+<use case1_v0.4_heatmap_cleaned.png>
+Package pdftex.def Info: case1_v0.4_heatmap_cleaned.png  used on input line 194
+8.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [79]
+<case1_v0.5_heatmap_cleaned.png, id=906, 1309.5324pt x 1073.9322pt>
+File: case1_v0.5_heatmap_cleaned.png Graphic file (type png)
+<use case1_v0.5_heatmap_cleaned.png>
+Package pdftex.def Info: case1_v0.5_heatmap_cleaned.png  used on input line 195
+3.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[80]) (./algorithm_v0.0.py
+[80]
+<case1_bnb_heatmap_cleaned.png, id=912, 1309.5324pt x 1073.9322pt>
+File: case1_bnb_heatmap_cleaned.png Graphic file (type png)
+<use case1_bnb_heatmap_cleaned.png>
+Package pdftex.def Info: case1_bnb_heatmap_cleaned.png  used on input line 1958
+.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[81]
+[81 <./case1_v0.5_heatmap_cleaned.png>]
+File: case2_heatmap_erased.png Graphic file (type png)
+<use case2_heatmap_erased.png>
+Package pdftex.def Info: case2_heatmap_erased.png  used on input line 1965.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[82]
+[82 <./case1_bnb_heatmap_cleaned.png>]
+<case2_v0.0_heatmap_cleaned.png, id=925, 1309.5324pt x 1073.9322pt>
+File: case2_v0.0_heatmap_cleaned.png Graphic file (type png)
+<use case2_v0.0_heatmap_cleaned.png>
+Package pdftex.def Info: case2_v0.0_heatmap_cleaned.png  used on input line 197
+0.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [83]
+<case2_v0.1_heatmap_cleaned.png, id=931, 1309.5324pt x 1073.9322pt>
+File: case2_v0.1_heatmap_cleaned.png Graphic file (type png)
+<use case2_v0.1_heatmap_cleaned.png>
+Package pdftex.def Info: case2_v0.1_heatmap_cleaned.png  used on input line 197
+5.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[84]) (./algorithm_v0.1.py
+[84 <./case2_v0.0_heatmap_cleaned.png>]
+File: case2_v0.2_heatmap_cleaned.png Graphic file (type png)
+<use case2_v0.2_heatmap_cleaned.png>
+Package pdftex.def Info: case2_v0.2_heatmap_cleaned.png  used on input line 198
+0.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[85]
+[85 <./case2_v0.1_heatmap_cleaned.png>]
+<case2_v0.3_heatmap_cleaned.png, id=946, 1309.5324pt x 1073.9322pt>
+File: case2_v0.3_heatmap_cleaned.png Graphic file (type png)
+<use case2_v0.3_heatmap_cleaned.png>
+Package pdftex.def Info: case2_v0.3_heatmap_cleaned.png  used on input line 198
+5.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [86]
-
-./algorithm_v0.1.py:78: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter\lst@FillFixed@).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.78     # Drop weighted column if you don’t 
-                                               want it in the output
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-./algorithm_v0.1.py:78: LaTeX Error: Invalid UTF-8 byte "80.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.78     # Drop weighted column if you don’t 
-                                               want it in the output
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-./algorithm_v0.1.py:78: LaTeX Error: Invalid UTF-8 byte "99.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.78     # Drop weighted column if you don’t 
-                                               want it in the output
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
+File: case2_v0.4_heatmap_cleaned.png Graphic file (type png)
+<use case2_v0.4_heatmap_cleaned.png>
+Package pdftex.def Info: case2_v0.4_heatmap_cleaned.png  used on input line 199
+0.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[87]
+[87 <./case2_v0.3_heatmap_cleaned.png>]
+<case2_v0.5_heatmap_cleaned.png, id=958, 1309.5324pt x 1073.9322pt>
+File: case2_v0.5_heatmap_cleaned.png Graphic file (type png)
+<use case2_v0.5_heatmap_cleaned.png>
+Package pdftex.def Info: case2_v0.5_heatmap_cleaned.png  used on input line 199
+5.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[88]) (./algorithm_v0.2.py
+[88]
+<case2_bnb_heatmap_cleaned.png, id=964, 1309.5324pt x 1073.9322pt>
+File: case2_bnb_heatmap_cleaned.png Graphic file (type png)
+<use case2_bnb_heatmap_cleaned.png>
+Package pdftex.def Info: case2_bnb_heatmap_cleaned.png  used on input line 2000
+.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[89]
+[89 <./case2_v0.5_heatmap_cleaned.png>]
+File: case3_heatmap_erased.png Graphic file (type png)
+<use case3_heatmap_erased.png>
+Package pdftex.def Info: case3_heatmap_erased.png  used on input line 2007.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[90]) (./algorithm_v0.3.py
+[90 <./case2_bnb_heatmap_cleaned.png>]
+File: case3_v0.0_heatmap_cleaned.png Graphic file (type png)
+<use case3_v0.0_heatmap_cleaned.png>
+Package pdftex.def Info: case3_v0.0_heatmap_cleaned.png  used on input line 201
+2.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [91]
+<case3_v0.1_heatmap_cleaned.png, id=983, 1309.5324pt x 1073.9322pt>
+File: case3_v0.1_heatmap_cleaned.png Graphic file (type png)
+<use case3_v0.1_heatmap_cleaned.png>
+Package pdftex.def Info: case3_v0.1_heatmap_cleaned.png  used on input line 201
+7.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [92]
+<case3_v0.2_heatmap_cleaned.png, id=989, 1309.5324pt x 1073.9322pt>
+File: case3_v0.2_heatmap_cleaned.png Graphic file (type png)
+<use case3_v0.2_heatmap_cleaned.png>
+Package pdftex.def Info: case3_v0.2_heatmap_cleaned.png  used on input line 202
+2.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[93]
+[93 <./case3_v0.1_heatmap_cleaned.png>]
+File: case3_v0.3_heatmap_cleaned.png Graphic file (type png)
+<use case3_v0.3_heatmap_cleaned.png>
+Package pdftex.def Info: case3_v0.3_heatmap_cleaned.png  used on input line 202
+7.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[94]
+[94 <./case3_v0.2_heatmap_cleaned.png>]
+<case3_v0.4_heatmap_cleaned.png, id=1002, 1309.5324pt x 1073.9322pt>
+File: case3_v0.4_heatmap_cleaned.png Graphic file (type png)
+<use case3_v0.4_heatmap_cleaned.png>
+Package pdftex.def Info: case3_v0.4_heatmap_cleaned.png  used on input line 203
+2.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [95]
+<case3_v0.5_heatmap_cleaned.png, id=1008, 1309.5324pt x 1073.9322pt>
+File: case3_v0.5_heatmap_cleaned.png Graphic file (type png)
+<use case3_v0.5_heatmap_cleaned.png>
+Package pdftex.def Info: case3_v0.5_heatmap_cleaned.png  used on input line 203
+7.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[96]) (./algorithm_v0.4.py
+[96 <./case3_v0.4_heatmap_cleaned.png>]
+<case3_bnb_heatmap_cleaned.png, id=1015, 1309.5324pt x 1073.9322pt>
+File: case3_bnb_heatmap_cleaned.png Graphic file (type png)
+<use case3_bnb_heatmap_cleaned.png>
+Package pdftex.def Info: case3_bnb_heatmap_cleaned.png  used on input line 2042
+.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[97]
+[97 <./case3_v0.5_heatmap_cleaned.png>]
+File: case4_heatmap_erased.png Graphic file (type png)
+<use case4_heatmap_erased.png>
+Package pdftex.def Info: case4_heatmap_erased.png  used on input line 2049.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[98]
+[98 <./case3_bnb_heatmap_cleaned.png>]
+<case4_v0.0_heatmap_cleaned.png, id=1029, 1309.5324pt x 1073.9322pt>
+File: case4_v0.0_heatmap_cleaned.png Graphic file (type png)
+<use case4_v0.0_heatmap_cleaned.png>
+Package pdftex.def Info: case4_v0.0_heatmap_cleaned.png  used on input line 205
+4.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [99]
+<case4_v0.1_heatmap_cleaned.png, id=1035, 1309.5324pt x 1073.9322pt>
+File: case4_v0.1_heatmap_cleaned.png Graphic file (type png)
+<use case4_v0.1_heatmap_cleaned.png>
+Package pdftex.def Info: case4_v0.1_heatmap_cleaned.png  used on input line 205
+9.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[100]
+[100 <./case4_v0.0_heatmap_cleaned.png>]
+<case4_v0.2_heatmap_cleaned.png, id=1042, 1309.5324pt x 1073.9322pt>
+File: case4_v0.2_heatmap_cleaned.png Graphic file (type png)
+<use case4_v0.2_heatmap_cleaned.png>
+Package pdftex.def Info: case4_v0.2_heatmap_cleaned.png  used on input line 206
+4.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[101]
+[101 <./case4_v0.1_heatmap_cleaned.png>]
+File: case4_v0.3_heatmap_cleaned.png Graphic file (type png)
+<use case4_v0.3_heatmap_cleaned.png>
+Package pdftex.def Info: case4_v0.3_heatmap_cleaned.png  used on input line 206
+9.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[102]
+[102 <./case4_v0.2_heatmap_cleaned.png>]
+<case4_v0.4_heatmap_cleaned.png, id=1055, 1309.5324pt x 1073.9322pt>
+File: case4_v0.4_heatmap_cleaned.png Graphic file (type png)
+<use case4_v0.4_heatmap_cleaned.png>
+Package pdftex.def Info: case4_v0.4_heatmap_cleaned.png  used on input line 207
+4.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [103]
+<case4_v0.5_heatmap_cleaned.png, id=1062, 1309.5324pt x 1073.9322pt>
+File: case4_v0.5_heatmap_cleaned.png Graphic file (type png)
+<use case4_v0.5_heatmap_cleaned.png>
+Package pdftex.def Info: case4_v0.5_heatmap_cleaned.png  used on input line 207
+9.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[104]) (./algorithm_v0.5.py
+[104 <./case4_v0.4_heatmap_cleaned.png>]
+File: case4_bnb_heatmap_cleaned.png Graphic file (type png)
+<use case4_bnb_heatmap_cleaned.png>
+Package pdftex.def Info: case4_bnb_heatmap_cleaned.png  used on input line 2084
+.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[105]
+[105 <./case4_v0.5_heatmap_cleaned.png>]
+File: case5_heatmap_erased.png Graphic file (type png)
+<use case5_heatmap_erased.png>
+Package pdftex.def Info: case5_heatmap_erased.png  used on input line 2091.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [106]
+File: case5_v0.0_heatmap_cleaned.png Graphic file (type png)
+<use case5_v0.0_heatmap_cleaned.png>
+Package pdftex.def Info: case5_v0.0_heatmap_cleaned.png  used on input line 209
+6.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [107]
+<case5_v0.1_heatmap_cleaned.png, id=1085, 1309.5324pt x 1073.9322pt>
+File: case5_v0.1_heatmap_cleaned.png Graphic file (type png)
+<use case5_v0.1_heatmap_cleaned.png>
+Package pdftex.def Info: case5_v0.1_heatmap_cleaned.png  used on input line 210
+1.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[108])
+[108]
+<case5_v0.2_heatmap_cleaned.png, id=1091, 1309.5324pt x 1073.9322pt>
+File: case5_v0.2_heatmap_cleaned.png Graphic file (type png)
+<use case5_v0.2_heatmap_cleaned.png>
+Package pdftex.def Info: case5_v0.2_heatmap_cleaned.png  used on input line 210
+6.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[109] (./branch_and_bound.py
+[109 <./case5_v0.1_heatmap_cleaned.png>]
+File: case5_v0.3_heatmap_cleaned.png Graphic file (type png)
+<use case5_v0.3_heatmap_cleaned.png>
+Package pdftex.def Info: case5_v0.3_heatmap_cleaned.png  used on input line 211
+1.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[110]
+[110 <./case5_v0.2_heatmap_cleaned.png>]
+<case5_v0.4_heatmap_cleaned.png, id=1106, 1309.5324pt x 1073.9322pt>
+File: case5_v0.4_heatmap_cleaned.png Graphic file (type png)
+<use case5_v0.4_heatmap_cleaned.png>
+Package pdftex.def Info: case5_v0.4_heatmap_cleaned.png  used on input line 211
+6.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [111]
+<case5_v0.5_heatmap_cleaned.png, id=1112, 1309.5324pt x 1073.9322pt>
+File: case5_v0.5_heatmap_cleaned.png Graphic file (type png)
+<use case5_v0.5_heatmap_cleaned.png>
+Package pdftex.def Info: case5_v0.5_heatmap_cleaned.png  used on input line 212
+1.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[112]
+[112 <./case5_v0.4_heatmap_cleaned.png>]
+<case5_bnb_heatmap_cleaned.png, id=1119, 1309.5324pt x 1073.9322pt>
+File: case5_bnb_heatmap_cleaned.png Graphic file (type png)
+<use case5_bnb_heatmap_cleaned.png>
+Package pdftex.def Info: case5_bnb_heatmap_cleaned.png  used on input line 2126
+.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[113]
+[113 <./case5_v0.5_heatmap_cleaned.png>]
+File: case6_heatmap_erased.png Graphic file (type png)
+<use case6_heatmap_erased.png>
+Package pdftex.def Info: case6_heatmap_erased.png  used on input line 2133.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[114]
+[114 <./case5_bnb_heatmap_cleaned.png>]
+<case6_v0.0_heatmap_cleaned.png, id=1132, 1309.5324pt x 1073.9322pt>
+File: case6_v0.0_heatmap_cleaned.png Graphic file (type png)
+<use case6_v0.0_heatmap_cleaned.png>
+Package pdftex.def Info: case6_v0.0_heatmap_cleaned.png  used on input line 213
+8.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [115]
+<case6_v0.1_heatmap_cleaned.png, id=1139, 1309.5324pt x 1073.9322pt>
+File: case6_v0.1_heatmap_cleaned.png Graphic file (type png)
+<use case6_v0.1_heatmap_cleaned.png>
+Package pdftex.def Info: case6_v0.1_heatmap_cleaned.png  used on input line 214
+3.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[116]) (./final_analysis.py
+[116 <./case6_v0.0_heatmap_cleaned.png>]
+<case6_v0.2_heatmap_cleaned.png, id=1146, 1309.5324pt x 1073.9322pt>
+File: case6_v0.2_heatmap_cleaned.png Graphic file (type png)
+<use case6_v0.2_heatmap_cleaned.png>
+Package pdftex.def Info: case6_v0.2_heatmap_cleaned.png  used on input line 214
+8.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[117]
+[117 <./case6_v0.1_heatmap_cleaned.png>]
+File: case6_v0.3_heatmap_cleaned.png Graphic file (type png)
+<use case6_v0.3_heatmap_cleaned.png>
+Package pdftex.def Info: case6_v0.3_heatmap_cleaned.png  used on input line 215
+3.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[118]
+[118 <./case6_v0.2_heatmap_cleaned.png>]
+<case6_v0.4_heatmap_cleaned.png, id=1159, 1309.5324pt x 1073.9322pt>
+File: case6_v0.4_heatmap_cleaned.png Graphic file (type png)
+<use case6_v0.4_heatmap_cleaned.png>
+Package pdftex.def Info: case6_v0.4_heatmap_cleaned.png  used on input line 215
+8.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [119]
+<case6_v0.5_heatmap_cleaned.png, id=1165, 1309.5324pt x 1073.9322pt>
+File: case6_v0.5_heatmap_cleaned.png Graphic file (type png)
+<use case6_v0.5_heatmap_cleaned.png>
+Package pdftex.def Info: case6_v0.5_heatmap_cleaned.png  used on input line 216
+3.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[120]
+[120 <./case6_v0.4_heatmap_cleaned.png>]
+File: case6_bnb_heatmap_cleaned.png Graphic file (type png)
+<use case6_bnb_heatmap_cleaned.png>
+Package pdftex.def Info: case6_bnb_heatmap_cleaned.png  used on input line 2168
+.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[121]
+[121 <./case6_v0.5_heatmap_cleaned.png>]
+File: case8_heatmap_erased.png Graphic file (type png)
+<use case8_heatmap_erased.png>
+Package pdftex.def Info: case8_heatmap_erased.png  used on input line 2175.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[122]) (./README.md
+[122]
+<case8_v0.0_heatmap_cleaned.png, id=1184, 1309.5324pt x 1073.9322pt>
+File: case8_v0.0_heatmap_cleaned.png Graphic file (type png)
+<use case8_v0.0_heatmap_cleaned.png>
+Package pdftex.def Info: case8_v0.0_heatmap_cleaned.png  used on input line 218
+0.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[123]) (./requirements.txt
+[123]
+<case8_v0.1_heatmap_cleaned.png, id=1190, 1309.5324pt x 1073.9322pt>
+File: case8_v0.1_heatmap_cleaned.png Graphic file (type png)
+<use case8_v0.1_heatmap_cleaned.png>
+Package pdftex.def Info: case8_v0.1_heatmap_cleaned.png  used on input line 218
+5.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[124])
+[124 <./case8_v0.0_heatmap_cleaned.png>]
+File: case8_v0.2_heatmap_cleaned.png Graphic file (type png)
+<use case8_v0.2_heatmap_cleaned.png>
+Package pdftex.def Info: case8_v0.2_heatmap_cleaned.png  used on input line 219
+0.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
+
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[125] (./main.aux)
+[125 <./case8_v0.1_heatmap_cleaned.png>]
+<case8_v0.3_heatmap_cleaned.png, id=1203, 1309.5324pt x 1073.9322pt>
+File: case8_v0.3_heatmap_cleaned.png Graphic file (type png)
+<use case8_v0.3_heatmap_cleaned.png>
+Package pdftex.def Info: case8_v0.3_heatmap_cleaned.png  used on input line 219
+5.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[126]
+File: case8_v0.4_heatmap_cleaned.png Graphic file (type png)
+<use case8_v0.4_heatmap_cleaned.png>
+Package pdftex.def Info: case8_v0.4_heatmap_cleaned.png  used on input line 220
+0.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[127 <./case8_v0.3_heatmap_cleaned.png>]
+<case8_v0.5_heatmap_cleaned.png, id=1216, 1309.5324pt x 1073.9322pt>
+File: case8_v0.5_heatmap_cleaned.png Graphic file (type png)
+<use case8_v0.5_heatmap_cleaned.png>
+Package pdftex.def Info: case8_v0.5_heatmap_cleaned.png  used on input line 220
+5.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[128]
+<case8_bnb_heatmap_cleaned.png, id=1222, 1309.5324pt x 1073.9322pt>
+File: case8_bnb_heatmap_cleaned.png Graphic file (type png)
+<use case8_bnb_heatmap_cleaned.png>
+Package pdftex.def Info: case8_bnb_heatmap_cleaned.png  used on input line 2210
+.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[129 <./case8_v0.5_heatmap_cleaned.png>]
+File: case9_heatmap_erased.png Graphic file (type png)
+<use case9_heatmap_erased.png>
+Package pdftex.def Info: case9_heatmap_erased.png  used on input line 2217.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[130 <./case8_bnb_heatmap_cleaned.png>]
+<case9_v0.0_heatmap_cleaned.png, id=1235, 1309.5324pt x 1073.9322pt>
+File: case9_v0.0_heatmap_cleaned.png Graphic file (type png)
+<use case9_v0.0_heatmap_cleaned.png>
+Package pdftex.def Info: case9_v0.0_heatmap_cleaned.png  used on input line 222
+2.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[131]
+<case9_v0.1_heatmap_cleaned.png, id=1241, 1309.5324pt x 1073.9322pt>
+File: case9_v0.1_heatmap_cleaned.png Graphic file (type png)
+<use case9_v0.1_heatmap_cleaned.png>
+Package pdftex.def Info: case9_v0.1_heatmap_cleaned.png  used on input line 222
+7.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[132 <./case9_v0.0_heatmap_cleaned.png>]
+<case9_v0.2_heatmap_cleaned.png, id=1248, 1309.5324pt x 1073.9322pt>
+File: case9_v0.2_heatmap_cleaned.png Graphic file (type png)
+<use case9_v0.2_heatmap_cleaned.png>
+Package pdftex.def Info: case9_v0.2_heatmap_cleaned.png  used on input line 223
+2.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[133 <./case9_v0.1_heatmap_cleaned.png>]
+File: case9_v0.3_heatmap_cleaned.png Graphic file (type png)
+<use case9_v0.3_heatmap_cleaned.png>
+Package pdftex.def Info: case9_v0.3_heatmap_cleaned.png  used on input line 223
+7.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[134 <./case9_v0.2_heatmap_cleaned.png>]
+<case9_v0.4_heatmap_cleaned.png, id=1263, 1309.5324pt x 1073.9322pt>
+File: case9_v0.4_heatmap_cleaned.png Graphic file (type png)
+<use case9_v0.4_heatmap_cleaned.png>
+Package pdftex.def Info: case9_v0.4_heatmap_cleaned.png  used on input line 224
+2.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[135]
+<case9_v0.5_heatmap_cleaned.png, id=1269, 1309.5324pt x 1073.9322pt>
+File: case9_v0.5_heatmap_cleaned.png Graphic file (type png)
+<use case9_v0.5_heatmap_cleaned.png>
+Package pdftex.def Info: case9_v0.5_heatmap_cleaned.png  used on input line 224
+7.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[136 <./case9_v0.4_heatmap_cleaned.png>]
+File: case9_bnb_heatmap_cleaned.png Graphic file (type png)
+<use case9_bnb_heatmap_cleaned.png>
+Package pdftex.def Info: case9_bnb_heatmap_cleaned.png  used on input line 2252
+.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[137 <./case9_v0.5_heatmap_cleaned.png>]
+File: case10_heatmap_erased.png Graphic file (type png)
+<use case10_heatmap_erased.png>
+Package pdftex.def Info: case10_heatmap_erased.png  used on input line 2259.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[138]
+<case10_v0.0_heatmap_cleaned.png, id=1287, 1309.5324pt x 1073.9322pt>
+File: case10_v0.0_heatmap_cleaned.png Graphic file (type png)
+<use case10_v0.0_heatmap_cleaned.png>
+Package pdftex.def Info: case10_v0.0_heatmap_cleaned.png  used on input line 22
+64.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[139]
+<case10_v0.1_heatmap_cleaned.png, id=1294, 1309.5324pt x 1073.9322pt>
+File: case10_v0.1_heatmap_cleaned.png Graphic file (type png)
+<use case10_v0.1_heatmap_cleaned.png>
+Package pdftex.def Info: case10_v0.1_heatmap_cleaned.png  used on input line 22
+69.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[140 <./case10_v0.0_heatmap_cleaned.png>]
+<case10_v0.2_heatmap_cleaned.png, id=1301, 1309.5324pt x 1073.9322pt>
+File: case10_v0.2_heatmap_cleaned.png Graphic file (type png)
+<use case10_v0.2_heatmap_cleaned.png>
+Package pdftex.def Info: case10_v0.2_heatmap_cleaned.png  used on input line 22
+74.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[141 <./case10_v0.1_heatmap_cleaned.png>]
+File: case10_v0.3_heatmap_cleaned.png Graphic file (type png)
+<use case10_v0.3_heatmap_cleaned.png>
+Package pdftex.def Info: case10_v0.3_heatmap_cleaned.png  used on input line 22
+79.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[142 <./case10_v0.2_heatmap_cleaned.png>]
+<case10_v0.4_heatmap_cleaned.png, id=1314, 1309.5324pt x 1073.9322pt>
+File: case10_v0.4_heatmap_cleaned.png Graphic file (type png)
+<use case10_v0.4_heatmap_cleaned.png>
+Package pdftex.def Info: case10_v0.4_heatmap_cleaned.png  used on input line 22
+84.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[143]
+<case10_v0.5_heatmap_cleaned.png, id=1320, 1309.5324pt x 1073.9322pt>
+File: case10_v0.5_heatmap_cleaned.png Graphic file (type png)
+<use case10_v0.5_heatmap_cleaned.png>
+Package pdftex.def Info: case10_v0.5_heatmap_cleaned.png  used on input line 22
+89.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[144 <./case10_v0.4_heatmap_cleaned.png>]
+File: case10_bnb_heatmap_cleaned.png Graphic file (type png)
+<use case10_bnb_heatmap_cleaned.png>
+Package pdftex.def Info: case10_bnb_heatmap_cleaned.png  used on input line 229
+4.
+(pdftex.def)             Requested size: 455.24411pt x 373.34193pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[145 <./case10_v0.5_heatmap_cleaned.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[146]
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 2302.
+ (./README.md) (./requirements.txt
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[147])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[148] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29881 strings out of 474222
- 534447 string characters out of 5748733
- 2149975 words of memory out of 5000000
- 49765 multiletter control sequences out of 15000+600000
- 574707 words of font info for 73 fonts, out of 8000000 for 9000
+ 35428 strings out of 474222
+ 665215 string characters out of 5748733
+ 2023975 words of memory out of 5000000
+ 56726 multiletter control sequences out of 15000+600000
+ 576858 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,12n,87p,902b,2228s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfit1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (125 pages, 5818296 bytes).
+ 84i,12n,87p,862b,1995s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
+, replaced by a fixed one
+
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
+fbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/sh
+are/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type
+1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
+rm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/sha
+re/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1
+/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfr
+m1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/shar
+e/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/fonts/type1/
+public/cm-super/sftt1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt
+1200.pfb>
+Output written on main.pdf (148 pages, 13920965 bytes).
 PDF statistics:
- 3175 PDF objects out of 3580 (max. 8388607)
- 2885 compressed objects within 29 object streams
- 1884 named destinations out of 2073 (max. 500000)
- 990 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1860 PDF objects out of 2073 (max. 8388607)
+ 1472 compressed objects within 15 object streams
+ 451 named destinations out of 1000 (max. 500000)
+ 1172 words of extra memory for PDF output out of 10000 (max. 10000000)
 

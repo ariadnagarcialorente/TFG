@@ -1,38 +1,34 @@
-# TFG
-
 ## Setup
 
 1. **Create and activate a virtual environment:**
-
-```bash
-python3 -m venv env
-source env/bin/activate
-
-pip install -r requirements.txt
-
-python3 ./bin/<script_name>.py [arguments]
-```
+    ```bash
+    python3 -m venv env
+    source env/bin/activate
+    ```
 
 2. **Install required packages:**
-
-```bash
-pip install -r requirements.txt
-```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 3. **Usage:**
 
-```bash
-python3 ./bin/<script_name>.py [arguments]
-python3 ./bin/<script_name>.py -h
-python3 ./Tkinter/App/main.py
+    Run a script:
+    ```bash
+    python3 ./bin/<script_name>.py [arguments]
+    ```
 
-```
+    Show script help:
+    ```bash
+    python3 ./bin/<script_name>.py -h
+    ```
 
-4. **Deactivate:**
+    Launch the user interface:
+    ```bash
+    python3 ./Tkinter/App/main.py
+    ```
 
-```bash
-deactivate
-```
-
-
-
+4. **Deactivate the virtual environment:**
+    ```bash
+    deactivate
+    ```

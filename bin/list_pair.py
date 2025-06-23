@@ -16,15 +16,18 @@ data = {
 df = pd.DataFrame(data)
 
 # Improved plotting function with size display
-def plot_enhanced_heatmap(df, title, highlight_pair=None):
+def plot_enhanced_heatmap(df, title, highlight_pair=None, is_listwise=False):
     plt.figure(figsize=(8, 4))
-    cmap = ListedColormap(["#2ecc71", "#e74c3c"])  # Green = present, Red = missing
+    if is_listwise:
+        cmap = ListedColormap(["#2ecc71", "white"])  # Green = present, White = deleted
+    else:
+        cmap = ListedColormap(["#2ecc71", "#e74c3c"])  # Green = present, Red = missing
     
     # Plot missingness heatmap
     ax = sns.heatmap(
-        df.isnull(), 
-        cbar=False, 
-        cmap=cmap, 
+        df.isnull(),
+        cbar=False,
+        cmap=cmap,
         yticklabels=True,
         linewidths=0.5,
         linecolor="lightgray"
@@ -38,12 +41,12 @@ def plot_enhanced_heatmap(df, title, highlight_pair=None):
         for i, valid in enumerate(valid_rows):
             if valid:
                 ax.add_patch(plt.Rectangle(
-                    (0, i), 
-                    len(df.columns), 
-                    1, 
-                    fill=False, 
-                    edgecolor="blue", 
-                    lw=2, 
+                    (0, i),
+                    len(df.columns),
+                    1,
+                    fill=False,
+                    edgecolor="blue",
+                    lw=2,
                     clip_on=False
                 ))
     else:
@@ -56,23 +59,29 @@ def plot_enhanced_heatmap(df, title, highlight_pair=None):
     # Create subtitle with row information
     if highlight_pair:
         subtitle = f"Total rows: {total_rows} | Rows used for {col1}-{col2}: {rows_used}"
+    elif is_listwise: 
+        subtitle = f"Total rows: 1"
     else:
         subtitle = f"Total rows: {total_rows}"
     
     plt.title(subtitle, fontsize=11, pad=12)
-    
     plt.xlabel("Variables", fontsize=12)
     plt.ylabel("Rows", fontsize=12)
     
     # Add legend
-    handles = [
-        Patch(facecolor="#2ecc71", label="Data Present"),
-        Patch(facecolor="#e74c3c", label="Missing"),
-    ]
+    if is_listwise:
+        handles = [
+            Patch(facecolor="#2ecc71", label="Data Present"),
+        ]
+    else:
+        handles = [
+            Patch(facecolor="#2ecc71", label="Data Present"),
+            Patch(facecolor="#e74c3c", label="Missing"),
+        ]
     if highlight_pair:
         handles.append(Patch(edgecolor="blue", facecolor="none", lw=2, label="Used in Pairwise"))
-    plt.legend(handles=handles, bbox_to_anchor=(1.05, 1), loc="upper left")
     
+    plt.legend(handles=handles, bbox_to_anchor=(1.05, 1), loc="upper left")
     plt.tight_layout()
     plt.savefig(title.replace(" ", "_").lower() + ".png", bbox_inches="tight")
     plt.show()
@@ -80,5 +89,7 @@ def plot_enhanced_heatmap(df, title, highlight_pair=None):
 # Generate plots
 plot_enhanced_heatmap(df, "Original Dataset")
 listwise_df = df.dropna()
-plot_enhanced_heatmap(listwise_df, "Listwise Deletion")
+# Pad listwise_df to maintain same visual size as original
+listwise_padded = listwise_df.reindex(df.index)
+plot_enhanced_heatmap(listwise_padded, "Listwise Deletion", is_listwise=True)
 plot_enhanced_heatmap(df, "Pairwise Deletion (A vs B)", highlight_pair=("A", "B"))
